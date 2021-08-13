@@ -146,7 +146,7 @@ body {
   </div>
 
 
-<br>
+
   <!-- Ticket Modal -->
   <div id="ticketModal" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
@@ -216,17 +216,7 @@ e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
