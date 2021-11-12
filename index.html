@@ -1,76 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>Felix Zavala</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Raleway", Arial, sans-serif}
-.w3-row img {margin-bottom: -8px}
+<html lang="en" onclick="jump()">
 
-</style>
+  <head>
+  <title>Felix Zavala</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css" href="css/styles1.css"></link>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"></link>
+
+
+</head>
+
+
 <body>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-44">
-   <br>
-    <a href="index.html"><IMG align="left" src="img/fz-gif-courier.gif" style="width:25%" alt="Felix Zavala Motion graphics logo"></a>
-    <a href="about.html" class="w3-right w3-button w3-white">About</a>
-  </header>
-  &nbsp;
-    &nbsp;
-   <br>
-    <br>
-  <!-- Photo Grid -->
-  <div class="w3-row">
-    <div class="w3-half">
-      <img src="/img/pf-s100-mockup-04111.jpg" style="width:100%" alt="Beard oil bottle mockup">
-  
-            <img src="/img/Magazine_Mockup_3.jpg" style="width:100%" alt="Tyson Fury Magazine Mockup">
-      <img src="/img/battlecoffee.jpg" style="width:100%" alt="Battle Coffee advertisement">
-      <img src="/img/World-Fighter-Logo1.gif" style="width:100%" alt="Motion Graphic of World Fighter Logo">
-      
-    </div>
-
-    <div class="w3-half">
-      <img src="/img/floresmockupthumb.jpg" style="width:100%" alt="Silva Martial Arts sign mockup">
-      <img src="/img/beardbalm.jpg" style="width:100%" alt="beard balm mockup">
-      <img src="/img/hhcbrick.jpg" style="width:100%" alt="Handley Hope Center Sign in front of building"> 
-     
-      
-    </div>
-  </div>
-   <br>
-     <br>
-    <br>
- <br>
-
-
+<div class="navbar">
+  <ul>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#design">Design</a></li>
     
+  
+  </ul>
+</div>
+  <a href="index.html"><img class="fzspace" src="img/home.png" alt="Felix Zavala logo"></a>
+  
+
+
+<h1 class="toptxt"><img src="img/fboxlogosmall.png"><hr><span class="role">CODE <span class="roleplus">+</span> <span class="roledesign">DESIGN</span></span></h1>
+
+</div>
+
+</div>
+
+
+<section class="section2" id="about">
+
+<div class="container">
+  <div class="left"></div>
+    <div class="right">
+      <div class="content">
+        <h1>Hi, I'm Felix</h1>
+        <p>I'm a software developer working out of Dallas, Texas. I have a passion for making 
+          things look good on screen.
+          I'm always looking for opportunities to expand my skillset and work with talented people.
+         Please contact me if you're interested in collaborating or learning more about my
+          services.</p>
+         <a href="#" class="btn">Contact Me</a>
+       
+     </div>
+   </div>
+  </div>
+</section>
 
 
 
-     
-<!-- End Page Content -->
+<hr id="code">
 
- </div>
+
+<section class="section2">
+  <div class="container2">
+    <div class="left2"></div>
+      <div class="right2">
+        <div class="content">
+          <h1>HTML / CSS / Javascript </h1>
+          <p>
+            I am constanly trying to improve my skills by refining the basics.
+            This website and the game below are some examples of 
+           some fun stuff I've created with HTML, CSS, and Javascript. 
+           </p>
+   
+         
+       </div>
+     </div>
+    </div>
+  </section>
+  <hr>
+  <p class="gametxt">- LAVASCRIPT 3000 -</p>
+
+
+<h2 class="toptxtgame">Avoid the <span id="lava">lava</span> by clicking
+   your mouse to jump.</h2>
+
+    <div id="game">
+      <div id="character"></div>
+      <div id="block"></div>
+    </div>
+    <p class="scoretxt"> SCORE: <span id="scoreSpan"></span></p>
+  
+  
+  
+  <hr>
+
+  <section id="design">
+
+    <div class="container3">
+      <div class="left3"></div>
+        <div class="right3">
+          <div class="content">
+            <h1>Graphic Design</h1>
+            <p>
+             I'm an experienced graphic designer with years of experience
+              creating web and motion graphics.
+            Check out some of my work.</p>
+            <a href="#" class="btn">my portfolio</a>
+            
+           
+         </div>
+       </div>
+      </div>
+    </section>
+    
+    
+    
+    <hr>
+
+<br>
+
+
+
+
+
+
+<header>Contact</header>
+
+<hr>
+
+
+<script src="js/script.js"></script>
+
+  </body>
  
-
-<!-- Footer -->
-
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
- <a href="https://www.instagram.com/graphic_felix/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
- <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg"><i class="fa fa-youtube w3-hover-opacity"></i></a>                                                                                             
-  <a href="https://twitter.com/GraphicFelix"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
- <a href="https://www.facebook.com/GraphicFelix/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>                                                                                  
-  <a href="https://www.linkedin.com/in/jose-felix-zavala-471b76a9/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
- 
-</footer>
- </body>
-
-</html>
+ </html>
