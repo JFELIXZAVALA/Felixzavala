@@ -4,7 +4,9 @@
   padding: 0;
   margin: 0;
 }
-
+#webcert {
+  width: 80%;
+}
 /*Jump Game CSS*/
 
 #game {
@@ -353,6 +355,16 @@ hr {
   letter-spacing: 2px;
 }
 
+.socialtxt {
+  max-width: 100%;
+  padding: 5% 0%;
+  text-align: center;
+  color: white;
+  font-family: "montserrat", "roboto", sans-serif;
+  font-size: 8vh;
+  letter-spacing: 2px;
+}
+
 .toptxtgame {
   max-width: 100%;
   padding-left: 0%;
@@ -586,4 +598,44 @@ h2 {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+#social {
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 42%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white !important;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white !important;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white !important;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white !important;
 }
