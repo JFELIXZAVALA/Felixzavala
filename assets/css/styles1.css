@@ -1,5 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.containergallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galleryheadingsleft {
+  max-width: 100%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  font-family: "montserrat", "roboto", sans-serif;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  background-color: rgb(15, 15, 15, 0.5);
+  margin-bottom: 2%;
+}
+
+.galleryheadingsright {
+  max-width: 100%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  text-align: right;
+  font-family: "montserrat", "roboto", sans-serif;
+  font-size: 4vh;
+  letter-spacing: 2px;
+  background-color: rgb(15, 15, 15, 0.5);
+  margin-bottom: 2%;
+}
+
+.gallery {
+  width: 48%;
+  height: 50%;
+  margin: 10px;
+  transition: all 1s;
+  border-radius: 3%;
+}
+
+.gallery:hover {
+  transform: scale(1.1);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -357,12 +402,10 @@ hr {
 
 .socialtxt {
   max-width: 100%;
-  padding: 5% 0%;
+  padding-top: 8%;
   text-align: center;
   color: white;
   font-family: "montserrat", "roboto", sans-serif;
-  font-size: 8vh;
-  letter-spacing: 2px;
 }
 
 .toptxtgame {
@@ -600,42 +643,37 @@ h2 {
   }
 }
 
-#social {
-  padding-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 42%;
-}
-
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 2vh;
   width: 30px;
   text-align: center;
   text-decoration: none;
+  margin: 5px 2px;
   border-radius: 50%;
+  color: white !important;
 }
 
 .fa:hover {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .fa-facebook {
   background: #3b5998;
-  color: white !important;
+  color: white;
 }
 
 .fa-twitter {
   background: #55acee;
-  color: white !important;
+  color: white;
 }
 
 .fa-youtube {
   background: #bb0000;
-  color: white !important;
+  color: white;
 }
 
 .fa-instagram {
   background: #125688;
-  color: white !important;
+  color: white;
 }
