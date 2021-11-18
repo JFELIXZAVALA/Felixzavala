@@ -421,6 +421,20 @@ hr {
   padding-bottom: 3%;
 }
 
+
+.bottomtxt {
+  max-width: 100%;
+  padding-left: 0%;
+  padding-top: 3%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "montserrat", "roboto", sans-serif;
+  font-size: 2vh;
+  display: block;
+  padding-bottom: 3%;
+}
+
 #lava {
   color: rgb(255, 0, 0);
 }
