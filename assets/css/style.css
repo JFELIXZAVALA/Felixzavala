@@ -20,7 +20,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/img/c1-min.jpg");
+  background-image: url("/img/bg.jpg");
   min-height: 100%;
 }
 
