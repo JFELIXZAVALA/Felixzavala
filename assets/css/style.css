@@ -25,7 +25,7 @@ html {
 }
 
 .w3-bar .w3-button {
-  padding: 16px;
+  padding: 15px;
 }
 .js {
   width: 5rem;
@@ -67,7 +67,7 @@ a {
   text-decoration: none;
 }
 #logo {
-  width: 11%;
+  width: 12rem;
   margin-left: 5%;
   margin-top: 1%;
 }
@@ -173,4 +173,10 @@ button {
   background-color: rgb(255, 255, 255);
   transition: background-color 0.5s;
   color: rgb(0, 0, 0);
+}
+
+#aboutpic {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 100px;
 }
