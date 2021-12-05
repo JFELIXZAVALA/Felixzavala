@@ -1,65 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Felix Zavala</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Raleway", Arial, sans-serif}
-.w3-row img {margin-bottom: -8px}
-
-</style>
-<body>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-44">
-   <br>
-    <a href="index.html"><IMG align="left" src="img/fz-gif-courier.gif" style="width:25%" alt="Felix Zavala Motion graphics logo"></a>
-    <a href="home.html" class="w3-right w3-button w3-white">Home</a>
-  </header>
-  &nbsp;
-    &nbsp;
-   <br>
-    <br>
-
+  <head></head>
+  <title>Felix Zavala</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   
-  <center><img src="img/aboutpic6.png" style="width:50%" alt="Felix Zavala About me pic"></center>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" type="image/jpg" href="/img/fboxlogowhite.png"/>
+</head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+       <a href="http://www.felixzavala.com"> <img id="logo" src="img/FZ_Space_logo.png"></a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button"
+            ><i class="fa fa-user"></i> ABOUT</a
+          >
+          <a href="#work" class="w3-bar-item w3-button"
+            ><i class="fa fa-th"></i> WORK</a
+          >
+          <a href="#contact" class="w3-bar-item w3-button"
+            ><i class="fa fa-envelope"></i> CONTACT</a
+          >
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-  <!-- The Band Section -->
+        <a
+          href="javascript:void(0)"
+          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="w3_open()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
 
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">About the Artist</h2>
-    <p class="w3-opacity"><i></i></p>
-    <p class="w3-justify">I'm a graphic designer working out of the Dallas-Fort Worth Metroplex. In my spare time, I like to train Brazilian jiu-jitsu and work on my designs. Currently, I am in the process of finishing up my degree in Graphic Design and Media Arts from Southern New Hampshire University.</p>
-   <br>
-   <p>My genuine passion for art in all its forms fuels me to pursue the improvement of my craft. I'm always looking for opportunities to work with talented individuals. If you're interested in collaborating, please send me an email to <a href="mailto:jfelixzavala@yahoo.com">jfelixzavala@yahoo.com</a>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav
+      class="
+        w3-sidebar
+        w3-bar-block
+        w3-black
+        w3-card
+        w3-animate-left
+        w3-hide-medium
+        w3-hide-large
+      "
+      style="display: none"
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-large w3-padding-16"
+        >Close ×</a
+      >
+
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
+        >About</a
+      >
+      <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button"
+        >WORK</a
+      >
+
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"
+        >CONTACT</a
+      >
+    </nav>
+
+      <center>
+        <img id="aboutpic"
+          src="img/aboutpic7.jpg"
+          style="width: 50%"
+          alt="Felix Zavala About me pic"
+        />
+      </center>
+
+      <!-- The Band Section -->
+
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="band"
+      >
+        <h2 class="w3-wide">About Me</h2>
+        <p class="w3-opacity"><i></i></p>
+        <p class="w3-center">
+            I'm a software developer with a focus on front-end development. I'm currently living 
+            and working out of the Dallas-Fort Worth area. In my spare time, I like to spend time 
+            with my family, travel, and I also enjoy training Brazilian jiu-jitsu. Currently, I'm in
+            the process of finishing up my degree in Computer Science from Southern New Hampshire University.
+        </p>
+ 
+        <p>
+          I'm always looking for opportunities to expand my skills and work with
+          talented individuals. If you're interested in collaborating, please
+         <strong> <a href="mailto:jfelixzavala@yahoo.com">send me an email</a></strong>
+        </p>
+
+        <!-- End Page Content -->
+      </div>
+    </div>
+    <!-- Image of location/map -->
+
+    <!-- Footer -->
+    <footer
+      class="
+        w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge
+      "
+    >
+      <a href="https://www.instagram.com/graphic_felix/"
+        ><i class="fa fa-instagram w3-hover-opacity"></i
+      ></a>
+      <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg"
+        ><i class="fa fa-youtube w3-hover-opacity"></i
+      ></a>
+      <a href="https://twitter.com/GraphicFelix"
+        ><i class="fa fa-twitter w3-hover-opacity"></i
+      ></a>
+    
      
- </p>
-   
-
-  
-<!-- End Page Content -->
-</div>
- </div>
-<!-- Image of location/map -->
-
-   
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <a href="https://www.instagram.com/graphic_felix/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
- <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg"><i class="fa fa-youtube w3-hover-opacity"></i></a>                                                                                             
-  <a href="https://twitter.com/GraphicFelix"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
- <a href="https://www.facebook.com/GraphicFelix/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>                                                                                  
-  <a href="https://www.linkedin.com/in/jose-felix-zavala-471b76a9/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-</footer>
-
-
-
-
-</body>
+    </footer>
+  </body>
 </html>
