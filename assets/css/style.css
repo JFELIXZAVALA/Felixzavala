@@ -36,10 +36,11 @@ html {
   width: 50px;
 }
 
-#calimg {
-  width: 25%;
-  margin-left: 25%;
-  margin-top: 2%;
+#calthumb {
+  max-width: 605px;
+  max-height: 325px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jscaltitle {
@@ -78,7 +79,7 @@ a {
   margin-right: auto;
 }
 
-#aboutmetitle {
+.head-title {
   font-size: 4.5rem;
   text-align: center;
 }
@@ -91,6 +92,26 @@ a {
   margin-left: auto;
 }
 
+.center-button {
+  margin: 0;
+  position: relative;
+  left: 28%;
+  margin: 1%;
+}
+
+.center-single-button {
+  margin: 0;
+  position: relative;
+  left: 35%;
+  margin: 1%;
+}
+
+.buttons a :hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.5s;
+  color: rgb(0, 0, 0);
+}
 @media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
