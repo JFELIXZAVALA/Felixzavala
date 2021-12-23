@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
 body,
 html {
   width: 100%;
   height: 100%;
   font-family: "Montserrat", sans-serif;
-  background: url("/img/laptop0.jpg");
+  background: url("/img/peak1.jpg");
   background-repeat: no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,8 +14,27 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgb(255, 255, 255);
+  font-family: "Audiowide", cursive;
+}
+
+.p1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(104, 104, 104, 0);
+  border-color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+#cred {
+  color: rgb(255, 255, 255);
+
+  text-align: left;
 }
 
 .countdown {
@@ -31,7 +52,10 @@ h1 {
 }
 
 #strike {
-  text-decoration: line-through;
+  font-size: 9rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .btn {
@@ -45,12 +69,12 @@ h1 {
 }
 
 .btn-primary {
-  background-color: rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.5);
+  border-color: rgb(0, 225, 255, 0);
 }
 
 .btn-primary:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 153, 255, 0);
   border-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
@@ -63,7 +87,7 @@ h1 {
     width: 100%;
 
     font-family: "Montserrat", sans-serif;
-    background: url("/img/laptop0.jpg");
+    background: url("/img/peak1.jpg");
     background-repeat: no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -85,7 +109,7 @@ h1 {
     max-width: 2000px;
     height: 100%;
     font-family: "Montserrat", sans-serif;
-    background: url("/img/laptop0.jpg");
+    background: url("/img/peak1.jpg");
     background-repeat: no-repeat fixed;
     background-position: center;
     -webkit-background-size: cover;
@@ -96,6 +120,5 @@ h1 {
   h1 {
     font-size: 4rem;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0, 0.5);
   }
 }
