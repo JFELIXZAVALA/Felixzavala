@@ -84,6 +84,11 @@ a {
   text-align: center;
 }
 
+.sub-title {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
 #p1 {
   font-size: 1.9rem;
   width: 60%;
