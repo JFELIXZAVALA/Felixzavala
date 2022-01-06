@@ -14,6 +14,13 @@ body,
 html {
   height: 100%;
   line-height: 1.8;
+  background-image: linear-gradient(
+    rgb(230, 230, 230),
+    white,
+    white,
+    white,
+    white
+  );
 }
 
 /* Full height image header */
@@ -24,11 +31,11 @@ html {
   min-height: 100%;
 }
 
-.w3-bar .w3-button {
-  padding: 15px;
-}
 .js {
   width: 5rem;
+}
+.js-large {
+  width: 7rem;
 }
 
 #jscal {
@@ -37,10 +44,11 @@ html {
 }
 
 #calthumb {
-  max-width: 605px;
-  max-height: 325px;
+  max-width: 800px;
+  max-height: 500px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 40%;
 }
 
 #jscaltitle {
@@ -68,7 +76,7 @@ a {
   text-decoration: none;
 }
 #logo {
-  width: 12rem;
+  width: 5rem;
   margin-left: 5%;
   margin-top: 1%;
 }
@@ -81,12 +89,20 @@ a {
 
 .head-title {
   font-size: 4.5rem;
+  color: #2f2f2f;
   text-align: center;
 }
 
-.sub-title {
-  font-size: 3.5rem;
+.banner-title {
+  font-size: 5rem;
+  color: rgb(233, 233, 233);
   text-align: center;
+}
+
+.intro {
+  font-size: 3rem;
+  text-align: center;
+  color: #2f2f2f;
 }
 
 #p1 {
@@ -211,4 +227,193 @@ button {
   width: 100%;
   max-width: 600px;
   margin-top: 100px;
+}
+
+.space {
+  margin: 450px;
+}
+
+div#back {
+  position: relative;
+  background-color: #2e446e;
+  padding: 128px 16px;
+  width: 100%;
+  padding-top: 15%;
+  border-bottom-right-radius: 100% 1000px;
+  border-bottom-left-radius: 50% 30px;
+}
+
+div#back1 {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  margin-top: 1%;
+  background-color: #adc4f0;
+  border-top-left-radius: 50% 30px;
+  border-top-right-radius: 50% 30px;
+  width: 100%;
+}
+
+#backx {
+  position: relative;
+
+  background-color: #4e74ba;
+
+  width: 100%;
+}
+
+#backx1 {
+  position: relative;
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+}
+div#back0 {
+  position: relative;
+
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: rgb(230, 230, 230);
+
+  width: 100%;
+}
+div#back2 {
+  position: relative;
+  padding: 5%;
+  background-color: #adc4f0;
+  width: 100%;
+  padding-top: 20%;
+  border-top-left-radius: 10%;
+}
+div#back3 {
+  position: relative;
+  padding: 1%;
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  margin-top: 1%;
+  padding-top: 10px;
+  border-bottom-left-radius: 100% 100px;
+  border-bottom-right-radius: 100% 100px;
+}
+
+div#back3a {
+  position: relative;
+  padding: 1%;
+  background-color: rgb(46, 68, 110);
+  width: 100%;
+  margin-top: 10%;
+  padding-top: 10px;
+  border-bottom-left-radius: 100% 100px;
+  border-bottom-right-radius: 100% 100px;
+  color: rgb(230, 230, 230);
+}
+
+div#back4 {
+  position: relative;
+  padding: 5%;
+  background-color: #6495ed;
+  width: 100%;
+
+  border-bottom-right-radius: 0%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.textblack {
+  color: rgb(230, 230, 230);
+  text-align: center;
+  font-size: 3rem;
+  animation: arrow 6s infinite;
+  animation-delay: 2s;
+}
+@keyframes arrow {
+  from {
+    color: rgb(230, 230, 230);
+  }
+  to {
+    color: #2f2f2f;
+  }
+}
+
+#myNavbar {
+  background-color: rgba(46, 68, 110, 0.5);
+  box-shadow: none;
+}
+.containerx {
+  display: inline-block;
+}
+.typed-out {
+  overflow: hidden;
+  border-right: 0.1em solid orange;
+  border-radius: 1px;
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards, blinking 1.2s infinite;
+  font-size: 5rem;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: rgb(233, 233, 233);
+  }
+}
+
+.w3-large {
+  color: rgb(61, 61, 61);
+}
+
+.navy {
+  background-color: rgba(46, 68, 110);
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 90px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 2%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
