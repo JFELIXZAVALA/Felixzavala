@@ -78,7 +78,7 @@ a {
 }
 #logo {
   width: 3.5rem;
-  margin: 0.8%;
+  margin: 0.9%;
   margin-left: 5%;
 }
 .logobottom {
@@ -233,11 +233,12 @@ button {
 
 #aboutpic {
   width: 100%;
-  max-width: 450px;
+  max-width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  margin-top: 80px;
+  margin-bottom: 3%;
 }
 
 #aboutpic1 {
@@ -595,4 +596,9 @@ h2 {
 .aboutp p {
   font-size: 1.5rem;
   text-indent: 0.7rem;
+}
+
+.w3-right {
+  margin-right: 2%;
+  margin-top: 0.2%;
 }
