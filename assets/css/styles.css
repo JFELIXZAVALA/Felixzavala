@@ -1,24 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/Roboto-Regular.ttf);
+  src: url(/assets/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url(../assets/fonts/Roboto-Bold.ttf);
+  src: url(/assets/fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
   font-family: "Roboto-Light";
   font-style: normal;
   font-weight: 300;
-  src: url(../assets/fonts/Roboto-Light.ttf);
+  src: url(/assets/fonts/Roboto-Light.ttf);
 }
 
 body {
@@ -50,7 +48,7 @@ a:focus {
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/iconfont/MaterialIcons-Regular.ttf);
+  src: url(/assets/iconfont/MaterialIcons-Regular.ttf);
 }
 
 .material-icons {
@@ -82,7 +80,7 @@ body {
 }
 
 .header--bg {
-  background: url("../assets/images/slider-background.png") no-repeat;
+  background: url("/assets/img/slider-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -175,7 +173,7 @@ body {
   font-size: 25px;
   font-family: Roboto-Light;
   font-weight: bold;
-  background: url("../assets/images/logo.png") no-repeat;
+  background: url("/assets/img/logo.png") no-repeat;
   padding-left: 45px;
   background-position: left center;
 }
@@ -361,7 +359,7 @@ body {
 }
 
 .skill--bg {
-  background: url("../assets/images/skill-background.png") no-repeat;
+  background: url("/assets/img/skill-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -458,7 +456,7 @@ body {
 }
 
 .overview--bg {
-  background: url("../assets/images/overview-background.png") no-repeat;
+  background: url("/assets/img/overview-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -600,7 +598,7 @@ body {
 }
 
 .slider--bg {
-  background: url("../assets/images/slider-background.png") no-repeat;
+  background: url("/assets/img/slider-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -860,7 +858,7 @@ body {
 }
 
 .brand-logo--bg {
-  background: url("../assets/images/pattern2.jpg") no-repeat;
+  background: url("/assets/img/pattern2.jpg") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
