@@ -51,6 +51,11 @@ a:focus {
   src: url(/assets/iconfont/MaterialIcons-Regular.ttf);
 }
 
+.click {
+  width: 100%;
+  max-width: 100px;
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -270,6 +275,12 @@ body {
   width: 100%;
   max-width: 350px;
 }
+
+#review-image {
+  width: 100%;
+  max-width: 140px;
+  border-radius: 50%;
+}
 @media screen and (max-width: 991px) {
   .about__image {
     text-align: center;
@@ -395,13 +406,13 @@ body {
 
 .skill .thumbnail .progress {
   height: 8px;
-  background-color: #e1e1e1;
+ 
 }
 
 .skill__single-part__title {
   font-size: 15px;
   color: #273f59;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   margin-top: 5px;
   font-weight: bold;
 }
@@ -598,9 +609,10 @@ body {
 }
 
 .slider--bg {
-  background: url("/assets/img/slider-background.png") no-repeat;
+  background: url("/assets/img/overview-background.png") no-repeat;
   background-size: cover;
   position: relative;
+
   z-index: 1;
 }
 
@@ -665,7 +677,7 @@ body {
 .slider .carousel-indicators .active {
   width: 38px;
   height: 5px;
-  background-color: #fff;
+
   border-radius: 50px;
   margin-left: 10px;
 }
@@ -730,7 +742,7 @@ body {
   opacity: 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  background-color: #fff;
+
   border-radius: 10px;
 }
 
@@ -1007,14 +1019,24 @@ body {
 }
 
 .skills {
-  width: 100px;
+  width: 60px;
+  max-width: 100%;
+  
+}
+
+.center-text {
+  text-align: center;
+}
+
+.logo {
+  width: 84px;
   max-width: 100%;
 }
 
 /*---- Social ---*/
 
-.social-big {
-  font-size: 2.6rem;
+#social-big {
+  font-size: 3.5rem;
   color: #ffffff !important;
 }
 
@@ -1035,5 +1057,5 @@ body {
 }
 
 .fa-envelope:hover {
-  color: #00fff5;
+  color: #0077ff;
 }
