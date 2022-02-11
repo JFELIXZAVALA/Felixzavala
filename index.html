@@ -1,491 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head></head>
-  <title>Felix Zavala</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  
-  
-  <link rel="shortcut icon" type="image/jpg" href="/img/fboxlogowhite.png"/>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Felix Zavala</title>
+    <meta
+      name="keywords"
+      content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+    />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
+    />
+
+    <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/fboxlogowhite.png"/>
+  </head>
   <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-      <div class="w3-bar  w3-card" id="myNavbar">
-        <img id="logo" src="img/fxlogo.png">
-        <!-- Right-sided navbar links -->
-        <div class="w3-right w3-hide-small">
+    
+    <div id="content-wrapper">
+      <header class="header header--bg">
+        <div class="container">
+          <nav class="navbar">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#myNavbar"
+              >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="#"><img class="logo" src="assets/img/fxlogo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+ 
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+    
+                <li> <a href="mailto: jfelixzavala@yahoo.com" target="blank">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="header__content text-center">
+            <span class="header__content__block"></span>
+            <h1 class="header__content__title">FELIX ZAVALA</h1>
+            <ul class="header__content__sub-title">
+             
+              <li>WEB DEVELOPER <span class="padding">&#45;</span></li>
+              <li>UI/UX DESIGN <span class="padding">&#45;</span></li>
+              <li>GRAPHIC DESIGNER</li>
+            </ul>
+          </div>
+
         
-          <a href="#projects" class="w3-bar-item w3-button"
-            ><i class="fa fa-th"></i>  projects</a
-          >
-          <a href="mailto: jfelixzavala@yahoo.com" target="blank" class="w3-bar-item w3-button"
-            ><i class="fa fa-envelope"></i> contact</a
-          >
+      </header>
+
+      <section class="about">
+        <div class="container about__container--narrow">
+          <div class="page-section">
+     
+    
+            <div class="row gutters-80">
+              <div class="col-md-4">
+                <div class="about__image">
+                  <img id="about__image" src="assets/img/about-me-pic.jpg" alt="" />
+                </div>
+              </div>
+              <h2 id="about" class="page-section__title">ABOUT ME</h2>
+              <img
+                class="page-section__title-style"
+                src="assets/img/blue_lines.png"
+                alt=""
+              />
+              <div class="col-md-8 about__content">
+                <p class="about__description">
+                  I'm a software developer and graphic designer with a focus on front-end development. I'm currently 
+                  working as web developer remotely from Dallas,Texas. In my spare time, I like to spend time with my 
+                  family and travel.
+
+                </p>
+                <div class="row row--margin-top">
+                  <div class="col-md-4">
+                    <p class="about__bio">
+                      <strong>NAME :</strong> Felix Zavala
+                    </p>
+                    <p class="about__bio"><strong>FROM :</strong> Brownsville, Texas, USA</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p class="about__bio">
+                      <strong>JOB TITLE :</strong> Web Developer
+                    </p>
+                    <p class="about__bio">
+                      <strong>LIVES IN :</strong> Dallas, Texas, USA
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <a class="button button--colorful button--margin" href="assets/img/Felix Zavala Resume.pdf"
+                      >RESUME <i class="fa fa-download" download></i></a
+                    >
+                  </div>
+              
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      </section>
 
-        <a
-          href="javascript:void(0)"
-          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-          onclick="w3_open()"
-        >
-          <i class="fa fa-bars"></i>
-        </a>
+     
+      <section class="skill skill--bg">
+        <div class="container skill__container--narrow">
+          <div class="page-section">
+            <h2 class="page-section__title page-section__title--white">SKILLS & LANGUAGES</h2>
+            <img class="page-section__title-style" src="assets/img/title-style-white.png" alt="">
+            <div class="row gutters-60">
+              <div class="col-md-2">
+                <div class="thumbnail text-center">
+                  <img class="skills" src="assets/img/html-5.png" alt="">
+                  <h4 class="skill__single-part__title">HTML</h4>
+                 
+                  </div>
+                </div>
+             
+              <div class="col-md-2">
+                <div class="thumbnail text-center">
+                  <img class="skills" src="assets/img/css-3.png" alt="">
+                  <h4 class="skill__single-part__title">CSS</h4>
+            
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="thumbnail text-center">
+                  <img class="skills" src="assets/img/js.png" alt="">
+                  <h4 class="skill__single-part__title">JavaScript</h4>
+                 </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="thumbnail text-center">
+                    <img class="skills" src="assets/img/bootstrap.png" alt="">
+                    <h4 class="skill__single-part__title">Bootstrap</h4>
+                   </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="thumbnail text-center">
+                      <img class="skills" src="assets/img/adobe-photoshop.png" alt="">
+                      <h4 class="skill__single-part__title">Photoshop</h4>
+                     </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="thumbnail text-center">
+                        <img class="skills" src="assets/img/adobe-illustrator.png" alt="">
+                        <h4 class="skill__single-part__title">Illustrator</h4>
+                       </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      </section>
 
-    <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav
-      class="
-        w3-sidebar
-        w3-bar-block
-        w3-black
-        w3-card
-        w3-animate-left
-        w3-hide-medium
-        w3-hide-large
-      "
-      style="display: none"
-      id="mySidebar"
-    >
-      <a
-        href="javascript:void(0)"
-        onclick="w3_close()"
-        class="w3-bar-item w3-button w3-large w3-padding-16"
-        >Close ×</a
-      >
+      <section class="service">
+        <div class="container">
+          <div class="page-section">
+            <h2 class="page-section__title">MY SERVICES</h2>
+            <img
+              class="page-section__title-style"
+              src="assets/img/blue_lines.png"
+              alt=""
+            />
+        
+            <div class="row gutters-70 ">
+              <div class="col-md-4">
+                <div class="thumbnail  ">
+                  <div class="text-center icon-big"><i class="fa fa-desktop"></i></div>
+                  <h4 class="service__single-section__title text-center">WEBSITE DESIGN</h4>
+                  <p class="service__single-section__paragraph align_left">
+                    • Custom built Websites <br>
+                    • Improvements to existing sites<br>
+                    • Sites that look great on any screen
 
-     
-      <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button"
-        >projects</a
-      >
+                
+                  </p>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <div class="text-center icon-big"><i class="fa fa-code"></i></div>
+                  <h4 class="service__single-section__title text-center">UI/UX DESIGN</h4>
+                  <p class="service__single-section__paragraph align_left">
+                    • Clean and modern code <br>
+                    • User-focused experiences<br>
+                    • Custom web apps
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <div class="text-center icon-big"><i class="fa fa-image"></i></div>
+                  <h4 class="service__single-section__title text-center">Graphic Design</h4>
+                  <p class="service__single-section__paragraph align_left">
+                    • Custom graphics <br>
+                    • Logo design<br>
+                    • Video Animations & GIF's
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <a href="mailto: jfelixzavala@yahoo.com" target="blank" class="w3-bar-item w3-button" onclick="w3_close()" class="w3-bar-item w3-button"
-        >contact</a
-      >
-    </nav>
-
-
-
-
-    <!-- About Section -->
       
-      <h3 >
+      <section class="slider slider--bg">
+        <div id="myCarousel" class="carousel container slide" data-ride="carousel">
+    
 
-      </a><span class="banner-title"><div id="back">   
-        <div id="home" class="containerx"><div class="typed-out"><span class="white">hi, I'm</span> Felix</div></div>
-      </span>
+     
+              <div class="carousel-content">
+               
+                  <div class="text-center">
+                    <br>
+                    <img id="review-image" src="assets/img/phil-review.jpg" alt="">
+                    <h4>Philip Bennett, LMT</h4>
+                    <h6>Owner of Lifestyle Therapy</h6>
+                    <p>Felix does really good work and gets the job done quick. I will definitely be using him for all my design needs.
+
+                    </p>
+                    <div class="rating">
+                      <ul>
+                        <li><i class="material-icons">star</i></li>
+                        <li><i class="material-icons">star</i></li>
+                        <li><i class="material-icons">star</i></li>
+                        <li><i class="material-icons">star</i></li>
+                        <li><i class="material-icons">star</i></li>
+                      </ul>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+
+         
+
+          </div>
+        </div>
       
-      </h3>
-      </div>
+      </section>
+    
      
-  <!--About Section-->
+      <section class="portfolio">
+        <div class="container">
+          <div class="page-section">
+            <h2 id="portfolio" class="page-section__title">MY PORTFOLIO</h2>
+            <img
+              class="page-section__title-style"
+              src="assets/img/blue_lines.png"
+              alt=""
+            />
+            <p class="page-section__paragraph">
+         These are some examples of my work
+            </p>
+ 
+            <div class="row gutters-40">
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-a category-b category-c"
+                  data-order="1"
+                >
+                <a href="https://jfelixzavala.github.io/codepickle/" target="blank"><img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/cpthumb1.JPG"
+                    alt=""
+                  />
+                  <a href="https://jfelixzavala.github.io/codepickle/" target="blank"><div class="portfolio__single-section__overlay">
+                    <div class="overlay-content">
+                      <h4>RESPONSIVE WEBSITE</h4>
+                     
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://jfelixzavala.github.io/codepickle/" target="blank"><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-a category-c"
+                  data-order="2"
+                >
+                  <img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/coffeeshop.JPG"
+                    alt=""
+                  />
+                  <div class="portfolio__single-section__overlay">
+                    <a href="https://jfelixzavala.github.io/coffeeshop/" target="blank"><div class="overlay-content">
+                      <h4>RESPONSIVE WEBPAGE </h4>
+                     
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://jfelixzavala.github.io/coffeeshop/" target="blank"><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-c"
+                  data-order="3"
+                >
+                <a href="https://felixzavala.com/emailtemplate.html" target="blank"><img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/emailcode.JPG"
+                    alt=""
+                  /></a>
+                  <div class="portfolio__single-section__overlay">
+                    <a href="https://felixzavala.com/emailtemplate.html" target="blank"><div class="overlay-content">
+                      <h4>HTML EMAIL</h4>
+               
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://felixzavala.com/emailtemplate.html" target="blank"><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-c"
+                  data-order="3"
+                >
+                  <img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/login.JPG"
+                    alt=""
+                  />
+                  <div class="portfolio__single-section__overlay">
+                    <a href="https://jfelixzavala.github.io/login/" target="blank"><div class="overlay-content">
+                      <h4>CUSTOM LOGIN</h4>
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://jfelixzavala.github.io/login/" target="blank"><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-c"
+                  data-order="3"
+                >
+                  <img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/calc.jpg"
+                    alt=""
+                  />
+                  <div class="portfolio__single-section__overlay">
+                    <a href="https://jfelixzavala.github.io/iPhone_calculator/Java%20Calculator/index.html" target="blank"><div class="overlay-content">
+                      <h4>CUSTOM APP</h4>
+                   
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://jfelixzavala.github.io/iPhone_calculator/Java%20Calculator/index.html" target="blank"><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+ 
+
+       
+              <div class="col-md-4">
+                <div
+                  class="portfolio__single-section mix category-d"
+                  data-order="6"
+                >
+                  <img
+                    class="portfolio__single-section__image img-responsive"
+                    src="assets/img/World-Fighter-Logo1.gif"  
+                    alt=""
+                  />
+                  <div class="portfolio__single-section__overlay">
+                    <a href="https://felixzavala.com/img/World-Fighter-Logo1.gif" target="blank"
+                    ><div class="overlay-content">
+                      <h4>ANIMATED GIFS</h4>
+                
+                    </div>
+                    <div class="portfolio__single-section__search-icon">
+                      <a href="https://felixzavala.com/img/World-Fighter-Logo1.gif" target="blank"
+                        ><img class="click" src="assets/img/tap.png" alt=""
+                      /></a></a></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
-<div id="ab">
-
-
-<div id="about" class="w3-container w3-xlarge 	w3-wide w3-center	">
-
-      I'm a software developer & graphic designer from Dallas, Texas. <br>
-     
-   
-   
-
-     
-   
+      <footer class="footer footer--bg">
     
        
+        <div class="container text-center">
+          <div class="social-icon">
+            <ul>
+              <li>
+                <a href="mailto: jfelixzavala@yahoo.com" target="blank"><span id="social-big"><i class="fa fa-envelope"></i></a></span>
 
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg" target="blank"><span id="social-big"><i class="fa fa-instagram"></i></a></span>
 
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg" target="blank"><span id="social-big"><i class="fa fa-youtube-play "></i></a></span>
 
-    
-  </div>
-
-
- 
-  </div>
-  <br>
-
-  
-<hr>
-  <div class="w3-container w3-xlarge 	w3-wide w3-center	">
-
-    I specialize in:
- 
- 
-
-   
- 
-  
-     
-
-
-
-  
-</div>
-
-  <div class="w3-row-padding w3-center cards dark">
-    <div class="w3-third  ">
-      <div class="w3-card w3-container w3-round w3-hover-shadow">
-      <h3>Website Design</h3><br>
-      <i class=" fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-      
-      <ul class="w3-left-align">
-      <li>Websites that look great on any device
-      </li>
-      <li>Custom built from scratch or custom templates</li>
-      <li>Designed using modern best practices</li>
-
-    </ul>
-      </div>
-    </div>
-    
-    <div class="w3-third">
-      <div class="w3-card w3-container w3-round w3-hover-shadow">
-      <h3>Front-End Dev</h3><br>
-      <i class="fa fa-code w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-     
-      <ul class="w3-left-align">
-        <li>Clean and modern code</li>
-        <li>Interactive user-focused experiences 
-        </li>
-        <li>Custom web apps & features</li>
-      
-  
-      </ul>
-      </div>
-    </div>
-    
-    <div class="w3-third">
-      <div class="w3-card w3-container w3-round w3-hover-shadow">
-      <h3>Graphic Design</h3><br>
-      <i class=" fa fa-file-image-o w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-      
-      <ul class="w3-left-align">
-      <li>Custom web & social media graphics</li>
-      <li>Logo design and creation</li>
-      <li>Web animations & GIF's</li>
-  
-    </ul>
-
-      </div>
-    </div>
-    </div>
-    
-
-
-<!--my projects-->
-<hr>
-
-<div id="back0">
-  <h3 id="left">my <span id="projects" class="aqua , neon-title">work</span></h3>
- 
-
-    
-
-  </div>
-  
-</div>
-</div>
-<div id="back01">
-  
- 
-   
-    <div class="w3-row-padding w3-center" >
-   
-   
-    
-     
-
-  
-</div>
-
-<br>
-<section id="backx1"> 
-<div class="row"> 
-  
-  <div class="column ">   
-   
-    <a href="https://jfelixzavala.github.io/codepickle/" target="blank"><img class="w3-hover-shadow" src="/img/cpthumb1.JPG" alt="Responsive Website thumb" style="width: 100%" />
-
-    <h4>Responsive & Modern Websites</h4>
-   
-    
-      </a>
-
-
-  <hr>
-
-     
-  <a href="https://jfelixzavala.github.io/coffeeshop/" target="blank"><img class="w3-hover-shadow" src="/img/coffeeshop.JPG" alt="Static Webpage" style="width: 100%" />
-
-    <h4>Static Webpage</h4>
-   
-    
-      </a>
-      <hr>
-   
-      <a href="https://felixzavala.com/emailtemplate.html" target="blank"><img class="w3-hover-shadow" src="/img/emailcode.JPG" alt="HTML email thumb"/>
-
-  <h4>HTML Emails & Templates</h4>
-
-
-  
-  <hr>
-</div></a>
-
-  
-      <div class="column">  
-
-        <a href="https://jfelixzavala.github.io/login/" target="blank"><img class="w3-hover-shadow" src="/img/login.JPG" alt="Custom login thumb" />
-    
-        <h4>Custom Login Screens</h4>
-        
-          <p class="center">
-    <strong> Username = admin |
-          Password = pass</p></strong></a>
-          
-          
+              </li>
+              <li>
+                <a href="https://github.com/JFELIXZAVALA" target="blank"><span id="social-big"><i class="fa fa-github "></i></a></span>
+              </li>
+              <li>
+                <a href="https://twitter.com/GraphicFelix" target="blank"><span id="social-big"><i class="fa fa-twitter"></i></a></span>
+              </li>
+            </ul>
             
-          
-      <hr>
-
-  
-          <a href="https://jfelixzavala.github.io/iPhone_calculator/Java%20Calculator/index.html" target="blank"><img class="w3-hover-shadow" src="/img/calc.jpg" alt="JavaScript Calculator" style="width: 95%" />
-
-<h4>Front-End Web Apps</h4></a>
-
-<hr>
-<div class="buttons">
-
-
-
- 
- 
-  </p>
-  
-</div>
-</div>
-</div>
-
-
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-<div class="space"></div>
-  
-    <!-- Graphic Design Section -->
-    
-    <div id="back0">
-      <h3 id="left">graphic design<span class="aqua"> portfolio</span></span></h3>
-     
-      </div>
-
-   
-
-        <div id="back00">
-         
-             
-           
           </div>
-          
-          </div>
+          <p class="footer__paragraph">
+            2022 FelixZavala.com 
+          </p>
         </div>
-      </div>
-      <section id="backx1"> 
-      <div class="w3-row">
-        <div class="w3-col m6" >
-          
-          <img class="thumb"
-            src="img/lofi.jpg"
-            onclick="onClick(this)"
-            class="w3-hover-opacity"
-            alt="This is a custom image I created for a YouTube thumbnail picture"
-          />
-        </div>
-
-        <div class="w3-col m6" >
-          <img class="thumb"
-            src="/img/World-Fighter-Logo1.gif"
-            onclick="onClick(this)"
-            class="w3-hover-opacity"
-            alt="This is a gif that I created with Adobe Animate"
-          />
-        </div>
- 
-        <div class="w3-row-padding">
-        
-        <div class="w3-col m6" >
-          
-          <img class="thumb"
-            src="img/Mockupsmaller.jpg"
-            onclick="onClick(this)"
-            class="w3-hover-opacity"
-            alt="This is an a magazine spread that I designed"
-          />
-        </div>
-        <div class="w3-col m6" >
-          <img class="thumb"
-            src="/img/battlecoffee.jpg"
-            onclick="onClick(this)"
-            class="w3-hover-opacity"
-            alt="This is a web ad"
-          />
-        </div>
-
-        
-        <div class="w3-row-padding">
-        
-    
-    
-    
-      <!--- Videos-->
-
-
-  
- 
-</div>
-
-
-
-   
-      
-      
-      </div>
-      
+      </footer>
     </div>
-    
-</section>
-
-    <!-- Modal for full size images on click-->
-    <div
-      id="modal01"
-      class="w3-modal w3-black"
-      onclick="this.style.display='none'"
-    >
-      <span
-        class="
-          w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright
-        "
-        title="Close Modal Image"
-        >×</span
-      >
-      <div
-        class="
-          w3-modal-content
-          w3-animate-zoom
-          w3-center
-          w3-transparent
-          w3-padding-64
-        "
-      >
-        <img id="img01" class="w3-image" />
-        <p id="caption" class="w3-opacity w3-large"></p>
-      </div>
-    </div>
-
- 
+    <script src="assets/jquery/jquery-3.2.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/mixitup.js"></script>
 
 
-
-
-
-    <!-----Contact------>
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-  <div class="w3-padding-32">
-  </div>
-<hr>
-  <form class="w3-container contact-form white w3-padding-64">
-    
-    <h3 class="whitesmoke w3-left-align">let's<span class="aqua"> 
-      connect</span><div id="about" class="w3-container w3-xlarge w3-row-padding	w3-wide w3-rest	">
-   
-   <hr>  
- 
-     <a href="mailto: jfelixzavala@yahoo.com" target="blank"><i id="social-big" class="fa fa-envelope"></i></a>
-     <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg" target="blank"><i id="social-big"class="fa fa-instagram w3-hover-opacity"></i></a>
-     <a href="https://www.youtube.com/channel/UCpo68l_fzOgV05so_EnNdyg" target="blank"><i id="social-big"class="fa fa-youtube-play w3-hover-opacity"></i></a>
-     <a href="https://github.com/JFELIXZAVALA" target="blank"><i id="social-big"class="fa fa-github w3-hover-opacity"></i></a>
-
-   <a href="https://twitter.com/GraphicFelix" target="blank"><i id="social-big"class="fa fa-twitter w3-hover-opacity"></i></a>
-
-
- 
-</div></h3></form>
-  <!---  <h2>Have a <span class="aqua">question?</span> Send me a <span class="aqua">message.</span></h2>
-
-  
-    <p class="w3-left-align">Name:<input class="w3-input w3-hover-aqua" type="text"></p>
-    <p class="w3-left-align">Email:<input class="w3-input w3-border w3-hover-grey" type="email"></p>
-    <p class="w3-left-align">Message:<input class="w3-input w3-border w3-hover-aqua" type="text"></p>
- <input type="submit">
-  </form-->
-
-    <!-- Footer -->
-    <footer class="w3-center ">
-   
-      
-
-  
-    
-
-<div id="footer">
-  <a href="#home" class="w3-button white"
-  ><i class="fa fa-arrow-up"></i></a
->
-  <h3 class="white"><div class="w3-xlarge w3-section">
- 
-    
-
-
-
-        <a
-          class="aqua" href="http://www.felixzavala.com"
-          >felixzavala.com</a
-        > <span id="small">2019-2022</span>
-      
-  </div></h3>
- 
-  </div>
-  
-    </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
