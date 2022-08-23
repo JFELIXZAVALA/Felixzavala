@@ -9,7 +9,6 @@ body {
   .container {
     width: 1370px;
     margin: 0 auto;
-    height: 520px;
   }
 }
 
@@ -371,6 +370,7 @@ body {
 
 .skill__container--narrow {
   max-width: 1245px;
+  height:450px;
   margin-right: auto;
   margin-left: auto;
 }
