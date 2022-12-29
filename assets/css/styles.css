@@ -152,6 +152,14 @@ list-style-type: disc;
   padding-top: 30px;
 }
 
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.padding-top-60 {
+  padding-top: 60px;
+}
+
 .navbar-nav {
   margin: 0px -20px;
 }
