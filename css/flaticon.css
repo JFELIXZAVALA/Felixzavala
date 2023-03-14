@@ -43,3 +43,7 @@
 .flaticon-web-design:before { content: "\f104"; }
 .flaticon-idea:before { content: "\f105"; }
 .flaticon-innovation:before { content: "\f106"; }
+.icon-contact_mail:before { content: "\e0d0"; }
+.icon-code:before { content: "\f121";}
+.icon-mail_outline:before { content: "\e0e1"; }
+.icon-web:before { content: "\e051"; }
