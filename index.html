@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="glitch-style.css">
     <link rel="stylesheet" href="css/style.css">
 	
 	<link rel="shortcut icon" type="image/jpg" href="https://felixzavala.com/assets/img/fboxlogowhite.png"/>
@@ -59,7 +60,7 @@
 				<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 					<div class="text">
 						<span class="subheading">Hola!</span>
-					  <h1 class="mb-4 mt-3">I'm <span>Felix Zavala</span></h1>
+					  <h1 class="mb-4 mt-3">My name is <span>Felix Zavala</span></h1>
 					
 					  
 				  </div>
@@ -106,12 +107,6 @@
 
 					</p>
 
-		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span>Felix Zavala</span></li>
-		            	<li class="d-flex"><span>Birthday:</span> <span>April 11th</span></li>
-		            	<li class="d-flex"><span>Location:</span> <span>Grand Prairie, TX USA</span></li>
-		            
-		            </ul>
 		          </div>
 		        </div>
 	      
@@ -121,7 +116,32 @@
 			<div class="col-md-6 col-lg-5 d-flex">
 				<div class="img-about img d-flex align-items-stretch">
 					<div class="overlay"></div>
-					<div class="img img-contain d-flex align-self-stretch align-items-center" style="background-image:url(img/Hero-image-arms-crossed-glow-cropped.png);">
+					<div class="img img-contain d-flex align-self-stretch align-items-center"><!-- partial:index.partial.html -->
+						<svg class="filter">
+							<filter id="alphaRed">
+							  <feColorMatrix mode="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="joint" />
+							</filter>
+							<filter id="alphaGreen">
+							  <feColorMatrix mode="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="joint" />
+							</filter>
+							<filter id="alphaBlue">
+							  <feColorMatrix mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="joint" />
+							</filter>
+							<filter id="alpha">
+							  <feColorMatrix type="saturate" values="0"/>
+							</filter>
+						  </svg>
+						  <div class="page">
+						
+							<div class="imgWrap">
+							  <img class="red" src="/CG-Me-transparent.png">
+							  <img class="green" src="/CG-Me-transparent.png">
+							  <img class="blue" src="/CG-Me-transparent.png">
+						
+							</div>
+						  </div>
+						<!-- partial -->
+						 
 					</div>
 				</div>
 			</div>
@@ -133,7 +153,6 @@
 
 
 
- 
 
     <section class="ftco-section ftco-project" id="portfolio-section">
     	<div class="container">
