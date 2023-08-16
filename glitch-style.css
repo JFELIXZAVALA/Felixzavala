@@ -7,7 +7,6 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: #000;
   font-family: "Barlow", sans-serif;
   color: #fff;
 }
