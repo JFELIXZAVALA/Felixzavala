@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form" class="box" onsubmit="return auth()" action="" method="get">
+      <h1>Login</h1>
+
+      <input type="text" name="" placeholder="Enter Username" id="username" />
+      <input
+        type="password"
+        name=""
+        placeholder="Enter Password"
+        id="password"
+      />
+
+      <div id="forgot-pass"><a href="#">Forgot Password?</a></div>
+      <input type="submit" name="" value="Login" />
+    </form>
+    <form id="key">
+      <h2>Test Credentials</h1>
+
+      <div class="left-align">
+        Username: <strong>admin<br /></strong>
+        Password: <strong>pass</strong>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
