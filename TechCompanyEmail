@@ -1,0 +1,718 @@
+<!doctype html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><!--[if !mso]><!--><link rel="stylesheet" href="https://use.typekit.net/mux8flx.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--<![endif]-->
+	<title>Arasaka</title>
+	<!-- ## Fonts ## --><!-- link: loads as code loads (preferred); import: loads after page loads --><!--[if !mso]><!-->
+	<style data-embed="" type="text/css">/* Figtree: 900 (black) */
+            @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@900&display=swap");
+            /* Source Sans Pro Pro: 300 (light), 400 (normal), 700 (bold) */
+            @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+	</style>
+	<!--<![endif]-->
+	<style type="text/css">/* ## GLOBAL ## */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        th html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        html * {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        body,
+        html {
+            height: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-width: 100% !important;
+            background-color: #0a0a0a !important;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass span,
+        .ExternalClass td,
+        .ExternalClass th,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        body,
+        table,
+        td,
+        th,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-decoration: none;
+        }
+
+        th {
+            font-weight: normal;
+            padding: 0px;
+            display: table-cell;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-width: 100% !important;
+            background: #F4F4F4 !important;
+        }
+
+        body,
+        table,
+        td,
+        a {
+            text-size-adjust: 100%;
+            font-smoothing: antialiased;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        a,
+        a:link,
+        a:active,
+        a:visited {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        a:hover,
+        a:link:hover,
+        a:active:hover,
+        a:visited:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        a img,
+        a:visited img,
+        a:link img {
+            border: 0px;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        table,
+        td,
+        th {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0px !important;
+            margin-bottom: 1em;
+        }
+
+        .applelinks a {
+            color: #FFFFFF !important;
+            text-decoration: none !important;
+        }
+
+        a.mobilenav,
+        a:hover.mobilenav,
+        a:visited.mobilenav {
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #FFFFFF;
+            padding-top: 26px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 26px;
+            border-bottom: 1px solid #cfd5d2;
+            text-decoration: none;
+        }
+
+        span.MsoHyperlink {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        /* Gmail Fix */
+        .gmailFix {
+            display: none;
+            display: none !important;
+        }
+
+        u+#body {
+            width: 100vw !important;
+            max-width: 100% !important;
+        }
+
+        /* MOBILE */
+        @media only screen and (max-width:600px) {
+            .mobile {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0px !important;
+            }
+
+            .mobileOverlay {
+                width: 90% !important;
+                padding: 0 5% !important;
+            }
+
+            .m--centered {
+                text-align: center !important;
+            }
+
+            .m--hide {
+                display: none !important;
+            }
+
+            .m--show {
+                display: inline !important;
+                max-height: none !important;
+                overflow: visible !important;
+                line-height: normal !important;
+            }
+
+            .m--stack {
+                width: 100% !important;
+                display: block !important;
+                max-width: 100% !important;
+            }
+
+            .applelinks {
+                font-size: 16px !important;
+            }
+
+            .m-pad-lr--10 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .m-pad-lr--0 {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+
+            .m-pad-lr--12 {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+
+
+            .m-pad-lr--15 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .m-pad-t--40 {
+                padding-top: 40px !important;
+            }
+
+            .m-pad-t--15 {
+                padding-top: 15px !important;
+            }
+
+            .m-pad-t--10 {
+                padding-top: 10px !important;
+            }
+
+            .m-pad-t--0 {
+                padding-top: 0px !important;
+            }
+
+            .m-pad-t--35 {
+                padding-top: 35px !important;
+            }
+
+            .m-pad-tb--35 {
+                padding-top: 35px !important;
+                padding-bottom: 35px !important;
+            }
+
+            .m-pad-b--40 {
+                padding-bottom: 40px !important;
+            }
+
+            .m-pad-b--10 {
+                padding-bottom: 10px !important;
+            }
+
+            .m-width--100p {
+                width: 100% !important;
+                min-width: 0px !important;
+                max-width: 100% !important;
+            }
+
+            /*.featureIcon {
+                width: 20px !important;
+            }*/
+            .m-width--20 {
+                width: 20px !important;
+            }
+
+            .m-width--35 {
+                width: 35px !important;
+            }
+
+            /*.featureIcon img {
+                width: 20px !important;
+            }*/
+
+            .m-width--auto {
+                width: auto !important;
+            }
+
+            .m-pad-l--10 {
+                padding-left: 10px !important;
+            }
+
+            .m-verticalalign--middle {
+                vertical-align: middle !important;
+            }
+
+            .m-margin--0auto {
+                margin: 0 auto !important;
+            }
+
+            .m-display--block {
+                display: block !important;
+            }
+
+            .m-height--27 {
+                height: 27px !important;
+                max-height: 27px !important;
+                line-height: 27px !important;
+            }
+
+            .m-width--162 {
+                width: 100% !important;
+                max-width: 162px !important;
+            }
+
+            .bannerLink {
+                display: block !important;
+                text-align: center !important;
+                padding: 20px 0 0 0 !important;
+                width: 100% !important;
+            }
+
+            .footerLogo {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .footerLogo img {
+                margin: 0 auto !important;
+            }
+
+            .footerSocialIcons {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .footerSocialIcons {
+                margin: 0 auto !important;
+                padding: 20px 0 0 0 !important;
+            }
+
+            .footerSocialIcon {
+                width: 25% !important;
+            }
+
+            .footerSocialIcon a img {
+                margin: 0 auto !important;
+            }
+
+            .footerContactInfo {
+                text-align: center !important;
+            }
+        }
+	</style>
+	<!--[if mso]>
+			<style type="text/css">
+				body, html, th, a, span {font-family:Arial, sans-serif !important; letter-spacing:normal !important;}
+				.outlookBGlight {background-color:#FFFFFF !important;}
+				.outlookBGdark {background-color:#0a0a0a !important;}
+				.outlookBGblue {
+				background-color:#457EC6 !important;}
+				.outlookBGorange {background-color:#E48D45 !important;}
+			</style>
+		<![endif]--><!--[if gte mso 9]>
+			<xml>
+				<o:OfficeDocumentSettings>
+				<o:AllowPNG/>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+				</o:OfficeDocumentSettings>
+			</xml>
+		<![endif]-->
+</head>
+<body id="body" style="width:100%; padding:0 !important; margin:0 auto !important; "><!-- ## START: PREHEADER ## --><!--[if !mso]><!-->
+<div class="m--hide" style="display:none !important; overflow:hidden !important; float:left; width:0px !important; max-height:0px !important; line-height:0px !important; visibility:hidden !important; mso-hide:all !important;" width="610">Preheader Goes Here</div>
+
+<div style="display:none; max-height:0px; overflow:hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<!--<![endif]--><!-- ## END: PREHEADER ## --><!-- ## START: Email Wrapper ## -->
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;" width="100%">
+	
+		<tr><!-- ## START: EMAIL BACKGROUND ## -->
+			<th align="center" bgcolor="#DFDFDF" style="padding:20px 0; background:#DFDFDF;"><!-- ## START: Email Container - 600px ## -->
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:600px; max-width:600px;" width="600">
+				
+					<tr>
+						<th align="center" border="0" style="width:100%; background-color:#000000;" width="100%">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- ## START: MODULE - HEADER NAV ## -->
+							
+								<tr>
+									<th align="center" border="0" style="width:100%; background-color:#000000; padding:18px 20px;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/text nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr>
+															<!-- logo -->
+															<th align="center" border="0" style="width:150px; vertical-align:middle;" width="150"><a border="0" href="" name="HeaderLogoArasaka_image" target="_blank" ><img alt="Alt Text Here" border="0"  name=""  src="/img/Arasaka-Text-Logo.png" style="display:block; margin:0 auto;" width="150"  /></a></th>
+													
+												
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - HEADER NAV ## -->
+                                
+                                  <!--  START: MODULE - Image (full-width)  -->
+                                  <tr>
+                                    <!-- vertical spacing from prior module -->
+                                    <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                            <tr>
+                                                <!-- horizontal spacing/background color -->
+                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color:#0a0a0a;">
+                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                                        <tr>
+                                                            <!-- image -->
+                                                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="#" target="_blank" style="" name="Hero_image"><img class="m-width--100p" src="/img/Cyberhero1280px.jpg" border="0" style="display:block; margin:0px auto; max-width:640px !important;" width="640" height="" alt="Alt Text Here"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                  </tr>
+                                  <!--  END: MODULE - Image (full-width)  -->
+                                <!-- ## START: MODULE - ISOLATED HEADLINE ## -->
+								<tr>
+									<th align="center" border="0" style="width:100%; text-align:center; padding:20px 35px; "  width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse;" width="100%"><!-- headline -->
+										
+											<tr>
+												<th align="center" border="0" class="m-textAlign--center m-pad-b--20 m-pad-lr--10" style=" padding-top: 20px;width:100%; font-family:'FigTree', sans-serif; font-size:38px; font-weight:700; text-align:center; color:#ffffff; text-transform:uppercase; line-height: 1.1;" width="100%">NEXT-GEN CYBER SOLUTIONS</th>
+                                                
+											</tr>
+                                            <tr>
+											<th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 10px 0 0 0; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></th>
+                                                
+											</tr>
+											<!-- 25px spacer -->
+											<tr>
+												<th class="m--hide" height="20" style="height:20px; line-height:20px; font-size:20px;">&nbsp;</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - ISOLATED HEADLINE ##-->
+                                <!-- ## START: MODULE - Text List (unordered/ordered) ## -->
+                                <tr>
+                                    <!-- vertical spacing from prior module -->
+                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 10px 0px 60px; mso-line-height-rule: exactly;">
+                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                            <tr>
+                                                <!-- horizontal spacing/background color -->
+                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 60px; padding-right: 60px; mso-line-height-rule: exactly;">
+                                                    <!-- bullet list (unordered) -->
+                                                    <ul align="left" type="disc" style="padding: 0px; margin: 0px; margin-left: 15px; font-family: 'Roboto', Arial, sans-serif;">
+                                                        <!-- list item 1 -->
+                                                        <li style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: 400; color: #0070bb; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
+                                                            <span style="color: #ffffff; font-size: 14px; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod <strong>tempor incididunt ut labore</strong> et dolore magna aliqua.</span>
+                                                        </li>
+                                                        <!-- list item 2 -->
+                                                        <li style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; margin-top: 10px; font-size: 14px; font-weight: 400; color: #0070bb; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
+                                                            <span style="color: #ffffff; font-size: 14px; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;">Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                                                        </li>
+                                                        <!-- list item 3 -->
+                                                        <li style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; margin-top: 10px; font-size: 14px; font-weight: 400; color: #0070bb; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
+                                                            <span style="color: #ffffff; font-size: 14px; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;">*<strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</span>
+                                                        </li>
+                                                    </ul>
+                                                
+                                                </th>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                </tr>
+                                <!-- ## END: MODULE - Text List (unordered/ordered) ## --><!-- ## START: MODULE - 2up Scurve (image/title/text/button) ## -->
+								<tr><!-- vertical spacing from prior module -->
+									<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 0px; mso-line-height-rule: exactly;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+										
+											<tr><!-- horizontal spacing/background color/border -->
+												<th align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- row 1 (text/image) -->
+													
+														<tr>
+															<th align="center" border="0" class="m-pad-t--40" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; direction: rtl;" width="100%">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+																
+																	<tr><!-- col 1 -->
+																		<th align="center" border="0" class="m--stack" style="width: 282px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;" width="282">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- image -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--0 m-float--center" style="width: 100%; padding: 0px 12px 0 0px; mso-line-height-rule: exactly;" width="100%"><a href="#" target="_blank" ><img alt="Alt Text Here" border="0" class="m-width--100p" height="" name="" src="/img/Cyberscurve1.jpg" style="display: block; margin: 0px auto; max-width: 400px !important;" width="282" /></a></th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																		<!-- spacer -->
+																		<th align="center" border="0" class="m--hide" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;" width="20">&nbsp;</th>
+																		<!-- col 2 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--20" style="width: 380px; padding: 0px 0px 0px 20px; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;" width="380">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- text -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--20" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%"><!-- paragraph/h3/paragraph -->
+																					<h3 class="m-text--h3 m-textAlign--center m-pad-t--10 m-pad-lr--0" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'FigTree', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; line-height:1.2; mso-line-height-alt: 23px; line-height: 1.2; letter-spacing: normal; text-align: left;">CLOUD MIGRATION SECURITY</h3>
+
+																					<p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 10px 0 0 0; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+																					</th>
+																				</tr>
+																				<!-- button -->
+																				<tr>
+																					<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;" width="100%"><!-- horizontal alignment -->
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" class="m-float--center" role="presentation" style="margin: 0px auto;" width="">
+																						
+																							<tr>
+																								<th align="center" border="0" class="m-text--button" style="width: 100%; padding: 0px; padding-top: 10px; padding-right: 22px; padding-bottom: 10px; padding-left: 22px; mso-line-height-rule: exactly; background: #0070bb; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; " width="100%"><a href="#" name="LearnHow_button" style="text-decoration:none; color:#ffffff;" target="_blank" >LEARN HOW</a></th>
+																							</tr>
+																						
+																					</table>
+																					</th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+														<!-- row 2 (image/text) -->
+														<tr>
+															<th align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; direction: ltr;" width="100%">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+																
+																	<tr><!-- col 1 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--35" style="width: 200px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;" width="200">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- image -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--0 m-float--center" style="width: 100%; padding: 0px; padding-left: 12px; mso-line-height-rule: exactly;" width="100%"><a href="#"  style="" target="_blank" ><img alt="Alt Text Here" border="0" class="m-width--100p" height="" name="" src="/img/aiscurve.jpg" style="display: block; margin: 0px auto; max-width: 400px !important;" width="282" /></a></th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																		<!-- spacer --><!-- spacer -->
+																		<th align="center" border="0" class="m--hide" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;" width="20">&nbsp;</th>
+																		<!-- col 2 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--20" style="width: 380px; padding: 0px 20px 0 0; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;" width="380">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- text -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--20" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%"><!-- paragraph/h3/paragraph -->
+																					<h3 class="m-text--h3 m-textAlign--center m-pad-t--10" style="padding: 0px; margin: 0px; margin-top: 5px; font-family:'FigTree', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">A.I. POWERED SOLUTIONS</h3>
+
+																					<p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 0px; padding-top: 10px; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+																					</th>
+																				</tr>
+																				<!-- button -->
+																				<tr>
+																					<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;" width="100%"><!-- horizontal alignment -->
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" class="m-float--center" role="presentation" style="margin: 0px auto;" width="">
+																						
+																							<tr>
+																								<th align="center" border="0" class="m-text--button" style="width: 100%; padding: 0px; padding-top: 10px; padding-right: 22px; padding-bottom: 10px; padding-left: 22px; mso-line-height-rule: exactly; background: #0070bb; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.2; text-align: center; " width="100%"><a href="#" name="LearnMore_button" style="text-decoration:none; color:#ffffff;" target="_blank" >LEARN MORE</a></th>
+																							</tr>
+																						
+																					</table>
+																					</th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - 2up Scurve (image/title/text/button) ## --><!-- ## START: MODULE - FULL WIDTH BANNER W/ TEXT AND LOGOS ## -->
+								<tr>
+									<th align="center" border="0" class="m-pad-t--40" style="width:100%; padding:20px 12px; " width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/text nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%; padding:20px; background-color:#383838;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr><!-- text -->
+															<th align="center" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:center; font-weight:400; font-size:8px; color:#ffffff; line-height:1.5; vertical-align:middle; text-align: left;" width="100%">*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+									</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - FULL WIDTH BANNER W/ TEXT AND LOGOS ## --><!-- ## START: FOOTER ## -->
+								<tr>
+									<th align="center" bgcolor="#0a0a0a" border="0" style="width:100%; padding:35px; background:#0a0a0a;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/social nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr><!-- logo -->
+															<th align="left" border="0" class="footerLogo" style="font-family:'Source Sans Pro', sans-serif; width:120px; text-align:left; font-weight:400; font-size:10px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="120"><a href="" name="FooterLogoArasaka_image" target="_blank" ><img alt="Arasaka" border="0"  height="41.186" name=""  src="/img/Arasaka-Text-Logo.png" style="display:block;" title="Arasaka" width="120"  /></a></th>
+															<!-- 195px spacer -->
+															<th align="left" border="0" class="m--hide" style="font-family:'Source Sans Pro', sans-serif; width:195px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="195">&nbsp;</th>
+															<!-- social icons -->
+															<th align="center" border="0" class="footerSocialIcons" style="width:214px;" width="214">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+																
+																	<tr><!-- LinkedIn -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:22px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="22"><a href="#" name="FooterYouTube_image" target="_blank" > <i class="fa fa-linkedin fx-hover-opacity"></i></a></th>
+																		<!-- 16px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:16px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																		<!-- twitter -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:22px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="22"><a href="#" name="FooterTwitter_image" target="_blank" >  <i class="fa fa-twitter fx-hover-opacity"></i></a></th>
+																		<!-- 16px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:16px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																		<!-- facebook -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="40"><a href="#" name="FooterFacebook_image" target="_blank" > <i class="fa fa-facebook-official fx-hover-opacity"></i></a></th>
+                                                                        <!-- 36px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:36px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																	
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+											<!-- 20px spacer -->
+											<tr>
+												<th height="20" style="height:20px; line-height:20px; font-size:20px;">&nbsp;</th>
+											</tr>
+											<!--contact info -->
+											<tr>
+												<th align="left" border="0" class="footerContactInfo" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:left; font-weight:400; font-size:10px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="100%">Arasaka Corporation<br />
+												6241 Corpo Blvd, Night City, MetroState 60214<br>© 2077 Reserve the Rights</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: FOOTER ## --><!-- ## START: PREFERENCES ## -->
+								<tr>
+									<th align="center" bgcolor="#DFDFDF" border="0" style="width:100%; padding:15px; background:#DFDFDF;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+										
+											<tr>
+												<th align="center" border="0" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:center; font-weight:400; font-size:10px; color:#0a0a0a; line-height:1.5; vertical-align:middle;" width="100%"><a href="" name="FooterUnsubscribe_link" style="text-decoration:none; color:#0a0a0a;" target="_blank" >Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" name="FooterEditPreferences_link" style="text-decoration:none; color:#0a0a0a;" target="_blank">Edit Preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" name="FooterEditPreferences_link" style="text-decoration:none; color:#0a0a0a;" target="_blank">View in Browser</a></th>
+											</tr>
+										
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: PREFERENCES ## -->
+							
+						</table>
+						</th>
+					</tr>
+				
+			</table>
+			<!-- ## END: EMAIL FRAME 600px ## --></th>
+			<!-- ## END: EMAIL BACKGROUND ## -->
+		</tr>
+	
+</table>
+<!-- ## START: GMAIL FIX ## -->
+
+<div class="gmailFix" style="white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<!-- ## END: GMAIL FIX ## --></body>
+</html>
