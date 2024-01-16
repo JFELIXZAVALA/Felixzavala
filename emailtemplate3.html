@@ -1,773 +1,689 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en" style="color-scheme: light dark; supported-color-schemes: light dark;" class="dm-background--222222">
+<!doctype html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><!--[if !mso]><!--><link rel="stylesheet" href="https://use.typekit.net/mux8flx.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--<![endif]-->
+	<title>Arasaka</title>
+	<!-- ## Fonts ## --><!-- link: loads as code loads (preferred); import: loads after page loads --><!--[if !mso]><!-->
+	<style data-embed="" type="text/css">/* Figtree: 900 (black) */
+            @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@900&display=swap");
+            /* Source Sans Pro Pro: 300 (light), 400 (normal), 700 (bold) */
+            @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+	</style>
+	<!--<![endif]-->
+	<style type="text/css">/* ## GLOBAL ## */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
 
-<head>
+        th html {
+            box-sizing: border-box;
+        }
 
-  <!-- ## Global: Proper Character Display ## -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <!-- ## Outlook: Render Using Better MS Engine ## -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- ## Global: Initial Email Scale ## -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- ## Global: Prevent Blue Links and Autolinking ## -->
-  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
-  <!-- ## Apple: Prevent Reformatting and Zooming ## -->
-  <meta name="x-apple-disable-message-reformatting">
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
 
-  <!-- ## Global: Dark Mode ## -->
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
-  <style>
-    :root {color-scheme: light dark; supported-color-schemes: light dark;}
-  </style>
+        html * {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
 
-  <!-- ## Assistive Technology and Browser Tabs ## -->
-  <title>MMA Times</title>
+        body,
+        html {
+            height: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-width: 100% !important;
+            background-color: #0a0a0a !important;
+        }
 
-  <!-- ## Fonts ## -->
-  <!-- link: loads as code loads (preferred); import: loads after page loads -->
-  <!--[if !mso]><!-->
-    <!-- Social Media Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Typekit 1: Sofia Pro (300,400,500,600,700) -->
-    <link href="https://use.typekit.net/dos7trz.css" rel="stylesheet">
-    <!-- Google: Roboto (100,300,400,500,700,900) -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <!-- Typekit 2: Proxima Nova (300,500,700); Museo Sans (700) -->
-    <style>
-      @import url('https://use.typekit.net/mfu8ybq.css');
-    </style>
-  <!--<![endif]-->
+        #outlook a {
+            padding: 0;
+        }
 
-  <!-- ## Desktop Global Style ## -->
-  <style>
-    /* Box Sizing Resets */
-    html * {box-sizing: border-box;}
-    *, *::before, *::after {box-sizing: inherit;}
-    /* Default Resets */
-    html, body {height: 100%; margin: 0 auto; padding: 0; width: 100%; min-width: 100%; font-family: "Roboto", Arial, sans-serif; background: #FFFFFF;}
-    body, table, td, th, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-family: "Roboto", Arial, sans-serif;}
-    th {font-weight: normal; padding: 0px; display: table-cell;}
-    p {margin-top: 0px; margin-bottom: 0px;}
-    sup {line-height: 0; font-size: 70%;}
-    img {border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
-    /* Outlook/Hotmail Resets */
-    #outlook a {padding: 0;}
-    .ReadMsgBody {width: 100%;}
-    .ExternalClass {width: 100%;}
-    .ExternalClass, .ExternalClass span, .ExternalClass td, .ExternalClass th, .ExternalClass div {line-height: 100%;}
-    /* Outlook Container Resets */
-    table, td, th {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
-    /* Apple Link Resets */
-    a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
-    /* Gmail Link Resets */
-    u + #body a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
-    /* Samsung Link Resets */
-    #MessageViewBody a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
-    /* Links and Hovers */
-    a, a:link, a:active, a:visited {color: #1A1A1A; text-decoration: none; padding: 0px;}
-    a:hover, a:link:hover, a:active:hover, a:visited:hover {color: #1A1A1A; text-decoration: none; padding: 0px;}
-    a img, a:visited img, a:link img {border: 0px; text-decoration: none; padding: 0px;}
-    /* Hovers (custom) */
-    .hoverLink1 a:hover, .hoverLink1 a:active:hover, .hoverLink1 a:visited:hover {color:#EF496D !important;}
-    .hoverButton1:hover {background:#EF496D !important;}
-  </style>
+        .ReadMsgBody {
+            width: 100%;
+        }
 
-  <!-- ## Gmail Specific ## -->
-  <style type="text/css" data-embed="">
-    @media only screen and (max-width: 640px) {
-      /* Gmail full width body fix */
-      #gbt_container {transform: none !important;}
-      #gbt_innerContainer {margin: 0 auto !important;}
-      u + #body {width:100vw !important; max-width: 100%!important;}
-    }
-  </style>
-  <style type="text/css" data-embed="">
-    .gmailFix {display: none; display: none !important;}
-  </style>
+        .ExternalClass {
+            width: 100%;
+        }
 
-  <!-- ## Outlook Specific ## -->
-  <!--[if mso]>
-    <style>
-      table, th, td, h1, h2, h3, h4, h5, h6, p, span, strong, b, em, i, a, sup, ul, ol, li {font-family: Arial, sans-serif !important;}
-      sup {font-size: 100% !important;}
-      ul, ol {margin-left: -24px !important;}
-      table, tr, th {border-collapse: collapse;}
-      tr {font-size: 0px; line-height: 0px; border-collapse: collapse;}
-      /* custom */
-      .outlook-FontSize--14 {font-size: 14px !important;}
-    </style>
-  <![endif]-->
-  <!--[if gte mso 9]><xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-  </xml><![endif]-->
+        .ExternalClass,
+        .ExternalClass span,
+        .ExternalClass td,
+        .ExternalClass th,
+        .ExternalClass div {
+            line-height: 100%;
+        }
 
-  <!-- ## Mobile Style (600) ## -->
-  <style>
-    @media only screen and (max-width: 600px) {
-      /* visibility */
-      .m--hide {display: none !important; line-height: 0px !important;}
-      .m--show {max-height: none !important; width: 100% !important; display: inline !important;}
-      /* positioning */
-      .m--stack {width: 100% !important; display: block !important; min-width: 0px !important; max-width: 100% !important;}
-      .m-display--block {display: block !important;}
-      /* widths */
-      .m-width--auto {width: auto !important;}
-      .m-width--100p {width: 100% !important;}
-      .m-width--20 {width: 20px !important;}
-      /* heights */
-      .m-height--auto {height: auto !important;}
-      /* padding */
-      .m-pad--0 {padding: 0px !important;}
-      .m-pad-lr--0 {padding-left: 0px !important; padding-right: 0px !important;}
-      .m-pad-lr--20 {padding-left: 20px !important; padding-right: 20px !important;}
-      .m-pad-t--5 {padding-top: 5px !important;}
-      .m-pad-t--10 {padding-top: 10px !important;}
-      .m-pad-t--20 {padding-top: 20px !important;}
-      .m-pad-t--40 {padding-top: 40px !important;}
-      /* alignment - tables */
-      .m-float--left {float: left !important;}
-      .m-float--center {float: inherit !important;}
-      .m-float--right {float: right !important;}
-      /* alignment - cells */
-      .m-textAlign--left {text-align: left !important;}
-      .m-textAlign--center {text-align: center !important;}
-      .m-textAlign--right {text-align: right !important;}
-      /* margins */
-      .m-margin--0-auto {margin: 0 auto !important;}
-      .m-margin-r--0 {margin-right: 0px !important;}
-      /* borders */
-      .m-border--none {border: none !important;}
-      /* fonts */
-      .m-text--h1 {}
-      .m-text--h2 {}
-      .m-text--h3 {}
-      .m-text--h4 {}
-      .m-text--h5 {}
-      .m-text--h6 {}
-      .m-text--p {}
-      .m-text--eyebrow {}
-      .m-text--link {}
-      .m-text--button {}
-      .m-text--list {}
-      .m-text--marker {}
-      .m-fontSize--16 {font-size: 16px !important;}
-      .m-lineHeight--1-0 {line-height: 1.0 !important;}
-      /* backgrounds */
-      .m-background--container {width: 100vw !important; height: auto !important; background-size: 100% !important; background-position: top center !important; background-color:#000000 !important;}
-      .m-background--overlay {height: auto !important; display: block !important; margin-top: 67vw !important;} /* margin-top = (height/width)*100, round up */
-      /* additional helpers */
-      
-    }
-  </style>
+        body,
+        table,
+        td,
+        th,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-decoration: none;
+        }
 
-  <!-- ## Dark Mode Style ## -->
-  <style>
-    /* Global */
-    @media (prefers-color-scheme: dark) {
-      /* backgrounds */
-      .dm-background--222222 {background-color: #222222 !important;}
-      /* colors */
-      .dm-color--1A1A1A {color: #1A1A1A !important;}
-      /* borders */
-      .dm-border--1A1A1A {border-color: #1A1A1A !important;}
-      /* images - show in dark mode */
-      .dm--image {display: block !important;}
-      /* images - hide in light mode */
-      .lm--image {display: none; display: none !important;}
-    }
-    /* Outlook App (Android) */
-    /* backgrounds */
-    [data-ogsc] .dm-background--222222 {background-color: #222222 !important;}
-    /* colors */
-    [data-ogsc] .dm-color--1A1A1A {color: #1A1A1A !important;}
-    /* borders */
-    [data-ogsc] .dm-border--1A1A1A {border-color: #1A1A1A !important;}
-    /* images - show in dark mode */
-    [data-ogsc] .dm--image {display: block !important;}
-    /* images - hide in light mode */
-    [data-ogsc] .lm--image {display: none; display: none !important;}
-  </style>
+        th {
+            font-weight: normal;
+            padding: 0px;
+            display: table-cell;
+        }
 
+        body {
+            height: 100% !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            min-width: 100% !important;
+            background: #F4F4F4 !important;
+        }
+
+        body,
+        table,
+        td,
+        a {
+            text-size-adjust: 100%;
+            font-smoothing: antialiased;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        a,
+        a:link,
+        a:active,
+        a:visited {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        a:hover,
+        a:link:hover,
+        a:active:hover,
+        a:visited:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        a img,
+        a:visited img,
+        a:link img {
+            border: 0px;
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        table,
+        td,
+        th {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 0px !important;
+            margin-bottom: 1em;
+        }
+
+        .applelinks a {
+            color: #FFFFFF !important;
+            text-decoration: none !important;
+        }
+
+        a.mobilenav,
+        a:hover.mobilenav,
+        a:visited.mobilenav {
+            font-size: 18px;
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #FFFFFF;
+            padding-top: 26px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 26px;
+            border-bottom: 1px solid #cfd5d2;
+            text-decoration: none;
+        }
+
+        span.MsoHyperlink {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        /* Gmail Fix */
+        .gmailFix {
+            display: none;
+            display: none !important;
+        }
+
+        u+#body {
+            width: 100vw !important;
+            max-width: 100% !important;
+        }
+
+        /* MOBILE */
+        @media only screen and (max-width:600px) {
+            .mobile {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0px !important;
+            }
+
+            .mobileOverlay {
+                width: 90% !important;
+                padding: 0 5% !important;
+            }
+
+            .m--centered {
+                text-align: center !important;
+            }
+
+            .m--hide {
+                display: none !important;
+            }
+
+            .m--show {
+                display: inline !important;
+                max-height: none !important;
+                overflow: visible !important;
+                line-height: normal !important;
+            }
+
+            .m--stack {
+                width: 100% !important;
+                display: block !important;
+                max-width: 100% !important;
+            }
+
+            .applelinks {
+                font-size: 16px !important;
+            }
+
+            .m-pad-lr--10 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .m-pad-lr--0 {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+
+            .m-pad-lr--12 {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+
+
+            .m-pad-lr--15 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .m-pad-t--40 {
+                padding-top: 40px !important;
+            }
+
+            .m-pad-t--15 {
+                padding-top: 15px !important;
+            }
+
+            .m-pad-t--10 {
+                padding-top: 10px !important;
+            }
+
+            .m-pad-t--0 {
+                padding-top: 0px !important;
+            }
+
+            .m-pad-t--35 {
+                padding-top: 35px !important;
+            }
+
+            .m-pad-tb--35 {
+                padding-top: 35px !important;
+                padding-bottom: 35px !important;
+            }
+
+            .m-pad-b--40 {
+                padding-bottom: 40px !important;
+            }
+
+            .m-pad-b--10 {
+                padding-bottom: 10px !important;
+            }
+
+            .m-width--100p {
+                width: 100% !important;
+                min-width: 0px !important;
+                max-width: 100% !important;
+            }
+
+            /*.featureIcon {
+                width: 20px !important;
+            }*/
+            .m-width--20 {
+                width: 20px !important;
+            }
+
+            .m-width--35 {
+                width: 35px !important;
+            }
+
+            /*.featureIcon img {
+                width: 20px !important;
+            }*/
+
+            .m-width--auto {
+                width: auto !important;
+            }
+
+            .m-pad-l--10 {
+                padding-left: 10px !important;
+            }
+
+            .m-verticalalign--middle {
+                vertical-align: middle !important;
+            }
+
+            .m-margin--0auto {
+                margin: 0 auto !important;
+            }
+
+            .m-display--block {
+                display: block !important;
+            }
+
+            .m-height--27 {
+                height: 27px !important;
+                max-height: 27px !important;
+                line-height: 27px !important;
+            }
+
+            .m-width--162 {
+                width: 100% !important;
+                max-width: 162px !important;
+            }
+
+            .bannerLink {
+                display: block !important;
+                text-align: center !important;
+                padding: 20px 0 0 0 !important;
+                width: 100% !important;
+            }
+
+            .footerLogo {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .footerLogo img {
+                margin: 0 auto !important;
+            }
+
+            .footerSocialIcons {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .footerSocialIcons {
+                margin: 0 auto !important;
+                padding: 20px 0 0 0 !important;
+            }
+
+            .footerSocialIcon {
+                width: 25% !important;
+            }
+
+            .footerSocialIcon a img {
+                margin: 0 auto !important;
+            }
+
+            .footerContactInfo {
+                text-align: center !important;
+            }
+        }
+	</style>
+	<!--[if mso]>
+			<style type="text/css">
+				body, html, th, a, span {font-family:Arial, sans-serif !important; letter-spacing:normal !important;}
+				.outlookBGlight {background-color:#FFFFFF !important;}
+				.outlookBGdark {background-color:#0a0a0a !important;}
+				.outlookBGblue {
+				background-color:#457EC6 !important;}
+				.outlookBGorange {background-color:#E48D45 !important;}
+			</style>
+		<![endif]--><!--[if gte mso 9]>
+			<xml>
+				<o:OfficeDocumentSettings>
+				<o:AllowPNG/>
+				<o:PixelsPerInch>96</o:PixelsPerInch>
+				</o:OfficeDocumentSettings>
+			</xml>
+		<![endif]-->
 </head>
+<body id="body" style="width:100%; padding:0 !important; margin:0 auto !important; "><!-- ## START: PREHEADER ## --><!--[if !mso]><!-->
+<div class="m--hide" style="display:none !important; overflow:hidden !important; float:left; width:0px !important; max-height:0px !important; line-height:0px !important; visibility:hidden !important; mso-hide:all !important;" width="610">Preheader Goes Here</div>
 
-<body id="body" class="dm-background--222222" style="width: 100%; padding: 0; margin: 0 auto;">
+<div style="display:none; max-height:0px; overflow:hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr /> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+<!--<![endif]--><!-- ## END: PREHEADER ## --><!-- ## START: Email Wrapper ## -->
 
-  <!-- ## START: Preheader (hidden) ## -->
-  <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">Your #1 Source for BJJ News</div>
-  <!--[if !mso]><!-->
-  <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">
-  &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
-  <!--<![endif]-->
-  <!-- ## END: Preheader (hidden) ## -->
-
-  <!-- ## START: Accessible Article ## -->
-  <div role="article" aria-roledescription="email" aria-label="MMATimes" lang="en" style="font-size: 1rem;">
-
-    <!-- ## START: Email Wrapper ## -->
-    <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto;">
-      <tr>
-        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; padding-top: 20px; padding-bottom: 20px;">
-
-          <!-- ## START: Email Container - 600px ## -->
-          <table class="m-width--100p m-float--center" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px; max-width: 600px; margin:0px auto; background-color: #FFFFFF;">
-
-            <!-- ## START: Header Modules Container ## -->
-            <tr>
-              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin:0px auto;"> <!-- ## START: MODULE - Preheader (visible) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 10px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;background-color: #FFFFFF">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <tr>
-                              <!-- col 1 -->
-                              <th class="m--stack m-textAlign--center m-pad-lr--20" width="50%" align="left" border="0" style="width: 50%; padding: 0px; mso-line-height-rule: exactly;">
-                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 10px; font-weight: normal; font-weight: 400; color: #8E969E; mso-line-height-alt: 13px; line-height: 1.3; letter-spacing: normal; text-align: left;">Your #1 Source For BJJ News.</p>
-                              </th>
-                              <!-- col 2 -->
-                              <th class="m--stack m-textAlign--center m-pad-lr--20 m-pad-t--5" width="50%" align="right" border="0" style="width: 50%; padding: 0px; mso-line-height-rule: exactly;">
-                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 10px; font-weight: normal; font-weight: 400; color: #000000; mso-line-height-alt: 13px; line-height: 1.3; letter-spacing: normal; text-align: right;"><a href="#SPCLICKTOVIEW" target="_blank" style="text-decoration: none; color: #000000;" name="Header_ViewOnline_link" alias="Header_ViewOnline_link">View Online</a>&nbsp;&rsaquo;</p>
-                      
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Preheader (visible) ## -->
-                
-                <!-- ## START: MODULE - Header (logo) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; border-bottom: 2px solid #ffffff;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <tr>
-                             <!-- logo -->
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="https://www.bjjrobot.com/" target="_blank" style="" name="Header_LogoName_image" alias="Header_LogoName_image"><img class="m-width--100p" src="img/b.robot-black-belt-logo.png" border="0" style="display:block; margin:0px auto; max-width:200px !important;" width="200" height="" alt="AltTextHere"></a>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Header (logo) ## -->
-                  <!-- #### Header <tr> Modules Go Here #### -->
-
-                </table>
-              </th>
-            </tr>
-            <!-- ## END: Header Modules Container ## -->
-
-            <!-- ## START: Body Modules Container ## -->
-            <tr>
-              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; padding-bottom: 70px; mso-line-height-rule: exactly;">
-                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin:0px auto;"> <!-- ## START: MODULE - Image (full-width) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <tr>
-                              <!-- image -->
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="https://www.bjjrobot.com/blogs/news/the-rise-of-brazilian-jiu-jitsu-a-comprehensive-study-of-its-history-and-origins" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="img/riseofBJJ.png" border="0" style="display:block; margin:0px auto; max-width:600px !important;" width="600" height="" alt="The History & Rise of BJJ Blog Title"></a>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Image (full-width) ## -->
-                <!-- ## START: MODULE - Text (h1/paragraph) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 20px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <!-- h1/paragraph/h3 -->
-                          <h1 class="m-text--h1" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 36px; font-weight: bold; font-weight: 700; color: #000000; mso-line-height-alt: 36px; line-height: 1.0; letter-spacing: normal; text-align: center;">The History & Rise of BJJ</h1>
-                          <p class="m-text--p" style="padding: 0px; margin: 0; margin-top: 20px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left; width: 92%;">Brazilian Jiu-Jitsu (BJJ) is a martial art that has grown in popularity around the world in recent years. Its roots can be traced back to the late 19th century in Brazil, where it was developed by the Gracie family. This article aims to provide a comprehensive and detailed history of the origins and development of BJJ, from its earliest beginnings to its current status as a global phenomenon.</p>
-
-                          
-                      
-         
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Text (h1/paragraph) ## -->
-      <!-- ## START: MODULE - Link ## -->
-      <tr>
-        <!-- vertical spacing from prior module -->
-        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; mso-line-height-rule: exactly;">
-          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-            <tr>
-              <!-- horizontal spacing/background color -->
-              <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 40px; mso-line-height-rule: exactly;">
-                <table class="m-float--left" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px auto;">
-                  <tr>
-                    <!-- link -->
-                    <th class="m-text--link" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: bold; font-weight: 700; color: #db3434; mso-line-height-alt: 21px; line-height: 1.5; letter-spacing: normal; text-align: center; border-bottom: 2px solid #db3434;"><a href="https://www.bjjrobot.com/blogs/news/the-rise-of-brazilian-jiu-jitsu-a-comprehensive-study-of-its-history-and-origins" target="_blank" style="text-decoration: none; color: #db3434;" name="LinkName_link" alias="LinkName_link">CONTINUE READING...</a>
-                    </th>
-                  </tr>
-                </table>
-              </th>
-            </tr>
-          </table>
-        </th>
-      </tr>
-      <!-- ## END: MODULE - Link ## -->
-
-                      <!-- ## START: MODULE - Text (h1/paragraph) ## -->
-                      <tr>
-                        <!-- vertical spacing from prior module -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <tr>
-                              <!-- horizontal spacing/background color -->
-                              <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                                <!-- h1/paragraph/h3 -->
-                        
-               
-      
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;" width="100%">
+	
+		<tr><!-- ## START: EMAIL BACKGROUND ## -->
+			<th align="center" bgcolor="#DFDFDF" style="padding:20px 0; background:#DFDFDF;"><!-- ## START: Email Container - 600px ## -->
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:600px; max-width:600px;" width="600">
+				
+					<tr>
+						<th align="center" border="0" style="width:100%; background-color:#000000;" width="100%">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- ## START: MODULE - HEADER NAV ## -->
+							
+								<tr>
+									<th align="center" border="0" style="width:100%; background-color:#000000; padding:18px 20px;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/text nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr>
+															<!-- logo -->
+															<th align="center" border="0" style="width:150px; vertical-align:middle;" width="150"><a border="0" href="" name="HeaderLogoArasaka_image" target="_blank" ><img alt="Alt Text Here" border="0"  name=""  src="/img/Arasaka-Text-Logo.png" style="display:block; margin:0 auto;" width="150"  /></a></th>
+													
+												
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - HEADER NAV ## -->
                                 
-                                <h3 class="m-text--h3" style="padding: 0px; padding-left: 40px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 18px; font-weight: bold; font-weight: 700; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">BJJ Tips of the Week</h3>
-                                <p class="m-text--p" style="padding: 0px; padding-left: 40px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">This weeks tips are essential to take your game to the next level:</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                      <!-- ## END: MODULE - Text (h1/paragraph) ## -->
-                <!-- ## START: MODULE - Text List (unordered/ordered) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 15px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 40px; padding-right: 40px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <!-- bullet list (unordered) -->
-                          <ul align="left" type="disc" style="padding: 0px; margin: 0px; margin-left: 15px; font-family: 'Roboto', Arial, sans-serif;">
-                            <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: normal; font-weight: 400; color: #000000; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
-                              <span class="m-text--list" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Focus on technique:</strong> BJJ is all about technique and leverage, so don't rely solely on strength. Take the time to perfect your technique and make it a habit to drill fundamental moves regularly.</span>
-                            </li>
-                            <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: normal; font-weight: 400; color: #000000; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
-                              <span class="m-text--list" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Develop a strong foundation:</strong> Start by mastering the basics, such as positioning, control, and submissions. Building a solid foundation will help you progress and succeed in the long run.</span>
-                            </li>
-                            <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: normal; font-weight: 400; color: #000000; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
-                              <span class="m-text--list" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Train consistently:</strong> Consistency is key when it comes to BJJ. Aim to train regularly, even if it's just a few times a week. Over time, you'll see significant improvements in your technique and overall fitness.</span>
-                            </li>
-                            <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: normal; font-weight: 400; color: #000000; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
-                              <span class="m-text--list" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Stay open-minded:</strong> BJJ is a constantly evolving art, so it's important to stay open-minded and willing to learn. Attend seminars, watch instructional videos, and train with different partners to expand your knowledge.</span>
-                            </li>
-                      
-                          </ul>
-                        
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Text List (unordered/ordered) ## -->
-            <!-- ## START: MODULE - Text (h1/paragraph) ## -->
-            <tr>
-              <!-- vertical spacing from prior module -->
-              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
-                <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                  <tr>
-                    <!-- horizontal spacing/background color -->
-                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 40px; padding-right: 40px; mso-line-height-rule: exactly;">
-                      <!-- paragraph-->
-        
-               
-                      <p class="m-text--p" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">We hope you found these tips helpful and informative. If you're interested in learning more about the history and techniques of BJJ, we encourage you to check out the rest of our blog library.</p>
-                    </th>
-                  </tr>
-                </table>
-              </th>
-            </tr>
-            <!-- ## END: MODULE - Text (h1/paragraph) ## -->
-                <!-- ## START: MODULE - Scurve 2up (image/title/text/button) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 40px; padding-right: 40px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <!-- row 1 (image/text) -->
-                            <tr>
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; direction: ltr;">
-                                <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                  <!--  START: MODULE - Image (full-width)  -->
                                   <tr>
-                                    <!-- col 1 -->
-                                    <th class="m--stack" width="200" align="center" border="0" style="width: 200px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;">
-                                      <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                        <!-- image -->
-                                        <tr>
-                                          <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="https://www.bjjrobot.com/blogs/news/the-ultimate-guide-to-bjj-rash-guards-benefits-types-and-choosing-the-right-one" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="img/ultimateguide.png" border="0" style="display:block; margin:0px auto; max-width:400px !important;" width="200" height="" alt="The Ultimate Guide to BJJ Rash Guards Blog Cover"></a>
-                                          </th>
-                                        </tr>
-                                      </table>
-                                    </th>
-                                    <!-- spacer -->
-                                    <th class="m--hide" width="20" align="center" border="0" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;">&nbsp;</th>
-                                    <!-- col 2 -->
-                                    <th class="m--stack m-pad-t--20" width="380" align="center" border="0" style="width: 380px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;">
-                                      <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                        <!-- text -->
-                                        <tr>
-                                          <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                            <!-- paragraph/h3/paragraph -->
-                                            <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: bold; font-weight: 700; color: #db3434; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">February 3, 2023</p>
-                                            <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: bold; font-weight: 700; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">The Ultimate Guide to BJJ Rash Guards</h3>
-                                            <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">In this guide, we explore everything about BJJ rash guards, including what they are and how to choose the right one.</p>
-                                          </th>
-                                        </tr>
-         <!-- ## START: MODULE - Button (solid/ghost) ## -->
-         <tr>
-          <!-- vertical spacing from prior module -->
-          <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
-            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-              <tr>
-                <!-- horizontal spacing/background color -->
-                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                  <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px auto;">
-                    <tr>
-                      <!-- button -->
-                      <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 12px; padding-right: 22px; padding-bottom: 12px; padding-left: 22px; mso-line-height-rule: exactly; background: #db3434; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border: 0px solid transparent; border-radius: 5px;"><a href="https://www.bjjrobot.com/blogs/news/the-ultimate-guide-to-bjj-rash-guards-benefits-types-and-choosing-the-right-one" target="_blank" style="text-decoration: none; color: #FFFFFF;" name="ButtonName_button" alias="ButtonName_button">CONTINUE READING</a>
-                      </th>
-                    </tr>
-                  </table>
-                </th>
-              </tr>
-            </table>
-          </th>
-         </tr>
-         <!-- ## END: MODULE - Button (solid/ghost) ## -->
-                                      </table>
-                                    </th>
+                                    <!-- vertical spacing from prior module -->
+                                    <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                            <tr>
+                                                <!-- horizontal spacing/background color -->
+                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color:#0a0a0a;">
+                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                                        <tr>
+                                                            <!-- image -->
+                                                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="#" target="_blank" style="" name="Hero_image"><img class="m-width--100p" src="/img/Cyberhero1280px.jpg" border="0" style="display:block; margin:0px auto; max-width:640px !important;" width="640" height="" alt="Alt Text Here"></a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
                                   </tr>
-                                </table>
-                              </th>
-                            </tr>
-                            <!-- row 2 (text/image) -->
-                            <tr>
-                              <th class="m-pad-t--40" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; direction: rtl;">
-                                <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                  <tr>
-                                    <!-- col 1 -->
-                                    <th class="m--stack" width="200" align="center" border="0" style="width: 200px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;">
-                                      <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                        <!-- image -->
-                                        <tr>
-                                          <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="https://www.bjjrobot.com/blogs/news/what-is-a-rash-guard-for-bjj" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="img/whatisabjjrashguard.png" border="0" style="display:block; margin:0px auto; max-width:400px !important;" width="200" height="" alt="What is a BJJ Rash Guard? Blog Post"></a>
-                                          </th>
-                                        </tr>
-                                      </table>
-                                    </th>
-                                    <!-- spacer -->
-                                    <th class="m--hide" width="20" align="center" border="0" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;">&nbsp;</th>
-                                    <!-- col 2 -->
-                                    <th class="m--stack m-pad-t--20" width="380" align="center" border="0" style="width: 380px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;">
-                                      <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                        <!-- text -->
-                                        <tr>
-                                          <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                            <!-- paragraph/h3/paragraph -->
-                                            <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: bold; font-weight: 700; color: #db3434; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">August 15, 2022</p>
-                                            <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: bold; font-weight: 700; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">What is a BJJ Rash Guard?</h3>
-                                            <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">BJJ Rash Guards are designed to protect the skin from irritation and to wick away sweat for a comfortable fit.</p>
-                                          </th>
-                                        </tr>
-                                        <!-- button -->
-                                        <tr>
-                                          <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
-                                            <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px auto;">
-                                              <tr>
-                                                <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 12px; padding-right: 22px; padding-bottom: 12px; padding-left: 22px; mso-line-height-rule: exactly; background: #db3434; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border: 0px solid transparent; border-radius: 5px;"><a href="https://www.bjjrobot.com/blogs/news/what-is-a-rash-guard-for-bjj" target="_blank" style="text-decoration: none; color: #FFFFFF;" name="ButtonName_button" alias="ButtonName_button">CONTINUE READING</a>
-                                                </th>
-                                              </tr>
-                                            </table>
-                                          </th>
-                                        </tr>
-                                      </table>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Scurve 2up (image/title/text/button) ## -->
+                                  <!--  END: MODULE - Image (full-width)  -->
+                                <!-- ## START: MODULE - ISOLATED HEADLINE ## -->
+								<tr>
+									<th align="center" border="0" style="width:100%; text-align:center; padding:20px 35px 10px; "  width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse;" width="100%"><!-- headline -->
+										
+											<tr>
+												<th align="center" border="0" class="m-textAlign--center m-pad-b--20 m-pad-lr--10" style=" padding-top: 20px;width:100%; font-family:'FigTree', sans-serif; font-size:38px; font-weight:700; text-align:center; color:#ffffff; text-transform:uppercase; line-height: 1.1;" width="100%">NEXT-GEN CYBER SOLUTIONS</th>
+                                                
+											</tr>
+                                            <tr>
+											<th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 10px 0 0 0; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></th>
+                                                
+											</tr>
+											<!-- 25px spacer -->
+											<tr>
+												<th class="m--hide" height="20" style="height:20px; line-height:20px; font-size:20px;">&nbsp;</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - ISOLATED HEADLINE ##-->
+                        <!-- ## START: MODULE - 2up Scurve (image/title/text/button) ## -->
+								<tr><!-- vertical spacing from prior module -->
+									<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 0px; mso-line-height-rule: exactly;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+										
+											<tr><!-- horizontal spacing/background color/border -->
+												<th align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- row 1 (text/image) -->
+													
+														<tr>
+															<th align="center" border="0" class="m-pad-t--40" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; direction: rtl;" width="100%">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+																
+																	<tr><!-- col 1 -->
+																		<th align="center" border="0" class="m--stack" style="width: 282px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;" width="282">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- image -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--0 m-float--center" style="width: 100%; padding: 0px 12px 0 0px; mso-line-height-rule: exactly;" width="100%"><a href="#" target="_blank" ><img alt="Alt Text Here" border="0" class="m-width--100p" height="" name="" src="/img/Cyberscurve1.jpg" style="display: block; margin: 0px auto; max-width: 400px !important;" width="282" /></a></th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																		<!-- spacer -->
+																		<th align="center" border="0" class="m--hide" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;" width="20">&nbsp;</th>
+																		<!-- col 2 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--20" style="width: 380px; padding: 0px 0px 0px 20px; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;" width="380">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- text -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--20" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%"><!-- paragraph/h3/paragraph -->
+																					<h3 class="m-text--h3 m-textAlign--center m-pad-t--10 m-pad-lr--0" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'FigTree', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; line-height:1.2; mso-line-height-alt: 23px; line-height: 1.2; letter-spacing: normal; text-align: left;">CLOUD MIGRATION SECURITY</h3>
 
-   
+																					<p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 10px 0 0 0; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+																					</th>
+																				</tr>
+																				<!-- button -->
+																				<tr>
+																					<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;" width="100%"><!-- horizontal alignment -->
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" class="m-float--center" role="presentation" style="margin: 0px auto;" width="">
+																						
+																							<tr>
+																								<th align="center" border="0" class="m-text--button" style="width: 100%; padding: 0px; padding-top: 10px; padding-right: 22px; padding-bottom: 10px; padding-left: 22px; mso-line-height-rule: exactly; background: #0070bb; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; " width="100%"><a href="#" name="LearnHow_button" style="text-decoration:none; color:#ffffff;" target="_blank" >LEARN HOW</a></th>
+																							</tr>
+																						
+																					</table>
+																					</th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+														<!-- row 2 (image/text) -->
+														<tr>
+															<th align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; direction: ltr;" width="100%">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%">
+																
+																	<tr><!-- col 1 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--35" style="width: 200px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle;" width="200">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- image -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--0 m-float--center" style="width: 100%; padding: 0px; padding-left: 12px; mso-line-height-rule: exactly;" width="100%"><a href="#"  style="" target="_blank" ><img alt="Alt Text Here" border="0" class="m-width--100p" height="" name="" src="/img/aiscurve.jpg" style="display: block; margin: 0px auto; max-width: 400px !important;" width="282" /></a></th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																		<!-- spacer --><!-- spacer -->
+																		<th align="center" border="0" class="m--hide" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;" width="20">&nbsp;</th>
+																		<!-- col 2 -->
+																		<th align="center" border="0" class="m--stack m-pad-t--20" style="width: 380px; padding: 0px 20px 0 0; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;" width="380">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" class="m-width--100p m-float--center" role="presentation" style="width: 100%; margin: 0px auto;" width="100%"><!-- text -->
+																			
+																				<tr>
+																					<th align="center" border="0" class="m-pad-lr--20" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;" width="100%"><!-- paragraph/h3/paragraph -->
+																					<h3 class="m-text--h3 m-textAlign--center m-pad-t--10" style="padding: 0px; margin: 0px; margin-top: 5px; font-family:'FigTree', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">A.I. POWERED SOLUTIONS</h3>
 
-                  <!-- #### Body <tr> Modules Go Here #### -->
+																					<p class="m-text--p m-textAlign--center m-pad-lr--15" style="padding: 0px; padding-top: 10px; margin: 0px; margin-top: 10px; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #f1f1f1; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+																					</th>
+																				</tr>
+																				<!-- button -->
+																				<tr>
+																					<th align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;" width="100%"><!-- horizontal alignment -->
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" class="m-float--center" role="presentation" style="margin: 0px auto;" width="">
+																						
+																							<tr>
+																								<th align="center" border="0" class="m-text--button" style="width: 100%; padding: 0px; padding-top: 10px; padding-right: 22px; padding-bottom: 10px; padding-left: 22px; mso-line-height-rule: exactly; background: #0070bb; font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.2; text-align: center; " width="100%"><a href="#" name="LearnMore_button" style="text-decoration:none; color:#ffffff;" target="_blank" >LEARN MORE</a></th>
+																							</tr>
+																						
+																					</table>
+																					</th>
+																				</tr>
+																			
+																		</table>
+																		</th>
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - 2up Scurve (image/title/text/button) ## --><!-- ## START: MODULE - FULL WIDTH BANNER W/ TEXT AND LOGOS ## -->
+								<tr>
+									<th align="center" border="0" class="m-pad-t--40" style="width:100%; padding:20px 12px; " width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/text nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%; padding:20px; background-color:#383838;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr><!-- text -->
+															<th align="center" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:center; font-weight:400; font-size:8px; color:#ffffff; line-height:1.5; vertical-align:middle; text-align: left;" width="100%">*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+									</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: MODULE - FULL WIDTH BANNER W/ TEXT AND LOGOS ## --><!-- ## START: FOOTER ## -->
+								<tr>
+									<th align="center" bgcolor="#0a0a0a" border="0" style="width:100%; padding:35px; background:#0a0a0a;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%"><!-- logo/social nav -->
+										
+											<tr>
+												<th align="center" border="0" style="width:100%;" width="100%">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+													
+														<tr><!-- logo -->
+															<th align="left" border="0" class="footerLogo" style="font-family:'Source Sans Pro', sans-serif; width:120px; text-align:left; font-weight:400; font-size:10px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="120"><a href="" name="FooterLogoArasaka_image" target="_blank" ><img alt="Arasaka" border="0"  height="41.186" name=""  src="/img/Arasaka-Text-Logo.png" style="display:block;" title="Arasaka" width="120"  /></a></th>
+															<!-- 195px spacer -->
+															<th align="left" border="0" class="m--hide" style="font-family:'Source Sans Pro', sans-serif; width:195px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="195">&nbsp;</th>
+															<!-- social icons -->
+															<th align="center" border="0" class="footerSocialIcons" style="width:214px;" width="214">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+																
+																	<tr><!-- LinkedIn -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:22px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="22"><a href="#" name="FooterYouTube_image" target="_blank" > <i class="fa fa-linkedin fx-hover-opacity"></i></a></th>
+																		<!-- 16px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:16px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																		<!-- twitter -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:22px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="22"><a href="#" name="FooterTwitter_image" target="_blank" >  <i class="fa fa-twitter fx-hover-opacity"></i></a></th>
+																		<!-- 16px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:16px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																		<!-- facebook -->
+																		<th align="left" border="0" class="footerSocialIcon" style="font-family:'Source Sans Pro', sans-serif; width:px; text-align:left; font-weight:400; font-size:32px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="40"><a href="#" name="FooterFacebook_image" target="_blank" > <i class="fa fa-facebook-official fx-hover-opacity"></i></a></th>
+                                                                        <!-- 36px spacer -->
+																		<th align="left" border="0" class="m--hide" style="width:36px; text-align:left; font-weight:400; font-size:13px; color:#393939; line-height:1.5; vertical-align:middle; padding:13px 0;" width="36">&nbsp;</th>
+																	
+																	</tr>
+																
+															</table>
+															</th>
+														</tr>
+													
+												</table>
+												</th>
+											</tr>
+											<!-- 20px spacer -->
+											<tr>
+												<th height="20" style="height:20px; line-height:20px; font-size:20px;">&nbsp;</th>
+											</tr>
+											<!--contact info -->
+											<tr>
+												<th align="left" border="0" class="footerContactInfo" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:left; font-weight:400; font-size:10px; color:#FFFFFF; line-height:1.5; vertical-align:middle;" width="100%">Arasaka Corporation<br />
+												6241 Corpo Blvd, Night City, MetroState 60214<br>© 2077 Reserve the Rights</th>
+											</tr>
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: FOOTER ## --><!-- ## START: PREFERENCES ## -->
+								<tr>
+									<th align="center" bgcolor="#DFDFDF" border="0" style="width:100%; padding:15px; background:#DFDFDF;" width="100%">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; width:100%;" width="100%">
+										
+											<tr>
+												<th align="center" border="0" style="font-family:'Source Sans Pro', sans-serif; width:100%; text-align:center; font-weight:400; font-size:10px; color:#0a0a0a; line-height:1.5; vertical-align:middle;" width="100%"><a href="" name="FooterUnsubscribe_link" style="text-decoration:none; color:#0a0a0a;" target="_blank" >Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" name="FooterEditPreferences_link" style="text-decoration:none; color:#0a0a0a;" target="_blank">Edit Preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" name="FooterEditPreferences_link" style="text-decoration:none; color:#0a0a0a;" target="_blank">View in Browser</a></th>
+											</tr>
+										
+										
+									</table>
+									</th>
+								</tr>
+								<!-- ## END: PREFERENCES ## -->
+							
+						</table>
+						</th>
+					</tr>
+				
+			</table>
+			<!-- ## END: EMAIL FRAME 600px ## --></th>
+			<!-- ## END: EMAIL BACKGROUND ## -->
+		</tr>
+	
+</table>
+<!-- ## START: GMAIL FIX ## -->
 
-                </table>
-              </th>
-            </tr>
-            <!-- ## END: Body Modules Container ## -->
-
-            <!-- ## START: Footer Modules Container ## -->
-            <tr>
-              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%px; margin:0px auto;"><!-- ## START: MODULE - Footer (logo/text) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; padding-right: 30px; padding-left: 30px; mso-line-height-rule: exactly; border-top: 2px solid #CCCCCC; background-color: #FFFFFF;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <!-- logo -->
-                            <tr>
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="https://www.bjjrobot.com/" target="_blank" style="" name="Footer_LogoName_image" alias="Footer_LogoName_image"><img class="m-width--100p" src="img/b.robot-black-belt-logo.png" border="0" style="display:block; margin:0px auto; max-width:150px !important;" width="150" height="" alt="AltTextHere"></a>
-                              </th>
-                            </tr>
-                            <!-- text -->
-                            <tr>
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
-                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;">Your #1 Source for BJJ News</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Footer (logo/text) ## -->
-                
-                <!-- ## START: MODULE - Footer (social) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly; background-color: #FFFFFF;">
-                          <table class="m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                            <tr>
-                              <!-- col 1 -->
-                              <th> <a href="#" class="fa fa-facebook"></a></th>
-                              <!-- spacer -->
-                              <th class="" width="40" align="center" border="0" style="width:40px; padding:0px 0px 0px 0px; text-align:center; vertical-align: top;">&nbsp;</th>
-                              <!-- col 2 -->
-                              <th><a href="#" class="fa fa-youtube"></a></th>
-                              <!-- spacer -->
-                              <th class="" width="40" align="center" border="0" style="width:40px; padding:0px 0px 0px 0px; text-align:center; vertical-align: top;">&nbsp;</th>
-                              <!-- col 3 -->
-                              <th><a href="#" class="fa fa-twitter"></a></th>
-
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Footer (social) ## -->
-                
-                <!-- ## START: MODULE - Footer (nav) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 35px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly;">
-                          <table class="m-width--auto m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                            <tr>
-                              <!-- col 1 -->
-                              <th class="m--stack m-width--100p" width="80" align="center" border="0" style="width: 80px; padding: 0px; mso-line-height-rule: exactly;">
-                                <table class="m-width--100p m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                                  <tr>
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                      <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;"><a href="#" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_NavName_link" alias="Footer_NavName_link">NEWS</a></p>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                              <!-- divider -->
-                              <th class="m--hide" width="25" align="center" border="0" style="width: 25px; padding: 0px; mso-line-height-rule: exactly;">
-                                <table class="m-width--100p m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                                  <tr>
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                      <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">|</p>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                              <!-- col 2 -->
-                              <th class="m--stack m-width--100p m-pad-t--20" width="80" align="center" border="0" style="width: 80px; padding: 0px; mso-line-height-rule: exactly;">
-                                <table class="m-width--100p m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                                  <tr>
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                      <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;"><a href="https://www.bjjrobot.com/blogs/news" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_NavName_link" alias="Footer_NavName_link">BLOG</a></p>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                              <!-- divider -->
-                              <th class="m--hide" width="25" align="center" border="0" style="width: 25px; padding: 0px; mso-line-height-rule: exactly;">
-                                <table class="m-width--100p m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                                  <tr>
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                      <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">|</p>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                              <!-- col 3 -->
-                              <th class="m--stack m-width--100p m-pad-t--20" width="80" align="center" border="0" style="width: 80px; padding: 0px; mso-line-height-rule: exactly;">
-                                <table class="m-width--100p m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto;">
-                                  <tr>
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                      <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;"><a href="https://www.bjjrobot.com/" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_NavName_link" alias="Footer_NavName_link">SHOP</a></p>
-                                    </th>
-                                  </tr>
-                                </table>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Footer (nav) ## -->
-                
-                <!-- ## START: MODULE - Footer (mobile nav) ## -->
-                <tr>
-                  <th class="m--show" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; display: none;">
-                    <!--[if !mso]><!-->
-                    <div class="m--show" height="0" style="font-size: 0; mso-hide: all; display: none; max-height: 0px; overflow: hidden; height: 0px;">
-                      <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                        <tr>
-                          <!-- vertical spacing from prior module -->
-                          <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;">
-                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                              <tr>
-                                <!-- horizontal spacing/background color -->
-                                <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                  <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                    <!-- mobile nav item 1 -->
-                                    <tr>
-                                      <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; padding-bottom: 30px; mso-line-height-rule: exactly; border-top: 1px solid #BEC3C7;">
-                                        <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;"><a href="#" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_MobileNav1Name_link" alias="Footer_MobileNav1Name_link">NEWS</a></p>
-                                      </th>
-                                    </tr>
-                                    <!-- mobile nav item 2 -->
-                                    <tr>
-                                      <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; padding-bottom: 30px; mso-line-height-rule: exactly; border-top: 1px solid #BEC3C7;">
-                                        <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;"><a href="#" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_MobileNav2Name_link" alias="Footer_MobileNav2Name_link">BLOG</a></p>
-                                      </th>
-                                    </tr>
-                                    <!-- mobile nav item 3 -->
-                                    <tr>
-                                      <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; padding-bottom: 30px; mso-line-height-rule: exactly; border-top: 1px solid #BEC3C7; border-bottom: 1px solid #BEC3C7;">
-                                        <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: center;"><a href="https://www.bjjrobot.com/blogs/news" target="_blank" style="text-decoration: none; color: #000000;" name="Footer_MobileNav3Name_link" alias="Footer_MobileNav3Name_link">SHOP</a></p>
-                                      </th>
-                                    </tr>
-                                  </table>
-                                </th>
-                              </tr>
-                            </table>
-                          </th>
-                        </tr>
-                      </table>
-                    </div>
-                    <!--<![endif]--> 
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Footer (mobile nav) ## -->
-                
-                <!-- ## START: MODULE - Footer (legal) ## -->
-                <tr>
-                  <!-- vertical spacing from prior module -->
-                  <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; mso-line-height-rule: exactly;">
-                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                      <tr>
-                        <!-- horizontal spacing/background color -->
-                        <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly;">
-                          <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                            <!-- text -->
-                            <tr>
-                              <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                <p class="m-text--p" style="padding: 0px; margin: 0; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: center;">172 W 29th St, New York, NY 10001</p>
-                  
-                                <p class="m-text--p" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: left;">Stay up-to-date on the latest in the world of martial arts with B.Robot - your go-to source for news, insights, and analysis. Our mission is to keep you informed and inspired, whether you're a seasoned practitioner or simply a curious fan. Thanks for reading!</p>
-                                <p class="m-text--p" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: center;"><a href="#SPCUSTOMOPTOUT" target="_blank" style="text-decoration: underline; color: #000000;" name="Footer_Unsubscribe_link" alias="Footer_Unsubscribe_link">Unsubscribe</a></p>
-                                <p class="m-text--p" style="padding: 0px; margin: 0; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: normal; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: center;">&copy;&nbsp;%%format (MAILING_SEND_DATE, &quot;YYYY&quot;)%%. All rights reserved.</p>
-                              </th>
-                            </tr>
-                          </table>
-                        </th>
-                      </tr>
-                    </table>
-                  </th>
-                </tr>
-                <!-- ## END: MODULE - Footer (legal) ## -->
-           
-
-                  <!-- #### Footer <tr> Modules Go Here #### -->
-
-                </table>
-              </th>
-            </tr>
-            <!-- ## END: Footer Modules Container ## -->
-
-          </table>
-          <!-- ## END: Email Container - 600px ## -->
-
-        </th>
-      </tr>
-    </table>
-    <!-- ## END: Email Wrapper ## -->
-
-    <!-- ## START: Gmail Fix ## -->
-    <div class="gmailFix" style="white-space:nowrap; font:15px courier; line-height:0;">
-      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    </div>
-    <!-- ## END: Gmail Fix ## -->
-
-  </div>
-  <!-- ## END: Accessible Article ## -->
-
-
-</body>
-
+<div class="gmailFix" style="white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<!-- ## END: GMAIL FIX ## --></body>
 </html>
