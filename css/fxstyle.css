@@ -165,27 +165,28 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-transparent,.fx-hover-none:hover{background-color:transparent!important}
 .fx-hover-none:hover{box-shadow:none!important}
 /* Colors */
-.fx-mainblue, .fx-hover-mainblue:hover{color:#ffffff!important;background-color:#0cc0df!important;}
+.fx-mainblue, .fx-hover-mainblue:hover{color:#ffffff!important;background-color:#0cc0df!important}
+.fx-maingreen, .fx-hover-maingreen:hover{color:#ffffff!important;background-color:#0BDE71!important}
 .fx-amber,.fx-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
-.fx-aqua,.fx-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.fx-aqua,.fx-hover-aqua:hover{color:#000!important;background-color:#2F8D9E!important}
 .fx-blue,.fx-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .fx-light-blue,.fx-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
-.fx-brown,.fx-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.fx-brown,.fx-hover-brown:hover{color:#fff!important;background-color:#895B34!important}
 .fx-cyan,.fx-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
 .fx-blue-grey,.fx-hover-blue-grey:hover,.fx-blue-gray,.fx-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
-.fx-green,.fx-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.fx-green,.fx-hover-green:hover{color:#fff!important;background-color:#0BDEB8!important}
 .fx-light-green,.fx-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
 .fx-indigo,.fx-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
 .fx-khaki,.fx-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
 .fx-lime,.fx-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
 .fx-orange,.fx-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
-.fx-deep-orange,.fx-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.fx-deep-orange,.fx-hover-deep-orange:hover{color:#fff!important;background-color:#DE6A0B!important}
 .fx-pink,.fx-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
 .fx-purple,.fx-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
 .fx-deep-purple,.fx-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
 .fx-red,.fx-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .fx-sand,.fx-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
-.fx-teal,.fx-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.fx-teal,.fx-hover-teal:hover{color:#fff!important;background-color:#0BDE71!important}
 .fx-yellow,.fx-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .fx-white,.fx-hover-white:hover{color:#000!important;background-color:#fff!important}
 .fx-black,.fx-hover-black:hover{color:#fff!important;background-color:#000!important}
