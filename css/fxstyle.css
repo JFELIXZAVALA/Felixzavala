@@ -168,7 +168,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-mainblue, .fx-hover-mainblue:hover{color:#ffffff!important;background-color:#0cc0df!important}
 .fx-maingreen, .fx-hover-maingreen:hover{color:#ffffff!important;background-color:#0BDE71!important}
 .fx-amber,.fx-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
-.fx-aqua,.fx-hover-aqua:hover{color:#000!important;background-color:#2F8D9E!important}
+.fx-aqua,.fx-hover-aqua:hover{color:#fff!important;background-color:#2f8d9e!important}
 .fx-blue,.fx-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 .fx-light-blue,.fx-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
 .fx-brown,.fx-hover-brown:hover{color:#fff!important;background-color:#895B34!important}
@@ -186,7 +186,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-deep-purple,.fx-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
 .fx-red,.fx-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .fx-sand,.fx-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
-.fx-teal,.fx-hover-teal:hover{color:#fff!important;background-color:#0BDE71!important}
+.fx-teal,.fx-hover-teal:hover{color:#000!important;background-color:#2f8d9e!important}
 .fx-yellow,.fx-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .fx-white,.fx-hover-white:hover{color:#000!important;background-color:#fff!important}
 .fx-black,.fx-hover-black:hover{color:#fff!important;background-color:#000!important}
@@ -198,7 +198,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-pale-yellow,.fx-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .fx-pale-blue,.fx-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
 .fx-text-amber,.fx-hover-text-amber:hover{color:#ffc107!important}
-.fx-text-aqua,.fx-hover-text-aqua:hover{color:#00ffff!important}
+.fx-text-aqua,.fx-hover-text-aqua:hover{color:#ffff!important}
 .fx-text-blue,.fx-hover-text-blue:hover{color:#2196F3!important}
 .fx-text-light-blue,.fx-hover-text-light-blue:hover{color:#87CEEB!important}
 .fx-text-brown,.fx-hover-text-brown:hover{color:#795548!important}
