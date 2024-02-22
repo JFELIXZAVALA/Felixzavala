@@ -1,6 +1,5 @@
 /* fx.CSS */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
@@ -74,6 +73,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-col.s5{width:41.66666%}.fx-col.s6{width:49.99999%}.fx-col.s7{width:58.33333%}.fx-col.s8{width:66.66666%}
 .fx-col.s9{width:74.99999%}.fx-col.s10{width:83.33333%}.fx-col.s11{width:91.66666%}.fx-col.s12{width:99.99999%}
 .fx-padding-large{padding:12px 100px}
+
 @media (min-width:601px){.fx-col.m1{width:8.33333%}.fx-col.m2{width:16.66666%}.fx-col.m3,.fx-quarter{width:24.99999%}.fx-col.m4,.fx-third{width:33.33333%}
 .fx-col.m5{width:41.66666%}.fx-col.m6,.fx-half{width:49.99999%}.fx-col.m7{width:58.33333%}.fx-col.m8,.fx-twothird{width:66.66666%}
 .fx-col.m9,.fx-threequarter{width:74.99999%}.fx-col.m10{width:83.33333%}.fx-col.m11{width:91.66666%}.fx-col.m12{width:99.99999%} }
@@ -109,7 +109,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-display-position{position:absolute}
 .fx-circle{border-radius:50%}
 .fx-round-small{border-radius:2px}.fx-round,.fx-round-medium{border-radius:4px}.fx-round-large{border-radius:8px}.fx-round-xlarge{border-radius:16px}.fx-round-xxlarge{border-radius:32px}
-.fx-row-padding,.fx-row-padding>.fx-half,.fx-row-padding>.fx-third,.fx-row-padding>.fx-twothird,.fx-row-padding>.fx-threequarter,.fx-row-padding>.fx-quarter,.fx-row-padding>.fx-col{padding:0 8px}
+.fx-row-padding,.fx-row-padding>.fx-half,.fx-row-padding>.fx-third,.fx-row-padding>.fx-twothird,.fx-row-padding>.fx-threequarter,.fx-row-padding>.fx-quarter,.fx-row-padding>.fx-col{padding:0 20px}
 .fx-container,.fx-panel{padding:0.01em 16px}.fx-panel{margin-top:16px;margin-bottom:16px}
 .fx-column-border-radius{border-radius: 10px;}
 .fx-border-top-radius {border-radius: 10px 10px 0px 0px;}
@@ -117,7 +117,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
 .fx-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
 .fx-card-1{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); }
-.fx-card,.fx-card-2{ border-radius: 20px; box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); }
+.fx-card,.fx-card-2{ border-radius: 0px; box-shadow:20 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); }
 .fx-card-4,.fx-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
 .fx-spin{animation:fx-spin 2s infinite linear}@keyframes fx-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
 .fx-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
@@ -150,6 +150,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-margin-right{margin-right:16px!important}
 .fx-padding-small{padding:4px 8px!important}
 .fx-padding{padding:8px 16px!important}
+.fx-padding-lr-40{padding:0px 40px!important}
 .fx-padding-lr-200{padding:0px 200px!important}
 
 .fx-padding-16{padding-top:16px!important;padding-bottom:16px!important}.fx-padding-24{padding-top:24px!important;padding-bottom:24px!important}
