@@ -109,7 +109,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-display-position{position:absolute}
 .fx-circle{border-radius:50%}
 .fx-round-small{border-radius:2px}.fx-round,.fx-round-medium{border-radius:4px}.fx-round-large{border-radius:8px}.fx-round-xlarge{border-radius:16px}.fx-round-xxlarge{border-radius:32px}
-.fx-row-padding,.fx-row-padding>.fx-half,.fx-row-padding>.fx-third,.fx-row-padding>.fx-twothird,.fx-row-padding>.fx-threequarter,.fx-row-padding>.fx-quarter,.fx-row-padding>.fx-col{padding:0 20px}
+.fx-row-padding,.fx-row-padding>.fx-half,.fx-row-padding>.fx-third,.fx-row-padding>.fx-twothird,.fx-row-padding>.fx-threequarter,.fx-row-padding>.fx-quarter,.fx-row-padding>.fx-col{padding:0 40px}
 .fx-container,.fx-panel{padding:0.01em 16px}.fx-panel{margin-top:16px;margin-bottom:16px}
 .fx-column-border-radius{border-radius: 10px;}
 .fx-border-top-radius {border-radius: 10px 10px 0px 0px;}
