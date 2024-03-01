@@ -74,6 +74,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-col.s9{width:74.99999%}.fx-col.s10{width:83.33333%}.fx-col.s11{width:91.66666%}.fx-col.s12{width:99.99999%}
 .fx-padding-large{padding:12px 100px}
 
+.fx-bold {font-weight:600;}
+
 @media (min-width:601px){.fx-col.m1{width:8.33333%}.fx-col.m2{width:16.66666%}.fx-col.m3,.fx-quarter{width:24.99999%}.fx-col.m4,.fx-third{width:33.33333%}
 .fx-col.m5{width:41.66666%}.fx-col.m6,.fx-half{width:49.99999%}.fx-col.m7{width:58.33333%}.fx-col.m8,.fx-twothird{width:66.66666%}
 .fx-col.m9,.fx-threequarter{width:74.99999%}.fx-col.m10{width:83.33333%}.fx-col.m11{width:91.66666%}.fx-col.m12{width:99.99999%} }
@@ -133,8 +135,19 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-greyscale-max,.fx-grayscale-max,.fx-hover-greyscale:hover,.fx-hover-grayscale:hover{filter:grayscale(100%)}
 .fx-greyscale,.fx-grayscale{filter:grayscale(75%)}.fx-greyscale-min,.fx-grayscale-min{filter:grayscale(50%)}
 .fx-sepia{filter:sepia(75%)}.fx-sepia-max,.fx-hover-sepia:hover{filter:sepia(100%)}.fx-sepia-min{filter:sepia(50%)}
-.fx-tiny{font-size:10px!important}.fx-small{font-size:12px!important}.fx-medium{font-size:15px!important}.fx-large{font-size:18px!important}
-.fx-xlarge{font-size:24px!important}.fx-xxlarge{font-size:36px!important}.fx-xxxlarge{font-size:48px!important}.fx-jumbo{font-size:64px!important}
+
+/* Font Sizes */
+.fx-tiny{font-size:10px!important}
+.fx-small{font-size:12px!important}
+.fx-medium{font-size:15px!important}
+.fx-large{font-size:18px!important}
+.fx-xlarge{font-size:24px!important}
+.fx-xxlarge{font-size:36px!important}
+.fx-xxxlarge{font-size:48px!important}
+.fx-font-64{font-size:64px!important}
+
+
+/* Alignment */
 .fx-left-align{text-align:left!important}.fx-right-align{text-align:right!important}.fx-justify{text-align:justify!important}.fx-center{text-align:center!important}
 .fx-border-0{border:0!important}.fx-border{border:1px solid #ccc!important}
 .fx-border-top{border-top:1px solid #ccc!important}.fx-border-bottom{border-bottom:1px solid #ccc!important}
@@ -153,13 +166,20 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-padding-lr-40{padding:0px 40px!important}
 .fx-padding-lr-200{padding:0px 200px!important}
 
-.fx-padding-16{padding-top:16px!important;padding-bottom:16px!important}.fx-padding-24{padding-top:24px!important;padding-bottom:24px!important}
-.fx-padding-32{padding-top:32px!important;padding-bottom:32px!important}.fx-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.fx-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.fx-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.fx-padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.fx-padding-48{padding-top:48px!important;padding-bottom:48px!important}
 .fx-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.fx-padding-top-8{padding-top:8px!important}
+.fx-padding-top-16{padding-top:16px!important}
 .fx-padding-top-64{padding-top:64px!important}
 .fx-padding-top-48{padding-top:48px!important}
 .fx-padding-top-80{padding-top:80px!important}
+.fx-padding-bottom-24{padding-bottom:24px!important}
+.fx-padding-bottom-48{padding-bottom:48px!important}  
 .fx-padding-bottom-64{padding-bottom:64px!important} 
+.fx-padding-bottom-100{padding-bottom:100px!important} 
 .fx-padding-top-32{padding-top:32px!important}.fx-padding-top-24{padding-top:24px!important}
 .fx-left{float:left!important}.fx-right{float:right!important}
 .fx-button:hover{color:#000!important;background-color:#ccc!important}
@@ -224,6 +244,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-text-grey,.fx-hover-text-grey:hover,.fx-text-gray,.fx-hover-text-gray:hover{color:#757575!important}
 .fx-text-light-grey,.fx-hover-text-light-grey:hover,.fx-text-light-gray,.fx-hover-text-light-gray:hover{color:#f1f1f1!important}
 .fx-text-dark-grey,.fx-hover-text-dark-grey:hover,.fx-text-dark-gray,.fx-hover-text-dark-gray:hover{color:#3a3a3a!important}
+
+/* Borders */
 .fx-border-amber,.fx-hover-border-amber:hover{border-color:#ffc107!important}
 .fx-border-aqua,.fx-hover-border-aqua:hover{border-color:#00ffff!important}
 .fx-border-blue,.fx-hover-border-blue:hover{border-color:#2196F3!important}
