@@ -139,7 +139,7 @@
             /* borders */
             .m-border--none {border: none !important;}
             /* fonts */
-            .m-text--h1 {}
+            .m-text--h1 {font-size: 32px !important; padding-bottom: 10px !important;}
             .m-text--h2 {}
             .m-text--h3 {}
             .m-text--h4 {}
@@ -160,7 +160,34 @@
             
         }
     </style>
-
+   <!-- ## Dark Mode Style ## -->
+   <style>
+    /* Global */
+    @media (prefers-color-scheme: dark) {
+        /* backgrounds */
+        .dm-background--222222 {background-color: #222222 !important;}
+        /* colors */
+        .dm-color--1A1A1A {color: #1A1A1A !important;}
+        .dm-color--fafafa {color: #fafafa !important;}
+        /* borders */
+        .dm-border--1A1A1A {border-color: #1A1A1A !important;}
+        /* images - show in dark mode */
+        .dm--image {display: block !important;}
+        /* images - hide in light mode */
+        .lm--image {display: none; display: none !important;}
+    }
+    /* Outlook App (Android) */
+    /* backgrounds */
+    [data-ogsc] .dm-background--222222 {background-color: #222222 !important;}
+    /* colors */
+    [data-ogsc] .dm-color--1A1A1A {color: #1A1A1A !important;}
+    /* borders */
+    [data-ogsc] .dm-border--1A1A1A {border-color: #1A1A1A !important;}
+    /* images - show in dark mode */
+    [data-ogsc] .dm--image {display: block !important;}
+    /* images - hide in light mode */
+    [data-ogsc] .lm--image {display: none; display: none !important;}
+</style>
 
 </head>
 
@@ -183,7 +210,7 @@
                 <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; padding-top: 20px; padding-bottom: 20px;">
 
                     <!-- ## START: Email Container - 600px ## -->
-                    <table class="m-width--100p m-float--center" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px; max-width: 600px; margin:0px auto; background-color:#faf6f2;">
+                    <table class="m-width--100p m-float--center dm-background--222222" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:600px; max-width: 600px; margin:0px auto; background-color:#faf6f2;">
 
                         <!-- ## START: Header Modules Container ## -->
                         <tr>
@@ -294,7 +321,7 @@
                                   <!-- ## START: MODULE - Text List (unordered/ordered) ## -->
                                   <tr>
                                     <!-- vertical spacing from prior module -->
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; mso-line-height-rule: exactly;">
+                                    <th class="m-pad-t--40" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
                                         <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
                                             <tr>
                                                 <!-- horizontal spacing/background color -->
@@ -302,7 +329,7 @@
                                                     <!-- bullet list (unordered) -->
                                                     <ul align="left" type="disc" style="padding: 0px; margin: 0px; margin-left: 15px; font-family: 'Courier New', Courier, monospace;">
                                                         <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; font-size: 14px; font-weight: normal; font-weight: 400; color: #0071BC; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
-                                                            <span class="m-text--list dm-color--fafafa" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Automation and Efficiency: </strong> AI can automate repetitive and time-consuming tasks, such as data entry, customer support, and manufacturing processes.</span>
+                                                            <span class="m-text--list dm-color--fafafa" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Automation and Efficiency: </strong> AI can automate repetitive and time-consuming tasks, such as data entry, customer support, and manufacturing processes.
                                                         </li>
                                                         <li class="m-text--marker" style="list-style-type: disc; padding: 0px; padding-left: 10px; margin: 0px; margin-top: 20px; font-size: 14px; font-weight: normal; font-weight: 400; color: #0071BC; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">
                                                             <span class="m-text--list dm-color--fafafa" style="color: #041727; font-size: 14px; font-weight: normal; font-weight: 400; mso-line-height-alt: 20px; line-height: 1.4;"><strong>Enhanced Customer Experience:: </strong>  AI-powered chatbots and virtual assistants can provide 24/7 customer support and quickly resolve customer queries.</span>
@@ -319,6 +346,7 @@
                                     </th>
                                   </tr>
                                   <!-- ## END: MODULE - Text List (unordered/ordered) ## -->
+                                  
 
                                   
                                        <!-- ## START: MODULE - Text (h1/paragraph) ## -->
@@ -343,73 +371,19 @@
 
                                
              
-
+         <!-- button -->
+         <tr>
+            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 40px; mso-line-height-rule: exactly;">
+                <table class="m-float--center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px auto;">
+                    <tr>
+                        <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 16px 40px; mso-line-height-rule: exactly; background: #0071BC; font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: normal; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 20px; line-height: 1.0; letter-spacing: normal; text-align: center; border: 0px solid transparent; border-radius: 5px;"><a href="#" target="_blank" style="text-decoration: none; color: #FFFFFF;" name="LearnMore_button">LEARN MORE</a>
+                        </th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
       
-                                  
-                                  <!-- ## START: MODULE - Scurve 2up (image/title/text/button) ## -->
-                                  <tr>
-                                    <!-- vertical spacing from prior module -->
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px 20px; padding-top: 35px; mso-line-height-rule: exactly;">
-                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                            <tr>
-                                                <!-- horizontal spacing/background color -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                                        <!-- row 1 (image/text) -->
-                                                        <tr>
-                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; direction: ltr;">
-                                                                <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                                                    <tr>
-                                                                        <!-- col 1 -->
-                                                                        <th class="m--stack" width="200" align="center" border="0" style="width: 200px; padding: 0px; padding-left: 10px; mso-line-height-rule: exactly; vertical-align: middle;">
-                                                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                                                                <!-- image -->
-                                                                                <tr>
-                                                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://raw.githubusercontent.com/JFELIXZAVALA/Felixzavala/gh-pages/img/retrocompu.jpg" border="0" style="display:block; margin:0px auto; max-width:400px !important;" width="250" height="" alt="AltTextHere"></a>
-                                                                                    </th>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </th>
-                                                                        <!-- spacer -->
-                                                                        <th class="m--hide" width="20" align="center" border="0" style="width:20px; padding:0px 0px 0px 0px; text-align:center; vertical-align: middle;">&nbsp;</th>
-                                                                        <!-- col 2 -->
-                                                                        <th class="m--stack m-pad-t--20" width="300" align="center" border="0" style="width: 300px; padding: 0px; mso-line-height-rule: exactly; vertical-align: middle; direction: ltr;">
-                                                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                                                                <!-- text -->
-                                                                                <tr>
-                                                                                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                                                                        <!-- paragraph/h3/paragraph -->
-                                                                                        <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0; font-family: 'Courier New', Courier, monospace; font-size: 12px; font-weight: bold; font-weight: 700; color: #0071BC; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">RETAIL INDUSTRY</p>
-                                                                                        <h3 class="m-text--h3 m-textAlign--center dm-color--fafafa" style="padding: 0px; margin: 0; margin-top: 5px; font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: bold; font-weight: 700; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">Blossoming Sakura Clothier
-                                                                                        </h3>
-                                                                                        <p class="m-text--p m-textAlign--center dm-color--fafafa" style="padding: 0px; padding-right: 25px; margin: 0; margin-top: 10px; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">After integration, our client in increased revenue and enhanced competitiveness.</p>
-                                                                                    </th>
-                                                                                </tr>
-                                                                                <!-- button -->
-                                                                                <tr>
-                                                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
-                                                                                        <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0px auto;">
-                                                                                            <tr>
-                                                                                                <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 12px; padding-right: 22px; padding-bottom: 12px; padding-left: 22px; mso-line-height-rule: exactly; background: #0071BC; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: normal; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border: 0px solid transparent; border-radius: 5px;"><a href="#" target="_blank" style="text-decoration: none; color: #FFFFFF;" name="ButtonName_button" alias="ButtonName_button">LEARN MORE</a>
-                                                                                                </th>
-                                                                                            </tr>
-                                                                                        </table>
-                                                                                    </th>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </th>
-                                                                    </tr>
-                                                                </table>
-                                                            </th>
-                                                        </tr>
-                                                   
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                        </table>
-                                    </th>
-                                  </tr>
-                                  <!-- ## END: MODULE - Scurve 2up (image/title/text/button) ## -->
+                                 
                                   <!-- ## START: MODULE - Text (h1/paragraph) ## -->
                                   <tr>
                                     <!-- vertical spacing from prior module -->
@@ -420,8 +394,8 @@
                                                 <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
                                                     <!-- h1/paragraph/h3 -->
                                                 
-                                                    <p class="m-text--p dm-color--fafafa" style="padding: 0px;; margin: 0; margin-top: 10px; font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">Have a question? Find us on the information super highway at HTTPS://WWW.ARASAKACOMPANY.COM</p>
-                                                
+                                                    <p class="m-text--p dm-color--fafafa" style="padding: 0px;; margin: 0; margin-top: 10px; font-family: 'Courier New', Courier, monospace; font-size: 16px; font-weight: normal; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">Have a question? We have answers. Find us online on the information super highway at <strong>ARASAKACOMPANY.COM</strong></p>
+                                                  
                                                 </th>
                                             </tr>
                                         </table>
