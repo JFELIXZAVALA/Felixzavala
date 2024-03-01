@@ -136,6 +136,43 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-greyscale,.fx-grayscale{filter:grayscale(75%)}.fx-greyscale-min,.fx-grayscale-min{filter:grayscale(50%)}
 .fx-sepia{filter:sepia(75%)}.fx-sepia-max,.fx-hover-sepia:hover{filter:sepia(100%)}.fx-sepia-min{filter:sepia(50%)}
 
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+  }
+  .divider-custom .divider-custom-line:first-child {
+    margin-right: 1rem;
+  }
+  .divider-custom .divider-custom-line:last-child {
+    margin-left: 1rem;
+  }
+  .divider-custom .divider-custom-icon {
+    color: #000000;
+    font-size: 3.25rem;
+  }
+  .divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+  }
+  .divider-custom.divider-light .divider-custom-icon {
+    color: #fff;
+  }
+  
+  .btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+  }
+
 /* Font Sizes */
 .fx-tiny{font-size:10px!important}
 .fx-small{font-size:12px!important}
