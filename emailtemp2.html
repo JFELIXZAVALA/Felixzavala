@@ -1,1325 +1,581 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en" style="color-scheme: light dark; supported-color-schemes: light dark;" class="dm-background--222222">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- ## Global: Proper Character Display ## -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- ## Outlook: Render Using Better MS Engine ## -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ## Global: Initial Email Scale ## -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if !mso]><!-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <!--<![endif]-->
-    <title>Game Store</title>
-    <!--[if mso]>
+    <!-- ## Global: Prevent Blue Links and Autolinking ## -->
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <!-- ## Apple: Prevent Reformatting and Zooming ## -->
+    <meta name="x-apple-disable-message-reformatting">
+
+    <!-- ## Global: Dark Mode ## -->
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
     <style>
-      body,html,th,a,span {
-      font-family:Arial,sans-serif !important;
-      }
-      .outlookbg {
-      background-color:#000000 !important;
-      }
+        :root {color-scheme: light dark; supported-color-schemes: light dark;}
     </style>
+
+    <!-- ## Assistive Technology and Browser Tabs ## -->
+    <title>Gamestore Warehouse</title>
+
+    <!-- ## Framework Version: v[YYYYMMDD.1-bi] ## -->
+    <!-- ## Modular Template Version: v[YYYYMMDD.1-bi] ## -->
+    <!-- ## Email Build Version [edit]: v[YYYYMMDD.1-bi] ## -->
+
+    <!-- ## Fonts ## -->
+    <!-- link: loads as code loads (preferred); import: loads after page loads -->
+    <!--[if !mso]><!-->
+        <!-- Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <!-- Roboto (100,300,400,500,700,900) -->
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- Typekit 1: Sofia Pro (300,400,500,600,700) -->
+        <link href="https://use.typekit.net/dos7trz.css" rel="stylesheet">
+        <!-- Typekit 2: Proxima Nova (300,500,700); Museo Sans (700) -->
+        <style>
+            @import url('https://use.typekit.net/mfu8ybq.css');
+        </style>
+    <!--<![endif]-->
+
+    <!-- ## Desktop Global Style ## -->
+    <style>
+        /* Box Sizing Resets */
+        html * {box-sizing: border-box;}
+        *, *::before, *::after {box-sizing: inherit;}
+        /* Default Resets */
+        html, body {height: 100%; margin: 0px auto; padding: 0px; width: 100%; min-width: 100%; font-family: "Roboto", Arial, sans-serif; background: #FFFFFF;}
+        body, table, td, th, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-family: "[YYYYMMDD.1-bi]", Arial, sans-serif;}
+        th {font-weight: normal; padding: 0px; display: table-cell;}
+        p {margin-top: 0px; margin-bottom: 0px;}
+        sup {line-height: 0; font-size: 70%;}
+        img {border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+        /* Outlook/Hotmail Resets */
+        #outlook a {padding: 0px;}
+        .ReadMsgBody {width: 100%;}
+        .ExternalClass {width: 100%;}
+        .ExternalClass, .ExternalClass span, .ExternalClass td, .ExternalClass th, .ExternalClass div {line-height: 100%;}
+        /* Outlook Container Resets */
+        table, td, th {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        /* Apple Link Resets */
+        a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+        /* Gmail Link Resets */
+        u + #body a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
+        /* Samsung Link Resets */
+        #MessageViewBody a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
+        /* Links and Hovers */
+        a, a:link, a:active, a:visited {color: #1A1A1A; text-decoration: none; padding: 0px;}
+        a:hover, a:link:hover, a:active:hover, a:visited:hover {color: #1A1A1A; text-decoration: none; padding: 0px;}
+        a img, a:visited img, a:link img {border: 0px; text-decoration: none; padding: 0px;}
+        /* Hovers (custom) */
+        .hoverLink1 a:hover, .hoverLink1 a:active:hover, .hoverLink1 a:visited:hover {color: #EF496D !important;}
+        .hoverButton1:hover {background: #EF496D !important;}
+    </style>
+
+    <!-- ## Gmail Specific ## -->
+    <style type="text/css" data-embed="">
+        @media only screen and (max-width: 600px) {
+            /* Gmail full width body fix */
+            #gbt_container {transform: none !important;}
+            #gbt_innerContainer {margin: 0px auto !important;}
+            u + #body {width: 100vw !important; max-width: 100% !important;}
+        }
+    </style>
+    <style type="text/css" data-embed="">
+        .gmailFix {display: none; display: none !important;}
+    </style>
+
+    <!-- ## Outlook Specific ## -->
+    <!--[if mso]>
+        <style>
+            table, th, td, h1, h2, h3, h4, h5, h6, p, span, strong, b, em, i, a, sup, ul, ol, li {font-family: Arial, sans-serif !important; mso-hyphenate: none !important;}
+            sup {font-size: 100% !important;}
+            ul, ol {margin-left: -24px !important;}
+            table, tr, th {border-collapse: collapse;}
+            tr {font-size: 0px; line-height: 0px; border-collapse: collapse;}
+            /* custom */
+            .outlook-textDecoration--underline {text-decoration: underline !important;}
+            .outlook-FontSize--14 {font-size: 14px !important;}
+        </style>
     <![endif]-->
-    <!--[if gte mso 9]>
-    <xml>
-      <o:OfficeDocumentSettings>
-        <o:AllowPNG />
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-      </o:OfficeDocumentSettings>
-    </xml>
-    <![endif]-->
 
-    <style type="text/css">
-        html {
-            box-sizing: border-box;
-        }
-
-        *,
-        ::before,
-        ::after {
-            box-sizing: inherit;
-        }
-
-        html {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        body,
-        html {
-            height: 100%;
-            margin: 0 auto;
-            padding: 0;
-            width: 100%;
-            min-width: 100%;
-            background-color: #464646;
-        }
-
-        #outlook a {
-            padding: 0;
-        }
-
-        .ReadMsgBody {
-            width: 100%;
-        }
-
-        .mcnPreviewText {
-            display: none !important;
-        }
-
-        .ExternalClass {
-            width: 100%;
-        }
-
-        .ExternalClass,
-        .ExternalClass span,
-        .ExternalClass td,
-        .ExternalClass th,
-        .ExternalClass div {
-            line-height: 100%;
-        }
-
-        body,
-        table,
-        td,
-        th,
-        a {
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            -webkit-font-smoothing: antialiased;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        th {
-            font-weight: normal;
-            display: table-cell;
-        }
-
-        body {
-            height: 100% !important;
-            margin: 0 auto !important;
-            padding: 0 !important;
-            width: 100% !important;
-            min-width: 100% !important;
-            background: #464646 !important;
-        }
-
-        body,
-        table,
-        td,
-        a {
-            text-size-adjust: 100%;
-            font-smoothing: antialiased;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        a,
-        a:link,
-        a:active,
-        a:visited {
-            color: #ffffff;
-            text-decoration: underline;
-            padding: 0;
-        }
-
-        a:hover,
-        a:link:hover,
-        a:active:hover,
-        a:visited:hover {
-            color: #ffffff;
-            text-decoration: underline;
-            padding: 0;
-        }
-
-        a img,
-        a:visited img,
-        a:link img {
-            border: 0;
-            text-decoration: none;
-            padding: 0;
-        }
-
-        table,
-        td,
-        th {
-            mso-table-lspace: 0;
-            mso-table-rspace: 0;
-        }
-
-        img {
-            border: 0;
-            height: auto;
-            line-height: 100%;
-            outline: none;
-            text-decoration: none;
-        }
-
-        p {
-            margin-top: 0 !important;
-            margin-bottom: 1em;
-        }
-
-        .applelinks a {
-            color: #4c4c4c !important;
-            text-decoration: none !important;
-        }
-
-        a.mobilenav,
-        a:hover.mobilenav,
-        a:visited.mobilenav {
-            font-size: 18px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            color: #4c4c4c;
-            padding-top: 26px;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding-bottom: 26px;
-            border-bottom: 1px solid #cfd5d2;
-            text-decoration: none;
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mobile {
-                width: 100% !important;
-                max-width: 100% !important;
-                min-width: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .nopadd {
-                padding: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mobileoverlay {
-                width: 80% !important;
-                padding: 0 10% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .centered {
-                text-align: center !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .bgspacer {
-                height: 325px !important;
-                line-height: 325px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .hide {
-                display: none !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logo {
-                width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logo img {
-                width: 150px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logoFooter img {
-                width: 40% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .padbottom {
-                padding-bottom: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .show {
-                display: block !important;
-                max-height: none !important;
-                overflow: visible !important;
-                line-height: normal !important;
-                visibility: visible !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .navfont {
-                font-size: 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .headline {
-                font-size: 36px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .subheadline {
-                font-size: 32px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .hero img {
-                width: 100% !important;
-                height: auto !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stackpadd {
-                padding-top: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack_toppad {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-                padding-top: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack_toppad img {
-                width: 100% !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack img {
-                width: 100% !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stacklinks1 {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-                border-right: 0 !important;
-                border-bottom: 1px solid #ffffff !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stacklinks2 {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .footerlinks {
-                font-size: 18px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .connect {
-                font-size: 18px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .applelinks {
-                font-size: 16px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mfont {
-                font-size: 12px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .btnFont {
-                font-size: 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .nopadd {
-                padding: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .width40 {
-                width: 40% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .width60 {
-                width: 60% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .paddRight {
-                padding-right: 20px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .dealerContainer {
-                padding: 50px 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mright {
-                margin: 0 0 0 auto !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .dealertxt {
-                font-size: 16px !important;
-                text-align: center !important;
-                font-weight: 400 !important;
-                line-height: 1.5 !important;
-                padding-bottom: 24px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .m-pad-lr--20 {
-                padding-left: 20px !important;
-                padding-right: 20px !important;
-            }
-
-        }
-
-        html {
-            box-sizing: border-box;
-        }
-
-        *,
-        ::before,
-        ::after {
-            box-sizing: inherit;
-        }
-
-        html {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        body,
-        html {
-            height: 100%;
-            margin: 0 auto;
-            padding: 0;
-            width: 100%;
-            min-width: 100%;
-            background-color: #464646;
-        }
-
-        #outlook a {
-            padding: 0;
-        }
-
-        .ReadMsgBody {
-            width: 100%;
-        }
-
-        .mcnPreviewText {
-            display: none !important;
-        }
-
-        .ExternalClass {
-            width: 100%;
-        }
-
-        .ExternalClass,
-        .ExternalClass span,
-        .ExternalClass td,
-        .ExternalClass th,
-        .ExternalClass div {
-            line-height: 100%;
-        }
-
-        body,
-        table,
-        td,
-        th,
-        a {
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            -webkit-font-smoothing: antialiased;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        th {
-            font-weight: normal;
-            display: table-cell;
-        }
-
-        body {
-            height: 100% !important;
-            margin: 0 auto !important;
-            padding: 0 !important;
-            width: 100% !important;
-            min-width: 100% !important;
-            background: #464646 !important;
-        }
-
-        body,
-        table,
-        td,
-        a {
-            text-size-adjust: 100%;
-            font-smoothing: antialiased;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        a,
-        a:link,
-        a:active,
-        a:visited {
-            color: #ffffff;
-            text-decoration: underline;
-            padding: 0;
-        }
-
-        a:hover,
-        a:link:hover,
-        a:active:hover,
-        a:visited:hover {
-            color: #ffffff;
-            text-decoration: underline;
-            padding: 0;
-        }
-
-        a img,
-        a:visited img,
-        a:link img {
-            border: 0;
-            text-decoration: none;
-            padding: 0;
-        }
-
-        table,
-        td,
-        th {
-            mso-table-lspace: 0;
-            mso-table-rspace: 0;
-        }
-
-        img {
-            border: 0;
-            height: auto;
-            line-height: 100%;
-            outline: none;
-            text-decoration: none;
-        }
-
-        p {
-            margin-top: 0 !important;
-            margin-bottom: 1em;
-        }
-
-        .applelinks a {
-            color: #4c4c4c !important;
-            text-decoration: none !important;
-        }
-
-        a.mobilenav,
-        a:hover.mobilenav,
-        a:visited.mobilenav {
-            font-size: 18px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            color: #4c4c4c;
-            padding-top: 26px;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding-bottom: 26px;
-            border-bottom: 1px solid #cfd5d2;
-            text-decoration: none;
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mobile {
-                width: 100% !important;
-                max-width: 100% !important;
-                min-width: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .nopadd {
-                padding: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mobileoverlay {
-                width: 80% !important;
-                padding: 0 10% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .centered {
-                text-align: center !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .bgspacer {
-                height: 325px !important;
-                line-height: 325px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .hide {
-                display: none !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logo {
-                width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logo img {
-                width: 150px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .logoFooter img {
-                width: 40% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .padbottom {
-                padding-bottom: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .show {
-                display: block !important;
-                max-height: none !important;
-                overflow: visible !important;
-                line-height: normal !important;
-                visibility: visible !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .navfont {
-                font-size: 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .headline {
-                font-size: 36px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .subheadline {
-                font-size: 32px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .hero img {
-                width: 100% !important;
-                height: auto !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stackpadd {
-                padding-top: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack_toppad {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-                padding-top: 40px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack_toppad img {
-                width: 100% !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stack img {
-                width: 100% !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stacklinks1 {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-                border-right: 0 !important;
-                border-bottom: 1px solid #ffffff !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .stacklinks2 {
-                width: 100% !important;
-                display: block !important;
-                max-width: 100% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .footerlinks {
-                font-size: 18px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .connect {
-                font-size: 18px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .applelinks {
-                font-size: 16px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mfont {
-                font-size: 12px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .btnFont {
-                font-size: 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .nopadd {
-                padding: 0 !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .width40 {
-                width: 40% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .width60 {
-                width: 60% !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .paddRight {
-                padding-right: 20px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .dealerContainer {
-                padding: 50px 14px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .mright {
-                margin: 0 0 0 auto !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .dealertxt {
-                font-size: 16px !important;
-                text-align: center !important;
-                font-weight: 400 !important;
-                line-height: 1.5 !important;
-                padding-bottom: 24px !important;
-            }
-
-        }
-
-        @media only screen and (max-width: 640px) {
-            .m-pad-lr--20 {
-                padding-left: 20px !important;
-                padding-right: 20px !important;
-            }
-
-        }
-
-        .gmailfix {
-            display: none !important;
-        }
-
-
-        < !-- ## Mobile Style (600) ## --><style>@media only screen and (max-width: 600px) {
-
+    <!-- ## Outlook Image Scaling ## -->
+    <!--[if gte mso 9]><xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+
+    <!-- ## Mobile Style (600) ## -->
+    <style>
+        @media only screen and (max-width: 600px) {
             /* visibility */
-            .m--hide {
-                display: none !important;
-                line-height: 0px !important;
-            }
-
-            .m--show {
-                max-height: none !important;
-                width: 100% !important;
-                display: inline !important;
-            }
-
+            .m--hide {display: none !important; line-height: 0px !important;}
+            .m--show {max-height: none !important; width: 100% !important; display: inline !important;}
             /* positioning */
-            .m--stack {
-                width: 100% !important;
-                display: block !important;
-                min-width: 0px !important;
-                max-width: 100% !important;
-                clear: both !important;
-            }
-
-            .m-display--block {
-                display: block !important;
-            }
-
+            .m--stack {width: 100% !important; display: block !important; min-width: 0px !important; max-width: 100% !important; clear: both !important;}
+            .m-display--block {display: block !important;}
             /* widths */
-            .m-width--auto {
-                width: auto !important;
-            }
-
-            .m-width--100p {
-                width: 100% !important;
-            }
-
-            .m-width--20 {
-                width: 20px !important;
-            }
-
+            .m-width--auto {width: auto !important;}
+            .m-width--100p {width: 100% !important;}
+            .m-width--20 {width: 20px !important;}
             /* heights */
-            .m-height--auto {
-                height: auto !important;
-            }
-
+            .m-height--auto {height: auto !important;}
             /* padding */
-            .m-pad--0 {
-                padding: 0px !important;
-            }
-
-            .m-pad-tb--0 {
-                padding-top: 0px !important;
-                padding-bottom: 0px !important;
-            }
-
-            .m-pad-lr--0 {
-                padding-left: 0px !important;
-                padding-right: 0px !important;
-            }
-
-            .m-pad-t--0 {
-                padding-top: 0px !important;
-            }
-
-            .m-pad-t--5 {
-                padding-top: 5px !important;
-            }
-
-            .m-pad-t--10 {
-                padding-top: 10px !important;
-            }
-
-            .m-pad-t--15 {
-                padding-top: 15px !important;
-            }
-
-            .m-pad-t--20 {
-                padding-top: 20px !important;
-            }
-
-            .m-pad-t--40 {
-                padding-top: 40px !important;
-            }
-
-            .m-pad-b--0 {
-                padding-bottom: 0px !important;
-            }
-
-            .m-pad-b--40 {
-                padding-bottom: 40px !important;
-            }
-
-            .m-pad-lr--20 {
-                padding-left: 20px !important;
-                padding-right: 20px !important;
-            }
-
+            .m-pad--0 {padding: 0px !important;}
+            .m-pad-tb--0 {padding-top: 0px !important; padding-bottom: 0px !important;}
+            .m-pad-lr--0 {padding-left: 0px !important; padding-right: 0px !important;}
+            .m-pad-t--0 {padding-top: 0px !important;}
+            .m-pad-t--5 {padding-top: 5px !important;}
+            .m-pad-t--10 {padding-top: 10px !important;}
+            .m-pad-t--15 {padding-top: 15px !important;}
+            .m-pad-t--20 {padding-top: 20px !important;}
+            .m-pad-t--40 {padding-top: 40px !important;}
+            .m-pad-b--0 {padding-bottom: 0px !important;}
+            .m-pad-b--40 {padding-bottom: 40px !important;}
+            .m-pad-lr--20 {padding-left: 20px !important; padding-right: 20px !important;}
             /* horizontal alignment - tables */
-            .m-float--left {
-                float: left !important;
-            }
-
-            .m-float--center {
-                float: inherit !important;
-            }
-
-            .m-float--right {
-                float: right !important;
-            }
-
+            .m-float--left {float: left !important;}
+            .m-float--center {float: inherit !important;}
+            .m-float--right {float: right !important;}
             /* horizontal alignment - cells */
-            .m-textAlign--left {
-                text-align: left !important;
-            }
-
-            .m-textAlign--center {
-                text-align: center !important;
-            }
-
-            .m-textAlign--right {
-                text-align: right !important;
-            }
-
+            .m-textAlign--left {text-align: left !important;}
+            .m-textAlign--center {text-align: center !important;}
+            .m-textAlign--right {text-align: right !important;}
             /* margins */
-            .m-margin--0-auto {
-                margin: 0px auto !important;
-            }
-
-            .m-margin-r--0 {
-                margin-right: 0px !important;
-            }
-
+            .m-margin--0-auto {margin: 0px auto !important;}
+            .m-margin-r--0 {margin-right: 0px !important;}
             /* borders */
-            .m-border--none {
-                border: none !important;
-            }
-
+            .m-border--none {border: none !important;}
             /* fonts */
             .m-text--header {}
-
             .m-text--h1 {}
-
             .m-text--h2 {}
-
             .m-text--h3 {}
-
             .m-text--h4 {}
-
             .m-text--h5 {}
-
             .m-text--h6 {}
-
             .m-text--p {}
-
             .m-text--eyebrow {}
-
             .m-text--link {}
-
             .m-text--button {}
-
             .m-text--list {}
-
             .m-text--marker {}
-
             .m-text--footer {}
-
-            .m-fontSize--16 {
-                font-size: 16px !important;
-            }
-
-            .m-lineHeight--1-0 {
-                line-height: 1.0 !important;
-            }
-
+            .m-fontSize--16 {font-size: 16px !important;}
+            .m-lineHeight--1-0 {line-height: 1.0 !important;}
             /* backgrounds */
-            .m-background--container {
-                width: 100vw !important;
-                height: auto !important;
-                background-size: 100% !important;
-                background-position: top center !important;
-                background-color: #FFFFFF !important;
-            }
-
-            .m-background--overlay {
-                height: auto !important;
-                display: block !important;
-                margin-top: 67vw !important;
-            }
-
-            /* margin-top = (height/width)*100, round up */
-            .m-background--overlay-55 {
-                height: auto !important;
-                display: block !important;
-                margin-top: 55vw !important;
-            }
-
+            .m-background--container {width: 100vw !important; height: auto !important; background-size: 100% !important; background-position: top center !important; background-color: #FFFFFF !important;}
+            .m-background--overlay {height: auto !important; display: block !important; margin-top: 67vw !important;} /* margin-top = (height/width)*100, round up */
+            .m-background--overlay-55 {height: auto !important; display: block !important; margin-top: 55vw !important;}
             /* additional helpers */
-
+            
         }
     </style>
+
+    <!-- ## Dark Mode Style ## -->
+    <style>
+        /* Global */
+        @media (prefers-color-scheme: dark) {
+            /* backgrounds */
+            .dm-background--222222 {background-color: #222222 !important;}
+            /* colors */
+            .dm-color--1A1A1A {color: #1A1A1A !important;}
+            .dm-color--FFFFFF {color: #FFFFFF !important;}
+            /* borders */
+            .dm-border--1A1A1A {border-color: #1A1A1A !important;}
+            /* images - show in dark mode */
+            .dm--image {display: block !important;}
+            /* images - hide in light mode */
+            .lm--image {display: none; display: none !important;}
+        }
+        /* Outlook App (Android) */
+        /* backgrounds */
+        [data-ogsc] .dm-background--222222 {background-color: #222222 !important;}
+        /* colors */
+        [data-ogsc] .dm-color--1A1A1A {color: #1A1A1A !important;}
+        [data-ogsc] .dm-color--FFFFFF {color: #FFFFFF !important;}
+        /* borders */
+        [data-ogsc] .dm-border--1A1A1A {border-color: #1A1A1A !important;}
+        /* images - show in dark mode */
+        [data-ogsc] .dm--image {display: block !important;}
+        /* images - hide in light mode */
+        [data-ogsc] .lm--image {display: none; display: none !important;}
     </style>
+
 </head>
 
-<body style="width:100%; padding:0px; margin:0px;">
-    <!-- HIDDEN PREHEADER TEXT - MUST UPDATE -->
-    <!--*|IF:MC_PREVIEW_TEXT|*-->
+<body id="body" class="dm-background--222222" style="width: 100%; padding: 0px; margin: 0px auto;">
+
+    <!-- ## START: Preheader (hidden) ## -->
+    <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">The Gamestore!</div>
     <!--[if !mso]><!-->
-    <div class="hide mcnPreviewText" style="display:none !important;overflow:hidden !important;float:left;width:0px !important;max-height:0px !important;line-height:0px !important;visibility:hidden !important;mso-hide:all!important;">*|MC_PREVIEW_TEXT|*</div>
-    <div style="display:none;max-height:0px;overflow:hidden;">
-         ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌</div>
+    <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
     <!--<![endif]-->
-    <!--*|END:IF|*-->
-    <!--********* END HIDDEN PREHEADER *********-->
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <!-- ## END: Preheader (hidden) ## -->
 
-        <tr>
-            <th align="center" bgcolor="#464646" class="nopadd" style="">
-                <!-- email frame 640px wide -->
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:640px;max-width:640px;" width="640">
+    <!-- ## START: Accessible Article ## -->
+    <div role="article" aria-roledescription="email" aria-label="SubjectLineHere" lang="en" style="font-size: 1rem;">
 
-                    <!-- ## START: MODULE - Header 1 (eyebrow/view online/logo) ## -->
-                    <tr>
-                        <!-- vertical spacing from prior module -->
-                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 10px 0px; mso-line-height-rule: exactly; background-color: #000000;">
-                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-                                <tr>
-                                    <!-- horizontal spacing/background color/border -->
-                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; background-color: #000000; mso-line-height-rule: exactly;">
+        <!-- ## START: Email Wrapper ## -->
+        <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+            <tr>
+                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+
+                    <!-- ## START: Email Container - 640px ## -->
+                    <table class="m-width--100p m-float--center" width="640" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 640px; max-width: 640px; margin: 0px auto; float: none;">
+
+                        <!-- ## START: Header Modules Container ## -->
+                        <tr>
+                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+
+                                   <!-- ## START: MODULE - Header 1 (eyebrow/view online/logo) ## -->
+                                   <tr>
+                                    <!-- vertical spacing from prior module -->
+                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; background-color: #000000;">
                                         <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
-
-                                            <!-- logo -->
                                             <tr>
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank"><img class="m-width--100p" src="https://felixzavala.com/img/GameStoreLogo.png" border="0" style="display: block; margin: 0px auto; max-width: 180px; " width="160" height="" alt="Logo"></a>
-                                                </th>
-                                            </tr>
-                                        </table>
-                                    </th>
-                                </tr>
-
-                            </table>
-                        </th>
-                    </tr>
-                    <!-- ## END: MODULE - Header 1 (eyebrow/view online/logo) ## -->
-
-                    <!-- Start Main Body Here -->
-                    <tr>
-                        <th align="center" style="width:100%;background-color:#222222;" width="100%">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="border:none;mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;width:100%;" width="100%">
-                                <!-- START: Body content section -->
-                                <tr>
-                                    <th align="center" style="width:100%;background-color:#000000;" width="100%">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                            <tr>
-                                                <th align="center" width="100%" style="width:100%;">
-
-
-                                                    <!-- ## START: MODULE - Image (full-width) ## -->
-                                            <tr>
-                                                <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 0px; mso-line-height-rule: exactly;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <!-- horizontal spacing/background color/border -->
+                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                                        <!-- (view in browser) -->
                                                         <tr>
-                                                            <!-- horizontal spacing/background color -->
                                                             <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
                                                                 <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
-                                                                    <!-- image -->
                                                                     <tr>
-                                                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="hero_image"><img class="m-width--100p" src="https://felixzavala.com/img/PC_Accessories-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 640px;" width="640" height="" alt="AltTextHere"></a>
+                                                                   
+                                                                        <th class="m--stack m-textAlign--center m-pad-t--5" width="50%" align="center" border="0" style="width: 50%; padding: 0px; vertical-align: middle; mso-line-height-rule: exactly;">
+                                                                            <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 10px; font-weight: 400; color: #ffffff; mso-line-height-alt: 13px; line-height: 1.3; letter-spacing: normal; text-align: right;"><a class="" href="#SPCLICKTOVIEW" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #8E969E; text-decoration: none;" name="Header_ViewOnline_link" xt="SPCLICKTOVIEW">View in Browser&nbsp;&rsaquo;</a></p>
+                                                                         
                                                                         </th>
                                                                     </tr>
                                                                 </table>
                                                             </th>
                                                         </tr>
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                            <!-- ## END: MODULE - Image (full-width) ## -->
-                                            <!-- ## START: MODULE - Text (h1/paragraph) ## -->
-                                            <tr>
-                                                <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 60px; mso-line-height-rule: exactly;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                        <!-- logo -->
                                                         <tr>
-                                                            <!-- horizontal spacing/background color -->
-                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                                                <!-- h1/paragraph/h3 -->
-                                                                <h1 class="m-text--h1" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 32px; font-weight: 700; color: #ffffff; mso-line-height-alt: 32px; line-height: 1.0; letter-spacing: normal; text-align: center;">Epic <span style=" color: #04D9FF;">Loot Drops</span> Await You!</h1>
-                                                                <p class="m-text--p" style="padding: 10px 40px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: center;"> We have the PC gaming accessories you want at prices that you'll love.</p>
-
-
+                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Header_LogoName_image" alias="Header_LogoName_image"><img class="m-width--100p" src="https://felixzavala.com/img/GameStoreLogo.png" border="0" style="display: block; margin: 0px auto; max-width: 150px; " width="150" height="" alt="AltTextHere"></a>
                                                             </th>
                                                         </tr>
                                                     </table>
                                                 </th>
                                             </tr>
-                                            <!-- ## END: MODULE - Text (h1/paragraph) ## -->
+                                        </table>
+                                    </th>
+                                   </tr>
+                                   <!-- ## END: MODULE - Header 1 (eyebrow/view online/logo) ## -->
 
-                                            <!-- START: 2 col img with text -->
-                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
+                                </table>
+                            </th>
+                        </tr>
+                        <!-- ## END: Header Modules Container ## -->
 
+                        <!-- ## START: Body Modules Container ## -->
+                        <tr>
+                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; padding-bottom: 80px; mso-line-height-rule: exactly; background-color: #000000;">
+                                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+
+                                    <!-- ## START: MODULE - Image (full-width) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
                                                 <tr>
-                                                    <th align="center" style="width:100%;padding:10px 40px 40px 40px;" width="100%">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- image -->
                                                             <tr>
-                                                                <th align="center" class="stack" style="width:275px;" width="275">
-                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                                                        <tr>
-                                                                            <th align="center"><img border="0" height="275" src="https://felixzavala.com/img/gaming-headset-.jpg" width="275" style="display: block; max-width: 275px;" alt="3f62f6ca-ca41-444b-b2ff-49b4f07e2311.jpg">
-                                                                            </th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:24px;color:#ffffff;line-height:1.2;padding-top:20px;">
-                                                                                Pro
-                                                                                Gaming Headset<br>
-                                                                            </th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:400;font-size:16px;color:#ffffff;line-height:1.5;padding-top:20px;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:20px;color:#04D9FF;line-height:1.2;text-transform:uppercase;padding-top:20px;" mc:edit="2upcta_1">
-                                                                                <a href="#" name="textCTA_link_1" style="text-decoration:none;color:#04D9FF;" target="_blank">$39.99 USD › </a>
-                                                                            </th>
-                                                                        </tr>
-
-                                                                    </table>
-                                                                </th>
-                                                                <th align="center" class="hide" style="width:10px;" width="10"> </th>
-                                                                <th align="center" class="stack stackpadd" style="width:275px;" width="275">
-                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                                                        <tr>
-                                                                            <th align="center"><img border="0" height="275" src="https://felixzavala.com/img/RGB-Gaming-Headset-Stand-.jpg" width="275" style="display: block; max-width: 275px;" alt="59abbd87-5777-4645-8133-6b9b680b3ef9.jpg" mc:edit="2upimage_2">
-                                                                            </th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:24px;color:#ffffff;line-height:1.2;padding-top:20px;">
-
-                                                                                RGB Headset Stand</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:400;font-size:16px;color:#ffffff;line-height:1.5;padding-top:20px;" mc:edit="2upbody_2">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:20px;color:#04D9FF;line-height:1.2;text-transform:uppercase;padding-top:20px;" mc:edit="2upcta_2">
-                                                                                <a href="#" style="text-decoration:none;color:#04D9FF;" target="_blank">$14.99 USD  › </a>
-                                                                            </th>
-                                                                        </tr>
-
-                                                                    </table>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://felixzavala.com/img/PC_Accessories-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 640px;" width="640" height="" alt="AltTextHere"></a>
                                                                 </th>
                                                             </tr>
-
                                                         </table>
                                                     </th>
                                                 </tr>
-
                                             </table>
-                                            <!-- END: 2 col img with text -->
-                                            <!-- START: 2 col img with text -->
-                                            <table mc:variant="2-Up" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Image (full-width) ## -->
+                                    <!-- ## START: MODULE - Text (h1/paragraph) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
                                                 <tr>
-                                                    <th align="center" style="width:100%;padding:0 40px 40px 40px;" width="100%">
-                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 40px; mso-line-height-rule: exactly;">
+                                                        <!-- h1/paragraph/h3 -->
+                                                        <h1 class="m-text--h1" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 32px; font-weight: 700; color: #ffffff; mso-line-height-alt: 32px; line-height: 1.0; letter-spacing: normal; text-align: center;">Epic <span style=" color: #04D9FF;">Loot Drops</span> Await You!</h1>
+                                                        <p class="m-text--p" style="padding: 0px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: center;">We have the PC gaming accessories you want at prices that you'll love.</p>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Text (h1/paragraph) ## -->
+                                    <!-- ## START: MODULE - 2up (image/title/text/link/button) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px 34px; mso-line-height-rule: exactly;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- row 1 -->
                                                             <tr>
-                                                                <th align="center" class="stack" style="width:275px;" width="275">
-                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
+                                                                <!-- col 1 -->
+                                                                <th class="m--stack" width="275" align="center" border="0" style="width: 275px; padding: 0px; mso-line-height-rule: exactly; vertical-align: top;">
+                                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                                        <!-- image -->
                                                                         <tr>
-                                                                            <th align="center"><img border="0" height="275" src="https://felixzavala.com/img/gaming-mouse-.jpg" width="275" style="display: block; max-width: 275px;" alt="3f62f6ca-ca41-444b-b2ff-49b4f07e2311.jpg" mc:edit="2upimage_1">
+                                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://felixzavala.com/img/gaming-headset-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 550px;" width="275" height="" alt="AltTextHere"></a>
                                                                             </th>
                                                                         </tr>
+                                                                        <!-- text -->
                                                                         <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:24px;color:#ffffff;line-height:1.2;padding-top:20px;">
-                                                                                Wireless Gaming Mouse<br>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                                                <!-- paragraph/h3/paragraph -->
+                                                                                <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">$39.99 USD </p>
+                                                                                <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">Pro Gaming Headset</h3>
+                                                                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</p>
                                                                             </th>
                                                                         </tr>
+                                                                        <!-- link -->
                                                                         <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:400;font-size:16px;color:#ffffff;line-height:1.5;padding-top:20px;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:20px;color:#04D9FF;line-height:1.2;text-transform:uppercase;padding-top:20px;" mc:edit="2upcta_1">
-                                                                                <a href="#" name="textCTA_link_1" style="text-decoration:none;color:#04D9FF;" target="_blank">$29.99 USD › </a>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 15px; mso-line-height-rule: exactly;">
+                                                                                <!-- horizontal alignment -->
+                                                                                <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: left;">
+                                                                                    <tr>
+                                                                                        <th class="m-text--link" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 21px; line-height: 1.5; letter-spacing: normal; text-align: center; border-bottom: 2px solid #04D9FF;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #04D9FF; text-decoration: none;" name="LinkName_link" alias="LinkName_link">BUY NOW › </a>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                </table>
                                                                             </th>
                                                                         </tr>
-
+                                                                  
                                                                     </table>
                                                                 </th>
-                                                                <th align="center" class="hide" style="width:10px;" width="10"> </th>
-                                                                <th align="center" class="stack stackpadd" style="width:275px;" width="275">
-                                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
+                                                                <!-- spacer -->
+                                                                <th class="m--hide" width="20" align="center" border="0" style="width: 20px; padding: 0px 0px 0px; text-align: center; vertical-align: top;">&nbsp;</th>
+                                                                <!-- col 2 -->
+                                                                <th class="m--stack m-pad-t--40" width="275" align="center" border="0" style="width: 275px; padding: 0px; mso-line-height-rule: exactly; vertical-align: top;">
+                                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                                        <!-- image -->
                                                                         <tr>
-                                                                            <th align="center"><img border="0" height="275" src="https://felixzavala.com/img/RGB-Gaming-KB-.jpg" width="275" style="display: block; max-width: 275px;" alt="59abbd87-5777-4645-8133-6b9b680b3ef9.jpg" mc:edit="2upimage_2">
+                                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://felixzavala.com/img/RGB-Gaming-Headset-Stand-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 550px;" width="275" height="" alt="AltTextHere"></a>
                                                                             </th>
                                                                         </tr>
+                                                                        <!-- text -->
                                                                         <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:24px;color:#ffffff;line-height:1.2;padding-top:20px;">
-
-                                                                                RGB Gaming Keyboard</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:400;font-size:16px;color:#ffffff;line-height:1.5;padding-top:20px;" mc:edit="2upbody_2">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</th>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <th align="center" style="font-family:Roboto, sans-serif;width:100%;text-align:center;font-weight:700;font-size:20px;color:#04D9FF;line-height:1.2;text-transform:uppercase;padding-top:20px;" mc:edit="2upcta_2">
-                                                                                <a href="#" style="text-decoration:none;color:#04D9FF;" target="_blank">$49.99 USD  › </a>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                                                <!-- paragraph/h3/paragraph -->
+                                                                                <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">$14.99 USD</p>
+                                                                                <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;"> RGB Headset Stand</h3>
+                                                                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</p>
                                                                             </th>
                                                                         </tr>
-
+                                                                        <!-- link -->
+                                                                        <tr>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 15px; mso-line-height-rule: exactly;">
+                                                                                <!-- horizontal alignment -->
+                                                                                <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: left;">
+                                                                                    <tr>
+                                                                                        <th class="m-text--link" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 21px; line-height: 1.5; letter-spacing: normal; text-align: center; border-bottom: 2px solid #04D9FF;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #04D9FF; text-decoration: none;" name="LinkName_link" alias="LinkName_link">
+                                                                                            BUY NOW ›</a>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                
                                                                     </table>
                                                                 </th>
                                                             </tr>
-
                                                         </table>
                                                     </th>
                                                 </tr>
-
                                             </table>
-                                            <!-- END: 2 col img with text -->
-
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - 2up (image/title/text/link/button) ## -->
+                                    <!-- ## START: MODULE - 2up (image/title/text/link/button) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px 34px; mso-line-height-rule: exactly;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- row 1 -->
+                                                            <tr>
+                                                                <!-- col 1 -->
+                                                                <th class="m--stack" width="275" align="center" border="0" style="width: 275px; padding: 0px; mso-line-height-rule: exactly; vertical-align: top;">
+                                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                                        <!-- image -->
+                                                                        <tr>
+                                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://felixzavala.com/img/gaming-mouse-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 550px;" width="275" height="" alt="AltTextHere"></a>
+                                                                            </th>
+                                                                        </tr>
+                                                                        <!-- text -->
+                                                                        <tr>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                                                <!-- paragraph/h3/paragraph -->
+                                                                                <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">$29.99 USD </p>
+                                                                                <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;">Wireless Gaming Mouse</h3>
+                                                                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</p>
+                                                                            </th>
+                                                                        </tr>
+                                                                        <!-- link -->
+                                                                        <tr>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 15px; mso-line-height-rule: exactly;">
+                                                                                <!-- horizontal alignment -->
+                                                                                <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: left;">
+                                                                                    <tr>
+                                                                                        <th class="m-text--link" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 21px; line-height: 1.5; letter-spacing: normal; text-align: center; border-bottom: 2px solid #04D9FF;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #04D9FF; text-decoration: none;" name="LinkName_link" alias="LinkName_link">
+                                                                                            BUY NOW ›</a>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                                      
+                                                                    </table>
+                                                                </th>
+                                                                <!-- spacer -->
+                                                                <th class="m--hide" width="20" align="center" border="0" style="width: 20px; padding: 0px 0px 0px; text-align: center; vertical-align: top;">&nbsp;</th>
+                                                                <!-- col 2 -->
+                                                                <th class="m--stack m-pad-t--40" width="275" align="center" border="0" style="width: 275px; padding: 0px; mso-line-height-rule: exactly; vertical-align: top;">
+                                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                                        <!-- image -->
+                                                                        <tr>
+                                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://felixzavala.com/img/RGB-Gaming-KB-.jpg" border="0" style="display: block; margin: 0px auto; max-width: 550px;" width="275" height="" alt="AltTextHere"></a>
+                                                                            </th>
+                                                                        </tr>
+                                                                        <!-- text -->
+                                                                        <tr>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                                                <!-- paragraph/h3/paragraph -->
+                                                                                <p class="m-text--eyebrow m-textAlign--center" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 17px; line-height: 1.4; letter-spacing: normal; text-align: left;">$49.99 USD</p>
+                                                                                <h3 class="m-text--h3 m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 5px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #FFFFFF; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: left;"> RGB Gaming Keyboard</h3>
+                                                                                <p class="m-text--p m-textAlign--center" style="padding: 0px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 20px; line-height: 1.4; letter-spacing: normal; text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus.</p>
+                                                                            </th>
+                                                                        </tr>
+                                                                        <!-- link -->
+                                                                        <tr>
+                                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 15px; mso-line-height-rule: exactly;">
+                                                                                <!-- horizontal alignment -->
+                                                                                <table class="m-float--center" width="" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: left;">
+                                                                                    <tr>
+                                                                                        <th class="m-text--link" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; font-family: 'Roboto', Arial, sans-serif; font-size: 14px; font-weight: 700; color: #04D9FF; mso-line-height-alt: 21px; line-height: 1.5; letter-spacing: normal; text-align: center; border-bottom: 2px solid #04D9FF;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #04D9FF; text-decoration: none;" name="LinkName_link" alias="LinkName_link">
+                                                                                            BUY NOW ›</a>
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </th>
+                                                                        </tr>
+                                                             
+                                                                    </table>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - 2up (image/title/text/link/button) ## -->
+                                    <!-- ## START: MODULE - Button Center (solid/ghost) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float--center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                            <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 16px; padding-right: 40px; padding-bottom: 16px; padding-left: 40px; mso-line-height-rule: exactly; background: #04D9FF; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 600; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.1px; text-align: center; border: 0px solid transparent; border-radius: 10px;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #000000; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">SHOP ALL GAMING ACCESSORIES</a>
+                                                                            </th>
+                                                                        </tr>
+                                                                    </table>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Button Center (solid/ghost) ## -->
+                                    <!-- ## START: MODULE - Image (full-width) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 80px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- image -->
+                                                            <tr>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://raw.githubusercontent.com/JFELIXZAVALA/Felixzavala/98134ba4d3a8b4f4b3eb33679721b97dc1974d8f/img/Oculus-Play-min.jpg" border="0" style="display: block; margin: 0px auto; max-width: 640px;" width="640" height="" alt="AltTextHere"></a>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Image (full-width) ## -->
+                                    <!-- ## START: MODULE - Text (h1/paragraph) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <!-- h1/paragraph/h3 -->
+                                                        <h1 class="m-text--h1" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 32px; font-weight: 700; color: #ffffff; mso-line-height-alt: 32px; line-height: 1.0; letter-spacing: normal; text-align: center;">Are <span style=" color: #04D9FF;">VR Headsets</span> Worth It?</h1>
+                                                        <p class="m-text--p" style="padding: 0px 40px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: center;">Let's take an in-depth look in our latest video blog. Check us out on YouTube!</p>
+                                                      
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Text (h1/paragraph) ## -->
                                             <!-- ## START: MODULE - Button Center (solid/ghost) ## -->
                                             <tr>
                                                 <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
                                                     <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
                                                         <tr>
                                                             <!-- horizontal spacing/background color/border -->
-                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
                                                                 <table class="m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
                                                                     <tr>
                                                                         <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
                                                                             <!-- horizontal alignment -->
                                                                             <table class="m-float--center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
                                                                                 <tr>
-                                                                                    <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px; mso-line-height-rule: exactly; background: #04D9FF; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000000; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.2px; text-align: center; border: 0px solid transparent; border-radius: 10px;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #000000; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">SHOP ALL GAMING ACCESSORIES</a>
+                                                                                    <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 16px; padding-right: 40px; padding-bottom: 16px; padding-left: 40px; mso-line-height-rule: exactly; background: #04D9FF; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 600; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.1px; text-align: center; border: 0px solid transparent; border-radius: 10px;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #000000; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">WATCH VIDEO BLOG</a>
                                                                                     </th>
                                                                                 </tr>
                                                                             </table>
@@ -1333,241 +589,151 @@
                                             </tr>
                                             <!-- ## END: MODULE - Button Center (solid/ghost) ## -->
 
+                                </table>
+                            </th>
+                        </tr>
+                        <!-- ## END: Body Modules Container ## -->
 
-                                            <!-- ## START: MODULE - Image (full-width) ## -->
-                                            <tr>
-                                                <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 80px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
-                                                        <tr>
-                                                            <!-- horizontal spacing/background color -->
-                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                                <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
-                                                                    <!-- image -->
-                                                                    <tr>
-                                                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-width--100p" src="https://raw.githubusercontent.com/JFELIXZAVALA/Felixzavala/98134ba4d3a8b4f4b3eb33679721b97dc1974d8f/img/Oculus-Play-min.jpg" border="0" style="display: block; margin: 0px auto; max-width: 640px;" width="640" height="" alt="Oculus Image"></a>
-                                                                        </th>
-                                                                    </tr>
-                                                                </table>
-                                                            </th>
-                                                        </tr>
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                            <!-- ## END: MODULE - Image (full-width) ## -->
-                                            <!-- ## START: MODULE - Text (h1/paragraph) ## -->
-                                            <tr>
-                                                <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 40px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
-                                                        <tr>
-                                                            <!-- horizontal spacing/background color -->
-                                                            <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                                <!-- h1/paragraph/h3 -->
-                                                                <h1 class="m-text--h1" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 32px; font-weight: 700; color: #ffffff; mso-line-height-alt: 32px; line-height: 1.0; letter-spacing: normal; text-align: center;">Are <span style=" color: #04D9FF;">VR Headsets</span> Worth It?</h1>
-                                                                <p class="m-text--p" style="padding: 10px 40px; margin: 0px; margin-top: 10px; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #ffffff; mso-line-height-alt: 23px; line-height: 1.4; letter-spacing: normal; text-align: center;">Let's take an in-depth look in our latest video blog. Check us out on YouTube!</p>
+                        <!-- ## START: Footer Modules Container ## -->
+                        <tr>
+                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                <table class="m-width--100p m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
 
+                                    <!-- ## START: MODULE - Footer 1 (logo/tagline) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 30px; padding-right: 30px; padding-left: 30px; mso-line-height-rule: exactly; border-top: 1px solid #CCCCCC; background-color: #000000;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- logo -->
+                                                            <tr>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Footer_LogoName_image" alias="Footer_LogoName_image"><img class="m-width--100p" src="https://felixzavala.com/img/GameStoreLogo.png" border="0" style="display: block; margin: 0px auto; max-width: 100px;" width="100" height="" alt="AltTextHere"></a>
+                                                                </th>
+                                                            </tr>
+                                                  
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Footer 1 (logo/tagline) ## -->
+                                       <!-- ## START: MODULE - Footer 1 (legal) ## -->
+                                       <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; padding-bottom: 20px; mso-line-height-rule: exactly; background-color: #000000;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- text -->
+                                                            <tr>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- company info -->
+                                                                    <p class="m-text--p" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: center;">4937 Tienz Plaza, Ste 202, Brooklyn, New York 11241<br>(800) 941-5913</p>
+                                                                
+                                                                
+                                                       
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Footer 1 (legal) ## -->
+                                    <!-- ## START: MODULE - Footer 1 (legal) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-bottom: 20px; mso-line-height-rule: exactly; background-color: #000000;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="m-pad-lr--20" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                        <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- text -->
+                                                            <tr>
+                                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- company info -->
+                                                                    <p class="m-text--p" style="padding: 0px; margin: 0px; font-family: 'Roboto', Arial, sans-serif; font-size: 11px; font-weight: 400; color: #616D77; mso-line-height-alt: 16px; line-height: 1.4; letter-spacing: normal; text-align: center;">Please click here if you wish to <a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #04D9FF; text-decoration: underline;" name="Footer_DisclaimerName_link" alias="Footer_LinkName_link">unsubscribe</a>.</p>
+                                                                
+                                                                
+                                                       
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Footer 1 (legal) ## -->
+                                    
+                                    <!-- ## START: MODULE - Footer 1 (social) ## -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; padding-bottom: 40px; mso-line-height-rule: exactly; background-color: #000000;">
+                                            <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                    <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-left: 30px; padding-right: 30px; mso-line-height-rule: exactly; background-color: #000000;">
+                                                        <table class="m-float--center" width="" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                <!-- col 1 -->
+                                                                <th class="" width="40" align="center" border="0" style="width: 40px; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Footer_SocialName_image" alias="Footer_SocialName_image"><img class="m-width--100p" src="https://felixzavala.com/assets/img/Facebook_Black.png" border="0" style="display: block; margin: 0px auto; max-width: 40px;" width="40" height="" alt="AltTextHere"></a>
+                                                                </th>
+                                                                <!-- spacer -->
+                                                                <th class="" width="40" align="center" border="0" style="width: 40px; padding: 0px 0px 0px; text-align: center; vertical-align: top;">&nbsp;</th>
+                                                                <!-- col 2 -->
+                                                                <th class="" width="40" align="center" border="0" style="width: 40px; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Footer_SocialName_image" alias="Footer_SocialName_image"><img class="m-width--100p" src="https://felixzavala.com/assets/img/Twitter_Black.png" border="0" style="display: block; margin: 0px auto; max-width: 40px;" width="40" height="" alt="AltTextHere"></a>
+                                                                </th>
+                                                                <!-- spacer -->
+                                                                <th class="" width="40" align="center" border="0" style="width: 40px; padding: 0px 0px 0px; text-align: center; vertical-align: top;">&nbsp;</th>
+                                                                <!-- col 3 -->
+                                                                <th class="" width="40" align="center" border="0" style="width: 40px; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Footer_SocialName_image" alias="Footer_SocialName_image"><img class="m-width--100p" src="https://felixzavala.com/assets/img/YouTube_Black.png" border="0" style="display: block; margin: 0px auto; max-width: 40px;" width="40" height="" alt="AltTextHere"></a>
+                                                                </th>
+                                                            </tr>
+                                                            
+                                                        </table>
+                                                    </th>
+                                                </tr>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <!-- ## END: MODULE - Footer 1 (social) ## -->
+                                                   
+                                    
+                                 
 
-                                                            </th>
-                                                        </tr>
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                            <!-- ## END: MODULE - Text (h1/paragraph) ## -->
-                                            <!-- ## START: MODULE - Button Center (solid/ghost) ## -->
-                                            <tr>
-                                                <!-- vertical spacing from prior module -->
-                                                <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 40px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                    <table class="m-width--100p m-float--center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
-                                                        <tr>
-                                                            <!-- horizontal spacing/background color/border -->
-                                                            <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; background-color: #000000;">
-                                                                <table class="m-float--center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
-                                                                    <tr>
-                                                                        <th class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
-                                                                            <!-- horizontal alignment -->
-                                                                            <table class="m-float--center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
-                                                                                <tr>
-                                                                                    <th class="m-text--button" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; padding-right: 40px; padding-bottom: 20px; padding-left: 40px; mso-line-height-rule: exactly; background: #04D9FF; font-family: 'Roboto', Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000000; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: 1.2px; text-align: center; border: 0px solid transparent; border-radius: 10px;"><a class="" href="#" target="_blank" style="font-family: 'Roboto', Arial, sans-serif; color: #000000; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">WATCH VIDEO BLOG</a>
-                                                                                    </th>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </th>
-                                                                    </tr>
-                                                                </table>
-                                                            </th>
-                                                        </tr>
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                            <!-- ## END: MODULE - Button Center (solid/ghost) ## -->
+                                </table>
+                            </th>
+                        </tr>
+                        <!-- ## END: Footer Modules Container ## -->
 
+                    </table>
+                    <!-- ## END: Email Container - 600px ## -->
 
+                </th>
+            </tr>
+        </table>
+        <!-- ## END: Email Wrapper ## -->
 
-                                    </th>
-                                </tr>
-                                <!-- END: Body content section -->
+        <!-- ## START: Gmail Fix ## -->
+        <div class="gmailFix" style="white-space: nowrap; font: 15px courier; line-height: 0;">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </div>
+        <!-- ## END: Gmail Fix ## -->
 
-                            </table>
-                        </th>
-                    </tr>
-                    <!-- END Main Body -->
-
-                </table>
-
-
-                <!-- footer -->
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:640px;max-width:640px;background-color:#000000;" width="640">
-                    <!-- START: Footer Nav  -->
-
-                    <tr>
-                        <th align="center" class="nopadd" style="width:100%;padding:40px 40px; padding-top: 80px;" width="100%">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:560px;" width="560">
-
-
-
-
-
-                            </table>
-                        </th>
-                    </tr>
-                    <!-- END: Footer Nav  -->
-
-                </table>
-                <table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile" style="width:640px;max-width:640px;background-color:#000000; border-top: #333333 1px solid;" width="640">
-
-                    <tr>
-                        <th align="center" style="width:100%;background-color:#000000;" width="100%">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-                                <!-- START: Footer Hero -->
-                                <!-- START: Footer logo -->
-
-                                <tr>
-                                    <th align="center" style="width:100%;padding:40px 0 20px 0;" width="100%">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                            <tr>
-                                                <th align="center" class="logoFooter" style="width:100%;" width="100%">
-                                                    <a href="#" name="Logo_2" target="_blank"><img border="0" height="auto" src="https://felixzavala.com/img/GameStoreLogo.png" width="140" alt="Game Store Logo"></a>
-                                                </th>
-                                            </tr>
-
-                                        </table>
-                                    </th>
-                                </tr>
-                                <!-- END: Footer logo -->
-
-
-                            </table>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th align="center" style="width:100%;" width="100%">
-                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-                                <!-- START: contact info -->
-
-                                <tr>
-                                    <th align="center" style="width:100%;" width="100%">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                            <tr>
-                                                <th align="center" style="width:100%;" width="100%">
-                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                                        <tr>
-                                                            <th align="center" mc:edit="footer_address" style="font-family:Roboto, sans-serif;font-size:14px;color:#cfd5d2 ;text-align:center;font-weight:400;padding:0px 40px 20px; line-height: 1.4;">
-                                                                ©2024 Game Store Warehouse <br>4937 Tienz Plaza, Ste 202, Brooklyn, New York 11241 <br><strong style="font-weight:700;">(800) 941-5913</strong>
-                                                            </th>
-                                                        </tr>
-
-                                                    </table>
-                                                </th>
-                                            </tr>
-                                            <!-- END: contact info -->
-                                            <!-- START: Disclaimer etc. -->
-                                            <tr>
-                                                <th align="center" style="width:100%;" width="100%">
-                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                                        <tr>
-                                                            <th align="center" mc:edit="footer_text" style="font-family:Roboto, sans-serif;font-size:14px;color:#cfd5d2 ;text-align:center;font-weight:400;padding:0 40px 40px;">
-
-
-
-                                                                <a href="#" name="unsub1" style="color:#cfd5d2 ;text-decoration:underline;" target="_blank">Please
-                                                                    click here</a> if
-                                                                you wish to unsubscribe from future mailings<br>
-                                                            </th>
-                                                        </tr>
-
-                                                    </table>
-                                                </th>
-                                            </tr>
-
-                                        </table>
-                                    </th>
-                                </tr>
-                                <!-- END: Disclaimer etc. -->
-                                <!-- START: Connect Section -->
-                                <tr>
-                                    <th align="center" style="width:100%;" width="100%">
-                                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                            <tr>
-                                                <th align="center" style="width:100%;padding:0 40px 40px 40px;" width="100%">
-                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
-
-                                                        <tr>
-                                                            <th align="center">
-                                                                <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;" width="100%">
-
-                                                                    <tr>
-                                                                        <th align="center" style="padding:0 20px;">
-                                                                            <a href="https://www.facebook.com/" name="facebook" target="_blank"><img border="0" height="33" src="https://felixzavala.com/assets/img/Facebook_Black.png" style="display: block;" width="32" alt="7d2e0349-4e50-4519-b42c-00e5a522c23c.png"></a>
-                                                                        </th>
-                                                                        <th align="center" style="padding:0 20px;">
-                                                                            <a href="https://twitter.com/" name="twitter" target="_blank"><img border="0" height="33" src="https://felixzavala.com/assets/img/Twitter_Black.png" style="display: block;" width="35" alt="029e541a-4af7-4d7a-a5c7-da1d9d4cc362.png"></a>
-                                                                        </th>
-
-                                                                        <th align="center" style="padding:0 20px;">
-                                                                            <a href="https://www.youtube.com/" name="youtube" target="_blank"><img border="0" height="33" src="https://felixzavala.com/assets/img/YouTube_Black.png" style="display: block;" width="35" alt="8f65d3e3-449e-4f85-ad09-a017a61cc8c4.png"></a>
-                                                                        </th>
-                                                                    </tr>
-
-                                                                </table>
-                                                            </th>
-                                                        </tr>
-
-                                                    </table>
-                                                </th>
-                                            </tr>
-
-                                        </table>
-                                    </th>
-                                </tr>
-                                <!-- END: Connect Section -->
-
-
-                            </table>
-                        </th>
-                    </tr>
-
-                </table>
-                <!-- end footer -->
-                <!-- end email frame 640px wide -->
-            </th>
-        </tr>
-
-    </table>
-    <!--gmail on iOS6 fix-->
-    <div class="gmailfix" style="white-space:nowrap;font:15px courier;line-height:0;">                 
-                                                 
     </div>
-    <!--end fix-->
-    </th>
-    </tr>
+    <!-- ## END: Accessible Article ## -->
 
-    </table>
+
+
 </body>
 
 </html>
