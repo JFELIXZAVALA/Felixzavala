@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .fx-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .fx-table,.fx-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.fx-table-all{border:1px solid #ccc}
-.fx-bordered tr,.fx-table-all tr{border-bottom:1px solid #ddd}.fx-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.fx-bordered tr,.fx-table-all tr{border-bottom:1px solid #ddd}.fx-striped tbody tr:nth-child(even){background-color:#121212}
 .fx-table-all tr:nth-child(odd){background-color:#fff}.fx-table-all tr:nth-child(even){background-color:#f1f1f1}
 .fx-hoverable tbody tr:hover,.fx-ul.fx-hoverable li:hover{background-color:#ccc}.fx-centered tr th,.fx-centered tr td{text-align:center}
 .fx-table td,.fx-table th,.fx-table-all td,.fx-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
@@ -76,7 +76,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .fx-bold {font-weight:600;}
 
-@media (min-width:601px){.fx-col.m1{width:8.33333%}.fx-col.m2{width:16.66666%}.fx-col.m3,.fx-quarter{width:24.99999%}.fx-col.m4,.fx-third{width:33.33333%}
+.fx-dm {background-color: #121212 !important; color: #ffffff;}
+
+
+
+
+@media (min-width:601px){.fx-col.m1{width:8.33333%}.fx-col.m2{width:16.66666%}.fx-col.m3,.fx-quarter{width:24.99999%}.fx-col.m4,.fx-third{width:30%}
 .fx-col.m5{width:41.66666%}.fx-col.m6,.fx-half{width:49.99999%}.fx-col.m7{width:58.33333%}.fx-col.m8,.fx-twothird{width:66.66666%}
 .fx-col.m9,.fx-threequarter{width:74.99999%}.fx-col.m10{width:83.33333%}.fx-col.m11{width:91.66666%}.fx-col.m12{width:99.99999%} }
 @media (min-width:993px){.fx-col.l1{width:8.33333%}.fx-col.l2{width:16.66666%}.fx-col.l3{width:24.99999%}.fx-col.l4{width:33.33333%}
@@ -147,9 +152,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #2c3e50;
+    background-color: #ffffff;
     border-radius: 1rem;
-    border-color: #2c3e50;
+    border-color: #ffffff !important;
   }
   .divider-custom .divider-custom-line:first-child {
     margin-right: 1rem;
@@ -315,3 +320,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .fx-column-border-radius{border-radius: 20px !important;}
 @media only screen and (max-width: 600px) { .fx-padding-lr-200{padding:0px 10px!important} }
+.m-fx-padding-top{padding-top: 40px;}
+
+
