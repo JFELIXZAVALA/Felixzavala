@@ -1,373 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Felix Zavala | Web & Email Developer</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="https://felixzavala.com/assets/img/fboxlogowhite.png" />
-        
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="https://felixzavala.com/css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">FX</a>
-                <button class="navbar-toggler font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                     
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="mailto:jfelixzavala10@gmail.com">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="https://felixzavala.com/img/fx_headshot_avatar280X280.png" alt="Felix Zavala Avatar" />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-0">Hola, my name is Felix</h1>
-         
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-5 mt-5">I am a technical expert specializing in developing HTML emails and working with various CMS platforms, particularly WordPress. With a background in Graphic Design, I bring a touch of design flair to my work, ensuring visually appealing and effective digital communications.</p>
-            </div>
-        </header>
+<html>
+<head>
+<title>Felix Zavala</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
 
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/img/fx_headshot_avatar280X280.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Felix Zavala</b></h4>
+    <p class="w3-text-grey">Email & WordPress Developer</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    
+  </div>
+  <div class="w3-panel w3-large">
+ 
+    <a href="https://www.youtube.com/@felix_codes" target="_blank"><i class="fa fa-youtube-play w3-hover-opacity"></i></a>&nbsp;
+    <a href="https://www.linkedin.com/in/felix-zavala-8a8266231/" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>&nbsp;
+    <a href="mailto:jfelixzavala10@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+  </div>
+</nav>
 
-<!-- ## START: MODULE - Divider (horizontal full-width) ## -->
-<hr>
-<!-- ## END: MODULE - Divider (horizontal full-width) ## -->
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-        
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio mb-5 mt-5" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center mb-0">Digital Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-book mainwhite"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                       <!-- Masthead-->
-     
-            <div class="container d-flex align-items-center flex-column masthead1 text-center">
-             
-         
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">These are examples of fully responsive HTML emails that I created using custom snippets and templates that I developed. These emails have been rigorously tested through Litmus and are optimized to look great in over 90 email service providers, including Microsoft Outlook.</p>
-            </div>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
    
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center mt-4">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
-                            <a href="https://felixzavala.com/HelpCo.html" target="_blank"><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/HCO-Preview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive - Dark Mode</div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
-                            <a href="https://felixzavala.com/emailtemp2.html" target="_blank"><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/Gamestore_preview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive</div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
-                            <a href="https://felixzavala.com/emailtemplate3.html" target="_blank"> <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/NeoTechEmailPreview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive</div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 pt-4">
-                        <div class="portfolio-item mx-auto">
-                            <a href="https://felixzavala.com/ArasakaEmail.html" target="_blank"><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/ArasakaVintageEmailPreview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive - Dark Mode</div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0 pt-4">
-                        <div class="portfolio-item mx-auto">
-                            <a href="http://felixzavala.com/healthtea.html" target="_blank"> <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/HealthTeaEmailPreview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive</div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4 pt-4">
-                        <div class="portfolio-item mx-auto">
-                            <a href="https://felixzavala.com/HelpCo.html" target="_blank"><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-envelope fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="https://felixzavala.com/img/NewsletterEmailPreview400x460.jpg" alt="..." /></a>
-                        </div>
-                        <div class="text-center pt-3">Mobile Responsive</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1 style="margin-top:40px;"><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
 
-       
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class= "mb-4"></h4>
-                        <p class="lead mb-0">
-                        
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/felix-zavala-8a8266231/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/@felix_codes" target="_blank"><i class="fab fa-fw fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:jfelixzavala10@gmail.com" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
-                    </div>
+
+    </div>
+    </div>
+  </header>
+  
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://felixzavala.com/HelpCo.html" target="_blank"><img src="https://felixzavala.com/img/HCO-Preview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email &nbsp;<i class="fa fa-moon-o w3-hover-opacity"></i>
+        </b></p>
+        <p>This HTML email is crafted to be mobile responsive and optimized for dark mode. It will automatically adjust to either Dark or Light mode based on the theme you have set in your browser.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://felixzavala.com/emailtemp2.html" target="_blank"><img src="https://felixzavala.com/img/Gamestore_preview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email</b></p>
+        <p>This HTML email is designed to be mobile responsive, ensuring easy readability on smartphones and tablets while also reducing eye strain in low-light environments.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+        <a href="https://felixzavala.com/emailtemplate3.html" target="_blank"><img src="https://felixzavala.com/img/NeoTechEmailPreview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email</b></p>
+        <p>This HTML email is designed to be mobile responsive, ensuring easy readability on smartphones and tablets while also reducing eye strain in low-light environments.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://felixzavala.com/ArasakaEmail.html" target="_blank"> <img src="https://felixzavala.com/img/ArasakaVintageEmailPreview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email &nbsp;<i class="fa fa-moon-o w3-hover-opacity"></i></b></p>
+        <p>This HTML email is crafted to be mobile responsive and optimized for dark mode, ensuring readability on smartphones and tablets while reducing eye strain in low-light environments.
+
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://felixzavala.com/healthtea.html" target="_blank"><img src="https://felixzavala.com/img/HealthTeaEmailPreview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email</b></p>
+        <p>This HTML email is designed to be mobile responsive, ensuring easy readability on smartphones and tablets while also reducing eye strain in low-light environments.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+        <a href="https://felixzavala.com/HopeNewsletter.html" target="_blank"><img src="https://felixzavala.com/img/NewsletterEmailPreview400x460.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>HTML Email</b></p>
+        <p>This HTML email is designed to be mobile responsive, ensuring easy readability on smartphones and tablets while also reducing eye strain in low-light environments.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="w3-container w3-padding-large w3-padding-16" style="margin-bottom:32px; ">
+    <h1 id="about" style="margin-top:100px;"><b>About Me</b></h1>
+    <p>
+        I specialize in developing HTML emails and working with various CMS platforms, particularly WordPress. With a background in Graphic Design, I bring a design-focused approach to my work, ensuring visually appealing and effective digital communications.
+        
+        I combine technical skills with a keen eye for aesthetics to craft engaging and impactful digital content. My goal is to create visually appealing assets that optimize user interaction and deliver measurable results. I stay updated with industry trends and technologies to provide high-quality solutions that drive engagement and conversions. Let's collaborate to enhance your digital presence and effectively communicate your message to your audience.
+    </p>
+    <hr>
+    
+
+
+     <h1 style="margin-top:100px;"><b>Things I'm Good At</b></h1>
+    <!-- Skills Row 1 -->
+    <div class="w3-row-padding" style="margin:0 -16px; margin-top:40px;">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
             
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; FelixZavala.com 2024</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Newsletter</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="/img/HCO_Modal.jpeg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Product Email</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="http://felixzavala.com/img/Gamestore-modal.jpeg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Product Email</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="http://felixzavala.com/img/Arasaka-Modal.jpeg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+          <li class="w3-black w3-xlarge w3-padding-32"><i class="fa fa-envelope w3-xxlarge"></i><br>HTML Emails</li>
+          <li class="w3-padding-16"><p style="padding: 0 10px;">With extensive experience creating responsive HTML emails, I ensure they display beautifully on all devices and email platforms, including Outlook.
+
+
+
+
+
+
+
+
+          </p></li>
+       
+     
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32"><i class="fa fa-wordpress w3-xxlarge"></i><br>WordPress</li>
+          <li class="w3-padding-16"><p>I have extensive experience creating and managing website pages for various companies, each with unique themes and plugins, including Elementor.
+
+          </p></li>
+    
+     
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32"><i class="fa fa-laptop w3-xxlarge"></i><br>Graphic Design</li>
+          <li class="w3-padding-16"><p>I have an Associate's degree in Graphic Communications, with strong proficiency in Photoshop and other design software.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </p></li>
+   
+     
+       
+        </ul>
+      </div>
+    </div>
+     
+
+  </div>
+  
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey " style="margin-top:100px;">
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <h3>FelixZavala.com 2024</h3>
+
+    </div>
+
+
+
+
+  </div>
+  </footer>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
 </html>
