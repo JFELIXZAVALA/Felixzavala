@@ -6,6 +6,12 @@ a {
     text-decoration: none;
 }
 
+.pb-0 {padding-bottom: 0px !important;
+margin-bottom: 0px !important;}
+
+.mt-0 {padding-top: 0px !important;
+    margin-top: 0px !important;}
+
 
 .charcoal {background-color: #22272a !important;}
 
@@ -13,10 +19,10 @@ h2 { font-size: 42px;
     color: #36E7F4 !important; 
 }
 
-.t28 { font-size: 28px !important; 
+.t26 { font-size: 26px !important; 
        letter-spacing: 1px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
-    line-height: 26px;}
+    line-height: 24px;}
 
 .t18 { font-size: 18px !important; 
     letter-spacing: 1px;
