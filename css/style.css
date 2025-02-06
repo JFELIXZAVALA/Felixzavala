@@ -21,12 +21,23 @@ margin-bottom: 0px !important;}
     line-height: 32px;
   }
 
+
+  .pb {
+   padding-bottom: 100px !important;
+  }
+
 .name {
     font-family: 'roboto', sans-serif;
     font-size: 26px;
     line-height: 30px;
     letter-spacing: 1.1px;
     font-weight: 600;
+  }
+
+ .charcoalBorder {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #22272a;
   }
 
 
@@ -36,16 +47,36 @@ h2 { font-size: 42px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important; 
 }
 
+.imgTitle { font-size: 22px;
+    line-height: 20px;
+    color: #FFF !important;
+    letter-spacing: 1.5px;
+    font-family: 'roboto' Arial, Helvetica, sans-serif !important;
+    text-align: center; 
+}
+
+.capText { font-size: 18px;
+    color: #000 !important;
+    letter-spacing: 1px;
+    line-height: 1.4 !important;
+    font-family: 'roboto' Arial, Helvetica, sans-serif !important; 
+}
+
 .redorange {
-    border-top: 5px solid #F44336;}
+    border-top: 4px solid #e85151;}
 
 .redorangetext {
-    color: #F44336;}    
+    color: #e85151;}    
 
 .t26 { font-size: 26px !important; 
        letter-spacing: 1px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
     line-height: 24px;}
+
+.t20 { font-size: 20px !important; 
+        letter-spacing: 1px;
+     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
+     line-height: 26px;}    
 
 .footertext { font-size: 20px !important; 
         letter-spacing: 1px;
@@ -60,7 +91,8 @@ h2 { font-size: 42px;
 
 .teal {color: #36E7F4 !important;
 letter-spacing: 1px;}
+.tealbg {background-color: #36E7F4 !important;}
 .white {color: #ffffff !important;}
 .grey {background-color: #686868 !important;}
-.greyer {background-color: #4E4E4E !important;}
+.greyer {background-color: #1a1e21 !important;}
 .greyertext {color: #4E4E4E !important;}
