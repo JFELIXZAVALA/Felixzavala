@@ -47,12 +47,13 @@ h2 { font-size: 42px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important; 
 }
 
-.imgTitle { font-size: 22px;
-    line-height: 20px;
+.imgTitle { font-size: 20px;
+    line-height: 0px;
     color: #FFF !important;
     letter-spacing: 1.5px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
-    text-align: center; 
+    text-align: center;
+    font-weight: 200 !important; 
 }
 
 .capText { font-size: 18px;
