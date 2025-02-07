@@ -13,6 +13,11 @@ margin-bottom: 0px !important;}
     margin-top: 0px !important;}
 
 
+.pt-5 {padding-top: 5px !important;
+        margin-top: 0px !important;
+        }
+
+
 .charcoal {background-color: #22272a !important;}
 
 .w3-lobster {
@@ -82,6 +87,11 @@ h2 { font-size: 42px;
        letter-spacing: 1px;
     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
     line-height: 24px;}
+
+.t24 { font-size: 24px !important; 
+        letter-spacing: 1px;
+     font-family: 'roboto' Arial, Helvetica, sans-serif !important;
+     line-height: 26px;}      
 
 .t20 { font-size: 20px !important; 
         letter-spacing: 1px;
