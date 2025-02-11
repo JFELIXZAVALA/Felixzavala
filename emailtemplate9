@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <meta name="x-apple-disable-message-reformatting">
+
+    <!-- Browser Tab Name -->
+    <title>George Washington For President</title>
+
+    <!-- Email Version v[MMDDYYYY.1-bi] -->
+
+    <!-- Fonts -->
+    <!--[if !mso]><!-->
+        <!-- Pinyon Script -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+        <!-- Merriweather -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--<![endif]-->
+
+    <!-- Desktop Global Style -->
+    <style>
+        /* Box Sizing Resets */
+        html * {box-sizing: border-box;}
+        *, *::before, *::after {box-sizing: inherit;}
+        /* Default Resets */
+        html, body {height: 100%; margin: 0px auto; padding: 0px; width: 100%; min-width: 100%; font-family: "Merriweather", Arial, sans-serif; background: #FFFFFF;}
+        body, table, td, a {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-family: 'Merriweather', Arial, sans-serif;}
+        td {font-weight: normal; padding: 0px; display: table-cell;}
+        p {margin-top: 0px; margin-bottom: 0px;}
+        sup {line-height: 0; font-size: 70%;}
+        img {border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+        /* Outlook/Hotmail Resets */
+        #outlook a {padding: 0px;}
+        .ReadMsgBody {width: 100%;}
+        .ExternalClass {width: 100%;}
+        .ExternalClass, .ExternalClass span, .ExternalClass td, .ExternalClass th, .ExternalClass div {line-height: 100%;}
+        /* Outlook Container Resets */
+        table, td, th {mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        /* Apple Link Resets */
+        a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+        /* Gmail Link Resets */
+        u + #body a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
+        /* Samsung Link Resets */
+        #MessageViewBody a {color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit;}
+        /* Links and Hovers */
+        a, a:link, a:active, a:visited {color: #0000EE; text-decoration: none; padding: 0px;}
+        a:hover, a:link:hover, a:active:hover, a:visited:hover {color: #1A1A1A; text-decoration: none; padding: 0px;}
+        a img, a:visited img, a:link img {border: 0px; text-decoration: none; padding: 0px;}
+        /* Hovers (custom) */
+        .hoverLink1 a:hover, .hoverLink1 a:active:hover, .hoverLink1 a:visited:hover {color: #EF496D !important;}
+        .hoverButton1:hover {background: #EF496D !important;}
+    </style>
+
+    <!-- Gmail Specific -->
+    <style type="text/css" data-embed="">
+        @media only screen and (max-width: 600px) {
+            /* Gmail full width body fix */
+            #gbt_container {transform: none !important;}
+            #gbt_innerContainer {margin: 0px auto !important;}
+            u + #body {width: 100vw !important; max-width: 100% !important;}
+        }
+    </style>
+    <style type="text/css" data-embed="">
+        .gmailFix {display: none; display: none !important;}
+    </style>
+
+    <!-- Outlook Specific -->
+    <!--[if mso]>
+        <style>
+            table, th, td, h1, h2, h3, h4, h5, h6, p, span, strong, b, em, i, a, sup, ul, ol, li {font-family: Arial, sans-serif !important; mso-hyphenate: none !important;}
+            sup {font-size: 100% !important;}
+            ul, ol {margin-left: -24px !important;}
+            table, tr, th {border-collapse: collapse;}
+            tr {font-size: 0px; line-height: 0px; border-collapse: collapse;}
+            /* custom */
+            .outlook-textDecoration--underline {text-decoration: underline !important;}
+            .outlook-FontSize--14 {font-size: 14px !important;}
+        </style>
+    <![endif]-->
+
+    <!-- Outlook Image Scaling -->
+    <!--[if gte mso 9]><xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+
+    <!-- Mobile Styling Classes -->
+    <style>
+        @media only screen and (max-width: 600px) {
+            /* visibility */
+            .m-hide {display: none !important; line-height: 0px !important;}
+            .m-show {max-height: none !important; width: 100% !important; display: inline !important;}
+            .m-stack {width: 100% !important; display: block !important; min-width: 0px !important; max-width: 100% !important; clear: both !important;}
+            /* widths */
+            .m-w-auto {width: auto !important;}
+            .m-w-100p {width: 100% !important;}
+            .m-width-20px {width: 20px !important;}
+            /* padding */
+            .m-pad-0 {padding: 0px !important;}
+            .m-pad-tb-0 {padding-top: 0px !important; padding-bottom: 0px !important;}
+            .m-pad-lr-0 {padding-left: 0px !important; padding-right: 0px !important;}
+            .m-pad-t-0 {padding-top: 0px !important;}
+            .m-pad-t-5 {padding-top: 5px !important;}
+            .m-pad-t-10 {padding-top: 10px !important;}
+            .m-pad-t-15 {padding-top: 15px !important;}
+            .m-pad-t-20 {padding-top: 20px !important;}
+            .m-pad-t-40 {padding-top: 40px !important;}
+            .m-pad-b-0 {padding-bottom: 0px !important;}
+            .m-pad-b-40 {padding-bottom: 40px !important;}
+            .m-pad-lr-20 {padding-left: 20px !important; padding-right: 20px !important;}
+            /* alignment */
+            .m-float-left {float: left !important;}
+            .m-float-center {float: inherit !important;}
+            .m-float-right {float: right !important;}
+            .m-text-left {text-align: left !important;}
+            .m-text-center {text-align: center !important;}
+            .m-text-right {text-align: right !important;}
+            /* backgrounds */
+            .m-bg-container {width: 100vw !important; height: auto !important; background-size: 100% !important; background-position: top center !important; background-color: #FFFFFF !important;}
+            .m-bg-txt-overlay {height: auto !important; display: block !important; margin-top: 67vw !important;} /* margin-top = (height/width)*100, round up */
+            .m-bg-txt-overlay-55 {height: auto !important; display: block !important; margin-top: 55vw !important;}
+            
+        }
+    </style>
+
+</head>
+
+<body id="body" style="width: 100%; padding: 0px; margin: 0px auto;">
+
+    <!-- START: Preheader (hidden) -->
+    <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">PreHeader Text</div>
+    <!--[if !mso]><!-->
+    <div style="display: none; max-height: 0px; overflow: hidden;" aria-hidden="true">
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;<wbr>&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+    <!--<![endif]-->
+    <!-- END: Preheader (hidden) -->
+
+    <!---  START: Update for Accessibility  --->
+    <div role="article" aria-roledescription="email" aria-label="SubjectLineHere" lang="en" style="font-size: 1rem;">
+
+        <!-- START: Email Wrapper -->
+        <table class="m-w-100p m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+            <tr>
+                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+
+                    <!---  START: Email Container - 600px  --->
+                    <table class="m-w-100p m-float-center" width="600" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 600px; max-width: 600px; margin: 0px auto; float: none; background-color: #FCF5E5;">
+
+                        <!-- START: Header Modules Container -->
+                        <tr>
+                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                <table class="m-w-100p m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+
+                                    <!-- START: MODULE - Header Center Logo (eyebrow/view in browser/logo) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                        <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly; padding-top: 20px;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                    <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; mso-line-height-rule: exactly;">
+                                                        <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto;">
+                                                            <!-- 2up (eyebrow/view online) -->
+                                                            <tr>
+                                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                            <!-- col 1 (eyebrow) -->
+                                                                            <td class="m-stack m-text-center" width="50%" align="center" border="0" style="width: 50%; padding: 0px; vertical-align: middle; mso-line-height-rule: exactly;">
+                                                                                <p class="m-text-center" style="padding: 0px; margin: 0px; font-family: 'Merriweather', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #8E969E; mso-line-height-alt: 13px; line-height: 1.3; letter-spacing: normal; text-align: left;">Fighting For Freedom.</p>
+                                                                            </td>
+                                                                            <!-- col 2 (view in browser) -->
+                                                                            <td class="m-stack m-text-center m-pad-t-5" width="50%" align="center" border="0" style="width: 50%; padding: 0px; vertical-align: middle; mso-line-height-rule: exactly;">
+                                                                                <p class="m-text-center" style="padding: 0px; margin: 0px; font-family: 'Merriweather', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #8E969E; mso-line-height-alt: 13px; line-height: 1.3; letter-spacing: normal; text-align: right;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color:  #e31837; text-decoration: none;" alias="Header_ViewOnline_link">View in Browser</a></p>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <!-- logo -->
+                                                            <tr>
+                                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="Header_LogoName_image" alias="Header_LogoName_image"><img class="m-w-100p" src="/img/GW4prezlogo.jpg" border="0" style="display: block; margin: 0px auto; max-width: 150px;" width="150" height="" alt="Descriptive Alt Text Goes Here"></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Header Center Logo (eyebrow/view in browser/logo) -->
+
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- END: Header Modules Container -->
+
+                        <!-- START: Body Modules Container -->
+                        <tr>
+                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 10px; padding-bottom: 70px; mso-line-height-rule: exactly;">
+                                <table class="m-w-100p m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+
+                                    <!-- START: MODULE - Image (full-width) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- image -->
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-w-100p" src="/img/GWHeadshot.jpg" border="0" style="display: block; margin: 0px auto; max-width: 600px;" width="600" height="" alt="Descriptive Alt Text Goes Here"></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Image (full-width) -->
+                                    
+                                    <!-- START: MODULE - Text (h1/paragraph) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                     <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                        <!-- h1/paragraph/h3 -->
+                                                     
+                                                        <p class="" style="padding: 0px 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: left;">Friend, it is with a heart full of gratitude and a spirit of unwavering determination that I write to you today. As we stand on the precipice of a new era, the birth of a nation founded on the principles of liberty, justice, and self-governance, I am reminded of the sacrifices made by countless patriots who have fought valiantly for our cause. <a class="" href="#" target="_blank" style="text-decoration: underline;" name="Header_LogoName_image" alias="Header_LogoName_image">Will you chip in $5 toward my $10,000 goal to help me lead this country to prosperity?</a>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Text (h1/paragraph) -->
+
+                                    <!-- START: MODULE - Button Center (solid/ghost) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float-center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                             <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 14px; padding-right: 50px; padding-bottom: 14px; padding-left: 50px; mso-line-height-rule: exactly; background: #002b5c; font-family: 'Merriweather', Arial, sans-serif; font-size: 20px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border-radius: 5px;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color: #FFFFFF; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">DONATE</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Button Center (solid/ghost) -->
+                                    
+                                    <!-- START: MODULE - Text (h1/paragraph) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                        <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                        <!-- h1/paragraph/h3 -->
+                                                        
+                                                        <p class="" style="padding: 0px 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: left;">      
+                                                        Yet, the work is far from complete. The road to independence is paved not only with courage and resolve but also with the resources necessary to sustain our fledgling nation. The Continental Army, though steadfast in its commitment, is in dire need of supplies, provisions, and support to ensure our victory against tyranny. 
+                                                        <br><br>
+                                                        Your donation, no matter the size, will directly aid in the procurement of essential supplies—food, clothing, arms, and ammunition—for our brave soldiers. It will also support the families of those who have sacrificed so much for our freedom. Together, we can secure the future of this great nation and ensure that the flame of liberty burns brightly for generations to come.
+                                                        <br><br>
+                                                        <b>I am deeply aware of the hardships many of you face, and I would not ask for your aid if the cause were not so urgent and just. Your generosity will not only sustain our troops but also serve as a testament to the unity and resilience of our people. Let us prove to the world that a nation founded on the principles of freedom and self-determination can triumph against all odds.<a class="" href="#" target="_blank" style="text-decoration: underline;" name="Header_LogoName_image" alias="Header_LogoName_image">With your support, we will secure the blessings of liberty for ourselves and our posterity. I set a goal to raise $10,000, will you chip in $5 or more to help me get there? Together, we can continue the fight for freedom.</a></b>
+                                                    
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Text (h1/paragraph) -->
+
+                                           <!-- START: MODULE - Text (h1/paragraph) -->
+                                           <tr>
+                                            <!-- vertical spacing from prior module -->
+                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                    <tr>
+                                                        <!-- horizontal spacing/background color -->
+                                                            <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                            <!-- h1/paragraph/h3 -->
+                                                            
+                                                            <p class=""  style="padding: 0px 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: center;"><em>If you've saved payment information with our payment service, your donation will go through immediately:</em>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- END: MODULE - Text (h1/paragraph) -->
+                                             <!-- START: MODULE - Button Center (solid/ghost) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float-center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                             <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 14px; padding-right: 62px; padding-bottom: 14px; padding-left: 62px; mso-line-height-rule: exactly; background: #002b5c; font-family: 'Merriweather', Arial, sans-serif; font-size: 20px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border-radius: 5px;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color: #FFFFFF; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">DONATE $10</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Button Center (solid/ghost) -->     <!-- START: MODULE - Button Center (solid/ghost) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float-center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                             <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 14px; padding-right: 62px; padding-bottom: 14px; padding-left: 62px; mso-line-height-rule: exactly; background: #002b5c; font-family: 'Merriweather', Arial, sans-serif; font-size: 20px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border-radius: 5px;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color: #FFFFFF; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">DONATE $25</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Button Center (solid/ghost) -->     
+                                     <!-- START: MODULE - Button Center (solid/ghost) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float-center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                             <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 14px; padding-right: 62px; padding-bottom: 14px; padding-left: 62px; mso-line-height-rule: exactly; background: #002b5c; font-family: 'Merriweather', Arial, sans-serif; font-size: 20px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border-radius: 5px;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color: #FFFFFF; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">DONATE $50</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Button Center (solid/ghost) -->
+                                     <!-- START: MODULE - Button Center (solid/ghost) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color/border -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                                    <!-- horizontal alignment -->
+                                                                    <table class="m-float-center" width="" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0px auto; float: none;">
+                                                                        <tr>
+                                                                             <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 14px; padding-right: 50px; padding-bottom: 14px; padding-left: 50px; mso-line-height-rule: exactly; background: #002b5c; font-family: 'Merriweather', Arial, sans-serif; font-size: 20px; font-weight: 400; color: #FFFFFF; mso-line-height-alt: 14px; line-height: 1.0; letter-spacing: normal; text-align: center; border-radius: 5px;"><a class="" href="#" target="_blank" style="font-family: 'Merriweather', Arial, sans-serif; color: #FFFFFF; text-decoration: none;" name="ButtonName_button" alias="ButtonName_button">DONATE MORE</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Button Center (solid/ghost) -->
+
+                                      <!-- START: MODULE - Text (h1/paragraph) -->
+                                      <tr>
+                                        <!-- vertical spacing from prior module -->
+                                            <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                        <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                        <!-- h1/paragraph/h3 -->
+                                                        
+                                                        <p class=""  style="padding: 0px 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: left;">Let us prove to the world that a nation founded on the principles of freedom and self-determination can triumph against all odds. With your support, we will secure the blessings of liberty for ourselves and our posterity
+                                                        </b>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Text (h1/paragraph) -->
+                                     <!-- START: MODULE - Image (partial-width) -->
+                                     <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 50px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px 20px; mso-line-height-rule: exactly;">
+                                                        <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <tr>
+                                                                <!-- image -->
+                                                                 <td class="" width="100%" align="left" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-w-100p" src="/img/GWSignatureImage.png" border="0" style="display: block; margin: 0px; max-width: 150px;" width="150" height="" alt="Descriptive Alt Text Goes Here"></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                     </tr>
+                                     <!-- END: MODULE - Image (partial-width) -->
+                                    <!-- START: MODULE - Text (h1/paragraph) -->
+                                    <tr>
+                                    <!-- vertical spacing from prior module -->
+                                        <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                        <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                            <tr>
+                                                <!-- horizontal spacing/background color -->
+                                                    <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                    <!-- h1/paragraph/h3 -->
+                                                    
+                                                    <p class=""  style="padding: 0px 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 16px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: left;">
+                                                    <span style="font-family: 'Pinyon Script', Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 400;">George Washington</span>
+                                                    <br>
+                                                    Commander-in-Chief<br>of the Continental Army
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- END: MODULE - Text (h1/paragraph) -->
+
+
+
+                                    <!-- START: MODULE - Image (full-width) -->
+                                    <tr>
+                                        <!-- vertical spacing from prior module -->
+                                         <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                            <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                <tr>
+                                                    <!-- horizontal spacing/background color -->
+                                                     <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                                        <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                            <!-- image -->
+                                                            <tr>
+                                                                 <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;"><a class="" href="#" target="_blank" style="" name="ImageName_image" alias="ImageName_image"><img class="m-w-100p" src="/img/usalines.jpg" border="0" style="display: block; margin: 0px auto; max-width: 600px;" width="600" height="" alt="Descriptive Alt Text Goes Here"></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- END: MODULE - Image (full-width) -->
+
+                                        <!-- START: MODULE - Text (h1/paragraph) -->
+                                        <tr>
+                                            <!-- vertical spacing from prior module -->
+                                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; padding-top: 20px; mso-line-height-rule: exactly;">
+                                                <table class="m-w-100p m-float-center" width="100%" align="center" role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%; margin: 0px auto; float: none;">
+                                                    <tr>
+                                                        <!-- horizontal spacing/background color -->
+                                                            <td class="m-pad-lr-20" width="100%" align="center" border="0" style="width: 100%; padding: 0px 10px; mso-line-height-rule: exactly;">
+                                                            <!-- h1/paragraph/h3 -->
+                                                            
+                                                            <p class=""  style="padding: 0px 20px; padding-top: 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 14px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.6; letter-spacing: normal; text-align: center;">Should you be unable to contribute financially, your prayers and goodwill are equally cherished. Share this message with fellow patriots who may be willing to support our cause. Together, we shall prevail. <a class="" href="#" target="_blank" style="text-decoration: underline;" name="Header_LogoName_image" alias="Header_LogoName_image">You can also click here to receive fewer emails or here to unsubscribe</a>.
+                                                            </p>
+                                                            <p class="" style="padding: 0px; padding-top: 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: center;">
+                                                            George Washington for President<br>
+                                                            1600 Pennsylvania Avenue NW<br>
+                                                            Washington, DC 20500<br>
+                                                            United States
+                                                            </p>
+                                                            <p class="" style="padding: 0px; padding-top: 20px; margin: 0px; margin-top: 10px; font-family: 'Merriweather', Arial, sans-serif; font-size: 12px; font-weight: 400; color: #041727; mso-line-height-alt: 23px; line-height: 1.5; letter-spacing: normal; text-align: center;">
+                                                                &copy; 1789, All Rights Reserved
+                                                            </p>
+                                                        
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!-- END: MODULE - Text (h1/paragraph) -->
+
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- END: Body Modules Container -->
+
+                        <!-- START: Footer Modules Container -->
+                            <tr>
+                                <td class="" width="100%" align="center" border="0" style="width: 100%; padding: 0px; mso-line-height-rule: exactly;">
+                                    <table class="m-w-100p m-float-center" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; margin: 0px auto; float: none;">
+
+                                    <!--Footer <tr> Modules Go Here-->
+
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- END: Footer Modules Container -->
+
+                    </table>
+                    <!-- END: Email Container - 600px -->
+
+                </td>
+            </tr>
+        </table>
+        <!-- END: Email Wrapper -->
+
+    </div>
+    <!-- END: Accessible Article -->
+
+</body>
+
+</html>
